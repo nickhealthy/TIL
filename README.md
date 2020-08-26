@@ -9,6 +9,7 @@
 - [x] __5day__ _ `pickle module`, [pycon](https://www.pycon.kr/en/2020/), jupyter_notebook
 
 <br />
+
 ---
 
 ### Web scraping
@@ -19,6 +20,7 @@
 
 
 <br />
+
 ---
 
 ### Activity record
