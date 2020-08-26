@@ -8,20 +8,17 @@
 
 - [x] __5day__ _ `pickle module`, [pycon](https://www.pycon.kr/en/2020/), jupyter_notebook
 
----
-
 <br />
+---
 
 ### Web scraping
 
 - [x] __5day__ _ HTTP Protocol, CSS Selector(tag, ID, class, attribute), NHN\_서비스_사용, NHN\_papago\_서비스 사용
 
-- [ ] beautifulsoup, Anaconda(package), regular_expression,
-
+- [x] beautifulsoup, Anaconda(package), regular_expression,
 
 
 <br />
-
 ---
 
 ### Activity record
