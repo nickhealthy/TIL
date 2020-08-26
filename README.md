@@ -16,7 +16,7 @@
 
 - [x] __5day__ _ HTTP Protocol, CSS Selector(tag, ID, class, attribute), NHN\_서비스_사용, NHN\_papago\_서비스 사용
 
-- [x] beautifulsoup, Anaconda(package), regular_expression,
+- [x] __6day__ _ beautifulsoup, Anaconda(package), regular_expression,
 
 
 <br />
