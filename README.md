@@ -1,5 +1,5 @@
 ### Python basics
-
+```
 - [x] __1day__ _ type, string, list, control_stmt
 - [x] __2day__ _ data_structure, function, pythonic_code, flake8
 - [x] __3day__ _ lambda, list comprehension, class
@@ -7,7 +7,7 @@
 - [x] __4day__ _ class(Private variable, Polymorphism, Abstract class)  exception, logging, to use pip install `module name`, Handling files, package
 
 - [x] __5day__ _ `pickle module`, [pycon](https://www.pycon.kr/en/2020/), jupyter_notebook
-
+```
 <br />
 
 ---
