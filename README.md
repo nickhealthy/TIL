@@ -1,10 +1,12 @@
 ### Python basics
 
-- [x] type, string, list, control_stmt
+- [x] __1day__ _ type, string, list, control_stmt
+- [x] __2day__ _ data_structure, function, pythonic_code, flake8
+- [x] __3day__ _ lambda, list comprehension, class
 
-- [x] data_structure, function, pythonic_code, lambda
+- [x] __4day__ _ class(Private variable, Polymorphism, Abstract class)  exception, logging, to use pip install `module name`, Handling files, package
 
-- [x] class, exception, logging
+- [x] __5day__ _ `pickle module`, [pycon](https://www.pycon.kr/en/2020/), jupyter_notebook
 
 ---
 
@@ -12,11 +14,17 @@
 
 ### Web scraping
 
+- [x] __5day__ _ HTTP Protocol, CSS Selector(tag, ID, class, attribute), NHN\_서비스_사용, NHN\_papago\_서비스 사용
+
+- [ ] beautifulsoup, Anaconda(package), regular_expression,
 
 
 
+<br />
 
 ---
+
+### Activity record
 
 |    date    |            information            |                             link                             |
 | :--------: | :-------------------------------: | :----------------------------------------------------------: |
