@@ -46,7 +46,7 @@ https://www.assembly.go.kr/assm/memact/congressman/memCond/memCondListAjax.do
 >
 > POST 방식 : Form Data
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image1.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_24/4..PNG)
 
 > & : 구분자 (딕셔너리의 ‘,’)
 >
@@ -68,7 +68,7 @@ https://www.assembly.go.kr/assm/memact/congressman/memCond/memCondListAjax.do
 
 ### Ajax(Asynchronous JavaScript and XML) : 비동기, XML
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image2.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_24/2.%20Ajax.PNG)
 
  
 
@@ -126,4 +126,4 @@ HTML 테이블
 
 ### regular expression 임포트 및 함수
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image3.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_24/5..PNG)
