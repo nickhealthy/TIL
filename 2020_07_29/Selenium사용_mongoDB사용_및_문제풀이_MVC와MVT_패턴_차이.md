@@ -26,19 +26,19 @@
 
 - 웹 드라이버 설치
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image1.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_29/1..PNG)
 
  
 
 #### 개념
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image2.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_29/2..PNG)
 
  
 
 #### 특징
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image3.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_29/3.PNG)
 
  
 
@@ -56,7 +56,7 @@
 
 ### SQL 와 NOSQL의 차이
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image4.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_29/4.PNG)
 
 - 동적으로 테이블 만들어줌 (ALERT 등 테이블 생성 메서드 필요x)
 
@@ -70,11 +70,7 @@
 
 ### MongoDB 데이터 구조
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image5.png)
-
- 
-
- 
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_29/5.PNG)
 
  
 
@@ -86,13 +82,13 @@
   >
   > projection : filed = SQL의 columns 절
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image6.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_29/6.PNG)
 
  
 
 - 구조
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image7.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_29/7.PNG)
 
 
 
@@ -102,7 +98,7 @@
   >
   > OR / AND 사용법
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image8.png) 
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_29/8.PNG) 
 
  
 
