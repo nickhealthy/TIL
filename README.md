@@ -40,8 +40,8 @@
 |                                            | 2020_07_28 |                                                              |                                                              |
 |         *Django*<br />&<br />*git*         | 2020_08_25 |              Django_Preferences, git_submodule               | [Django_Preferences](https://github.com/nickhealthy/TIL/blob/master/2020_08_25/Django_Preferences.md) <br />[git_submodule](https://github.com/nickhealthy/TIL/blob/master/2020_08_25/git_submodule.md) |
 |       *git*<br />&<br />*C_langauge*       | 2020_08_26 |                  git_submodule & C_langauge                  | [git_submodule & C_langauge](https://github.com/nickhealthy/TIL/blob/master/2020_08_26/git_submodule%20%26%20C_langauge.md) |
-|                *algorithm*                 | 2020_08_27 |                          algorithm                           |                                                              |
-|                   *git*                    | 2020_08_28 |                     git_remote&git_Refs                      |                                                              |
+|                *algorithm*                 | 2020_08_27 |                          algorithm                           | [algorithm](https://github.com/nickhealthy/TIL/blob/master/2020_08_27/algorithm.md) |
+|                   *git*                    | 2020_08_28 |                     git_remote&git_Refs                      | [git_remote&git_Refs](https://github.com/nickhealthy/TIL/blob/master/2020_08_28/git_remote%26git_Refs.md) |
 
 
 
