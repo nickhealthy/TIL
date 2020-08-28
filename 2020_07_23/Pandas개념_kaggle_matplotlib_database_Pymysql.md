@@ -53,7 +53,7 @@
 
 - test set : 프로토타입 ?
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image1.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_23/1.%20kaggle.PNG)
 
  
 
@@ -75,11 +75,9 @@
 
 ### 한글 폰트 타입 위치
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image2.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_23/2.%20%ED%95%9C%EA%B8%80%ED%8F%B0%ED%8A%B8%20%ED%83%80%EC%9E%85%EC%9C%84%EC%B9%98%20for%20windows.PNG)
 
  
-
-
 
 ### database 
 
