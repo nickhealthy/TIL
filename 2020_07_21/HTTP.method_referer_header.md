@@ -19,7 +19,7 @@
 >
 > 3. 속성이 parmars
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image1.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_21/clip_html0_image1.png)
 
 2. POST : Body에 데이터를 추가해서 보낸다. 
 
@@ -27,7 +27,7 @@
 > 2. URL 사이즈에 제한이 없다 = form-data 에 저장
 > 3. Attribute(속성)이 data=, files = 
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image2.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_21/clip_html0_image2.png)
 
  
 
