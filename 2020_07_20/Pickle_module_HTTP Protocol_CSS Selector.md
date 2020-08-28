@@ -67,6 +67,8 @@ ex) 게시글 올리기 등등
 
 
 ### CSS Selector
+
+```html
 <div id="myDiv">			 #ID selector
 <div>
 <div class = "myClass"> 		#CLASS selector
@@ -77,29 +79,39 @@ ex) 게시글 올리기 등등
 </ul>
 <a href = "www.naver.com"?</a>
 <img src="">
+```
+
 
 
 1) Tag Selector : tag명 입력해서 특정 tag을 선택
 : soup.select('li') : 괄호안에 tag 입력
 
+```html
 <ul>
 <li>aaa</li>
 <li>aaa</li>
 </ul>
+```
 
 2) ID selector : #
 : soup.select('#myDiv') : 괄호안에 '#특정 이름'
+
+```html
 <div id="myDiv">
 </div>
 <div>
 </div>
+```
 
 3) Class selector : .
 : soup.select('div.myClass') : . 은 해당 클래스의 경로를 의미함
+
+```html
 <div id="myDiv">
 </div>
 <div class = "myClass">
 </div>
+```
 
 4) attribute selector : []
 soup.select("a[href='www.naver.com']")
@@ -107,22 +119,24 @@ soup.select("a[href='www.naver.com']")
 ^= : 시작
 $= : 종료
 
+```html
 <a href="www.naver.com">기사제목</a>
 a_tag.text
 a_tag['href'] << a_tag 에 있는 속성 값을 가져온다
+```
 
-Edit Attribute 클릭 -> 복사
+```
+5) Edit Attribute 클릭 -> 복사
 헤드라인 :  /main/read.nhn?mode=LSD&mid=shm&sid1=100&oid=011&aid=0003771063
 정치 : https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=100&oid=015&aid=0004383703
+```
 
-Copy -> Copy selector : 태그 계층 구조를 나타냄
+```
+6) Copy -> Copy selector : 태그 계층 구조를 나타냄
+```
 
 
 
 # = ID
-#today_main_news > div.hdline_news > ul > li:nth-child(1) > div.hdline_article_tit > a
-#section_politics > div.com_list > div > ul > li:nth-child(1) > a
-
-할당 id, pw
-client_id = "Zo1vTslyKxKYskf_qfUk"
-client_secret = "X5kGpbWEbv"
+> #today_main_news > div.hdline_news > ul > li:nth-child(1) > div.hdline_article_tit > a
+> #section_politics > div.com_list > div > ul > li:nth-child(1) > a
