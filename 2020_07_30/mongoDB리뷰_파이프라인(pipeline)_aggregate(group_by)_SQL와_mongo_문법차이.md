@@ -16,24 +16,24 @@
 
 - 데이터가 저장되는 장소
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image1.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_30/1.PNG)
 
 
 
 - 데이터 로그 기록 장소
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image2.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_30/2.PNG)
 
  
 
 - 파이프라인(pipeline) / aggregate 객체는 SQL의 group by 를 쓰기위함
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image3.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_30/3.PNG)
 
  
 
 ### SQL 과 Mongo 문법 차이
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image4.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_07_30/4.PNG)
 
  
