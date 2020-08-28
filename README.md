@@ -38,8 +38,10 @@
 | *Web Scraping*<br />&<br />*Data analysis* | 2020_07_24 | JSON, Ajax, Regular Expression function, Pandas<br />Melon100Chart\_파싱\_분석\_저장, 국회의원현황\_스크래핑\_분석_저장 |                                                              |
 |     *Data analysis*<br />&<br />*DBMS*     | 2020_07_27 | JSON, Datagrip tool, MariaDB, 시각화 모듈(visualization): Matplotlib, Seaborn<br />Melon100Chart\_파싱\_분석\_저장, 국회의원현황\_스크래핑\_분석_저장 |                                                              |
 |                                            | 2020_07_28 |                                                              |                                                              |
-|                                            | 2020_08_25 |              Django_Preferences, git_submodule               | [Django_Preferences](https://github.com/nickhealthy/TIL/blob/master/2020_08_25/Django_Preferences.md) <br />[git_submodule](https://github.com/nickhealthy/TIL/blob/master/2020_08_25/git_submodule.md) |
-|                                            | 2020_08_26 |                  git_submodule & C_langauge                  | [git_submodule & C_langauge](https://github.com/nickhealthy/TIL/blob/master/2020_08_26/git_submodule%20%26%20C_langauge.md) |
+|         *Django*<br />&<br />*git*         | 2020_08_25 |              Django_Preferences, git_submodule               | [Django_Preferences](https://github.com/nickhealthy/TIL/blob/master/2020_08_25/Django_Preferences.md) <br />[git_submodule](https://github.com/nickhealthy/TIL/blob/master/2020_08_25/git_submodule.md) |
+|       *git*<br />&<br />*C_langauge*       | 2020_08_26 |                  git_submodule & C_langauge                  | [git_submodule & C_langauge](https://github.com/nickhealthy/TIL/blob/master/2020_08_26/git_submodule%20%26%20C_langauge.md) |
+|                *algorithm*                 | 2020_08_27 |                          algorithm                           |                                                              |
+|                   *git*                    | 2020_08_28 |                     git_remote&git_Refs                      |                                                              |
 
 
 
