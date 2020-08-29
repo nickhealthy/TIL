@@ -22,19 +22,17 @@
 
 ### migrate 명령어 및 구조
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image1.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/1.PNG)
 
  
 
 1.  python manage.py showmigrations >> DB적용 여부를 물음
 
- ![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image2.png)
+ ![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/3.PNG)
 
 
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image3.png)
-
- 
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/2.PNG)
 
  
 
@@ -46,7 +44,7 @@
 
 3.  각 URL(ex.blog) 소스 작성후 메인 폴더에 path( ‘inClude’)를 추가
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image4.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/4.PNG)
 
  
 
@@ -96,31 +94,29 @@ board
 
    > 생성을 안해줄 시 Templates 밑에 만든 모든 HTML을 적용시킴
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image5.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/5.PNG)
 
 
 
 ### ORM과 QuerySet 
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image6.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/6.PNG)
 
  
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image7.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/7.PNG)
 
  
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image8.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/8.PNG)
 
  
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image9.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/9.PNG)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image10.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/10.PNG)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image11.png)
-
- 
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/11.PNG)
 
  
 
@@ -130,7 +126,7 @@ board
 
 2.  return 해준다. (동적으로 만들 template.html 지정해줘야함)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image12.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/12.PNG)
 
  
 
@@ -142,19 +138,15 @@ board
 
 3.  여러 개의 자료를 for문으로 뿌렸을 때 div 태그가 하나여도 여러 개로 나옴 (페이지 소스보기로 창을 열었을 때)
 
- 
-
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image13.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/13.PNG)
 
  
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image14.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/14.PNG)
 
  
 
 ### Template 상속
-
- 
 
  
 
@@ -164,7 +156,7 @@ board
 
 2.  blog.css 파일
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image15.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/15.PNG)
 
  
 
@@ -176,7 +168,7 @@ board
 
 2.  link 태그와 rel 속성 값을 주고 URL를 적어주면 된다.
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image16.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_05/16.PNG)
 
  
 
