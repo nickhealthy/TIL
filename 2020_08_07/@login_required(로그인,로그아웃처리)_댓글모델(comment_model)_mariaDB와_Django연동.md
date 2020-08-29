@@ -23,13 +23,19 @@
 
 1.  next= 라는 QueryString으로 날려서 에러를 발생시킴
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image1.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/1.PNG)
 
  
 
 2.  
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image2.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image3.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image4.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image5.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/2.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/3.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/4.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/5.PNG)
 
 맞춰줘야함
 
@@ -37,13 +43,15 @@
 
 3.  메인 프로젝트 폴더 urls.py 경로(path)에 지정 (장고에서 정해준 path라서 저걸로 맞춰줘야함)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image6.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/6.PNG)
 
  
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image7.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image8.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/7.PNG)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image9.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/8.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/9.PNG)
 
  
 
@@ -51,15 +59,15 @@
 
 1.  
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image10.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image11.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/10.PNG)
 
- 
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/11.PNG)
 
  
 
 ### 댓글 모델(comment model 작성)
 
-**-** 모델 가이드 라인 -
+* 모델 가이드 라인 
 
 1.  모델.py에 class 정의 및 핸들링
 
@@ -73,7 +81,9 @@
 
 #### Post class에 여러 ‘comment’ 들을 달도록 설정했으니까 ‘comments’ 라고 이름 지정
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image12.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image13.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/12.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/13.PNG)
 
 
 
@@ -81,15 +91,19 @@
 
 여러 comments을 `Template Engine` `%for%` 문으로 뿌려줌 
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image14.png) ![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image15.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/14.PNG) 
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/15.PNG)
 
  
 
- 
+
 
 ### 화면에 post_list.html에서 설정 - link와 comments 개수를 출력
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image16.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image17.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/16.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/17.PNG)
 
  
 
@@ -131,14 +145,16 @@
 2. pyCharm에서 pip로 pymysql과 mysqlclient 설치
 3. import 설정
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image18.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/18.PNG)
 
-4. Django에서 settings.py DATABASES={}에 설정 (80번째 줄)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image19.png)
+4. Django에서 settings.py DATABASES={}에 설정 (80번째 줄)![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/19.PNG)
 5. DB 업로드 : python manage.py migrate
 6. pyCharm cmd에서 python manage.py createsuperuser 생성
 7. DB 생성 및 연동
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image20.png)8. desc blog_post; 로 테이블 확인 (desc = describe)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/20.PNG)
+
+8. desc blog_post; 로 테이블 확인 (desc = describe)
 
 ## DB생성 및 연동 완료
 
@@ -152,9 +168,9 @@
 
 2. 삭제버튼 클릭시
 
-   ![](C:\Users\Nick_주성우\AppData\Roaming\Typora\typora-user-images\image-20200829190827322.png)
+   ![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/22.PNG)
 
    \<Script 설정 화면>
 
-   ![image-20200829191009805](C:\Users\Nick_주성우\AppData\Roaming\Typora\typora-user-images\image-20200829191009805.png)
+   ![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/21.PNG)
 
