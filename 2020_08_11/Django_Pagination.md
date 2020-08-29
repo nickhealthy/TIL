@@ -18,3 +18,8 @@ blog_list = Blog.objects.all()
 paginator = Paginator(blog_list, 3)
 ```
 
+
+
+* 참고 
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_11/pagination.html)
