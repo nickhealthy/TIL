@@ -8,14 +8,14 @@
 
 1.  remote 주소
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image1.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_10/1.PNG)
 
  
 
 ### 외부에서 localhost 접속하는 방법
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image3.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_10/3.PNG)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image4.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_10/4.PNG)
 
  
