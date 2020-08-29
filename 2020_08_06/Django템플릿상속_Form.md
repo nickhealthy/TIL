@@ -14,7 +14,7 @@
 
 ### 템플릿 상속
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image1.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/1.PNG)
 
 1.  extend: base.html 를 상속받는다.
 
@@ -52,17 +52,15 @@
 
 6.  템플릿을 통해 HTML폼 생성 (as_table() 속성 사용)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image2.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/2.PNG)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image3.png)
-
- 
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/3.PNG)
 
  
 
 ### required id 태그는 HTML5에서 자동으로 만들어주는 태그
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image4.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/4.PNG)
 
  
 
@@ -70,21 +68,37 @@
 
 1.  Form 형식으로 views.py 를 핸들링할 땐 QuerySet 함수를 이용
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image5.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/5.PNG)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image6.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image7.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/6.PNG)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image8.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image9.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image10.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/7.PNG)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image11.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image12.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image13.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image14.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/8.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/9.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/10.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/11.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/12.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/13.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/14.PNG)
 
  
 
 ### Form (글 수정) – ModelForm 형식 사용
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image15.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/15.PNG)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image16.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image17.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image18.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/16.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/17.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/18.PNG)
 
  
 
@@ -92,6 +106,10 @@
 
 ### 글 삭제
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image19.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/19.PNG)
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image20.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image21.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image22.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/20.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/21.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_06/22.PNG)
