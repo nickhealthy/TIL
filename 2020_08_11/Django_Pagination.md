@@ -20,6 +20,11 @@ paginator = Paginator(blog_list, 3)
 
 
 
-* 참고 
+* 참고 [URL](https://github.com/nickhealthy/TIL/blob/master/2020_08_11/pagination.html)
 
-![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_11/pagination.html)
+```django
+{% if page.has_previous %} Previous {% endif %}
+Page {{page.number}} of {{page.paginator.num_pages}}
+{% if page.has_next %} Next {% endif %}
+```
+
