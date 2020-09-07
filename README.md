@@ -52,6 +52,13 @@
 |       *git*<br />&<br />*C_langauge*       | 2020_08_26 |                  git_submodule & C_langauge                  | [git_submodule & C_langauge](https://github.com/nickhealthy/TIL/blob/master/2020_08_26/git_submodule%20%26%20C_langauge.md) |
 |                *algorithm*                 | 2020_08_27 |                          algorithm                           | [algorithm](https://github.com/nickhealthy/TIL/blob/master/2020_08_27/algorithm.md) |
 |                   *git*                    | 2020_08_28 |                     git_remote&git_Refs                      | [git_remote&git_Refs](https://github.com/nickhealthy/TIL/blob/master/2020_08_28/git_remote%26git_Refs.md) |
+|                                            | 2020_09_01 |                                                              |                                                              |
+|                                            | 2020_09_02 |                                                              | Django_JavaScript경고창추가\_mainPage수정_PPT중간점검및해야할일 |
+|                                            | 2020_09_03 | Django_Decorator추가<br />프로젝트 PPT 작성<br />우분투 실습환경 구성 | Django_PPT만들기\_Decorator추가_Ubuntu_setting(Desktop,Server) |
+|                                            | 2020_09_04 |      가상화에 대한 이해<br />네트워크<br /> 우분투 실습      |      클라우드인프라설정\_네트워크에대한이해_우분투실습       |
+|     *Iamroot(Linux)*<br />&<br />*git*     | 2020_09_05 |          Iamroot 스터디<br />git 및 로컬 파일 정리           |                     Iamroot\_및_파일정리                     |
+|                  *Linux*                   | 2020_09_06 | 리눅스 1 ~ 128page 읽기<br />리눅스 설치(우분투 서버, 쿠분투)<br />vi editor 공부 |            리눅스\_설치\_및_vi_editor(1~128pages)            |
+|                  *Linux*                   | 2020_09_07 | 스니핑 (보안 프로토콜 SSH)<br />프롬프트와 옵션 설정 방법<br />마운트의 개념 및 실습<br />네트워크 설정 변경 및 실습 |               SSH\_런레벨\_마운트_네트워크설정               |
 
 
 

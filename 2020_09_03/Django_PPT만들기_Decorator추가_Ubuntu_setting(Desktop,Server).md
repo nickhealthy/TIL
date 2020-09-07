@@ -4,6 +4,8 @@
 
   > view.py에서 각 기능들에 대해 `데코레이터(Decorator)`:`@login_required` 수정
 
+* DB 테이블 구조 설명
+
 * 프로젝트_PPT
 
   > PPT_DB 테이블 구조 설명 및 화면 구성
@@ -11,6 +13,8 @@
   > PPT_mainPage 기능 설명 및 화면 구성
   >
   > PPT_Allplaylist 기능 설명 및 화면 구성
+  
+* 클라우드 인프라 실습환경 구성
 
 
 
