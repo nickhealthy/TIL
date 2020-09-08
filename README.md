@@ -48,6 +48,10 @@
 |     *git_repo*<br />&<br />*remote_DB*     | 2020_08_10 | Django_project<br />git 설치 및 repo 만들기<br />외부에서 localhost 접속하는 방법 | [Create_git_repo\_외부에서localhost\_접속하는_방법](https://github.com/nickhealthy/TIL/blob/master/2020_08_10/Create_git_repo_%EC%99%B8%EB%B6%80%EC%97%90%EC%84%9Clocalhost_%EC%A0%91%EC%86%8D%ED%95%98%EB%8A%94_%EB%B0%A9%EB%B2%95.md) |
 |                  *Django*                  | 2020_08_11 |                Django_Pagination 개념 및 연습                | [Django_Pagination](https://github.com/nickhealthy/TIL/blob/master/2020_08_11/Django_Pagination.md) |
 |                                            | 2020_08_17 |                                                              |                                                              |
+|                                            | 2020_08_18 |                                                              |                                                              |
+|                                            | 2020_08_20 |                                                              |                                                              |
+|                                            | 2020_08_21 |                                                              |                                                              |
+|                                            | 2020_08_24 |                                                              |                                                              |
 |         *Django*<br />&<br />*git*         | 2020_08_25 |              Django_Preferences, git_submodule               | [Django_Preferences](https://github.com/nickhealthy/TIL/blob/master/2020_08_25/Django_Preferences.md) <br />[git_submodule](https://github.com/nickhealthy/TIL/blob/master/2020_08_25/git_submodule.md) |
 |       *git*<br />&<br />*C_langauge*       | 2020_08_26 |                  git_submodule & C_langauge                  | [git_submodule & C_langauge](https://github.com/nickhealthy/TIL/blob/master/2020_08_26/git_submodule%20%26%20C_langauge.md) |
 |                *algorithm*                 | 2020_08_27 |                          algorithm                           | [algorithm](https://github.com/nickhealthy/TIL/blob/master/2020_08_27/algorithm.md) |
@@ -60,6 +64,7 @@
 |     *Iamroot(Linux)*<br />&<br />*git*     | 2020_09_05 |          Iamroot 스터디<br />git 및 로컬 파일 정리           | [Iamroot\_및_파일정리](https://github.com/nickhealthy/TIL/blob/master/2020_09_05/Iamroot_%EB%B0%8F_%ED%8C%8C%EC%9D%BC%EC%A0%95%EB%A6%AC.md) |
 |                  *Linux*                   | 2020_09_06 | 리눅스 1 ~ 128page 읽기<br />리눅스 설치(우분투 서버, 쿠분투)<br />vi editor 공부 | [리눅스\_설치\_및_vi_editor(1~128pages)](https://github.com/nickhealthy/TIL/blob/master/2020_09_06/%EB%A6%AC%EB%88%85%EC%8A%A4_%EC%84%A4%EC%B9%98_%EB%B0%8F_vi_editor(1~128pages).md) |
 |                  *Linux*                   | 2020_09_07 | 스니핑 (보안 프로토콜 SSH)<br />프롬프트와 옵션 설정 방법<br />마운트의 개념 및 실습<br />네트워크 설정 변경 및 실습 | [SSH\_런레벨\_마운트_네트워크설정](https://github.com/nickhealthy/TIL/blob/master/2020_09_07/SSH_%EB%9F%B0%EB%A0%88%EB%B2%A8_%EB%A7%88%EC%9A%B4%ED%8A%B8_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%84%A4%EC%A0%95.md) |
+|                  *Linux*                   | 2020_09_08 | 사용자 및 그룹관리<br />프로세스 & 링크 & 서비스<br />쉘스크립트 |                [사용자관리\_링크\_쉘스크립트]                |
 
 
 
