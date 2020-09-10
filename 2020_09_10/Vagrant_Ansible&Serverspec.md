@@ -361,7 +361,7 @@ main.yml
 [vagrant@demo ansible-playbook-sample]$ command curl -sSL https://rvm.io/mpapis.asc | sudo gpg2 --import -
 [vagrant@demo ansible-playbook-sample]$ command curl -sSL https://rvm.io/pkuczynski.asc | sudo gpg2--import -
 
-# 파일을 가져온다. sudo bash -s stable (실행 하는 문장)
+# 파일을 가져온다. / sudo bash -s stable (실행 하는 문장)
 [vagrant@demo ansible-playbook-sample]$ curl -L get.rvm.io | sudo bash -s stable
 `Downloading https://github.com/rvm/rvm/archive/1.29.10.tar.gz`
 `Downloading https://github.com/rvm/rvm/releases/download/1.29.10/1.29.10.tar.gz.asc`
@@ -480,7 +480,8 @@ Select a backend type:
 6. sample_spec.rb (샘플)파일을 확인 **⇒ 테스트 케이스 작성법을 확인**
 
 ```bash
-[vagrant@demo ansible-playbook-sample]$ cat ./spec/localhost/sample_spec.rb `서버의 상태를 테스트하는 코드`
+#서버의 상태를 테스트하는 코드
+[vagrant@demo ansible-playbook-sample]$ cat ./spec/localhost/sample_spec.rb 
 
 require 'spec_helper'
 
@@ -536,7 +537,7 @@ end
 # tasks file for serverspec_sample
 - name: distribute serverspec suite
 # /tmp 아래로 serverspec_sample 디렉터리를 복사
-  copy: src=serverspec_sample dest={{ serverspec_base_path }}
+  copy: src=serverspec_sample dest={{ serverspec_base_path }} `serverspec_base_path 변수는 /roles/serverspec_sample/vars/main.yml에 정의 되어 있다`
 
 - name: distribute spec file
 # 템플릿에 정의된 내용으로 web_spec.rb 파일을 생성
