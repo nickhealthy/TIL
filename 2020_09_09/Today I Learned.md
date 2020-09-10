@@ -244,7 +244,7 @@ exit 0
 
 * 특정 시간에 특정 디렉터리를 백업
 
-```
+```bash
 root@server:~# vi backup.sh
 root@server:~# cat backup.sh 
 #!/bin/bash
@@ -258,9 +258,13 @@ root@server:~# bash ./backup.sh
 tar: Removing leading `/' from member names
 root@server:~# ls /backup/
 backup2020.09.09.tar.xz			⇐ 압축 파일
-
-크론에 등록
 ```
+
+
+
+* 크론에 등록
+
+![0. 클론에 등록](C:\dev\TIL\2020_09_09\0. 클론에 등록.PNG)
 
 
 
@@ -271,7 +275,7 @@ backup2020.09.09.tar.xz			⇐ 압축 파일
 
 
 
-* Vagrant로 로컬 개발 환경의 Infrastructure as Code 화 (P58)
+* `Vagrant`로 로컬 개발 환경의 ***Infrastructure as Code*** 화 (P58)
 
   1. 기존에 실행 중 가상머신을 모두 중지 (poweroff)
 
@@ -308,7 +312,7 @@ backup2020.09.09.tar.xz			⇐ 압축 파일
   end
   ```
 
-  6. 가상머신을 생성하고 가동
+  6. 가상머신을 생성하고 기동
 
   ```cmd
   C:\HashiCorp\WorkDir> vagrant up
@@ -414,3 +418,4 @@ C:\HashiCorp\WorkDir> vagrant up
 3. 결과를 확인
 
 ![3. 결과를 확인](C:\dev\TIL\2020_09_09\3. 결과를 확인.PNG)
+
