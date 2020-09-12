@@ -2,11 +2,12 @@
 
 
 
-* Iamroot 스터디 공부 (Chapter 0 ~ Chapter 3 p93)
+* Iamroot 스터디 공부 (Chapter 0 ~ Chapter 3 / p93)
+* 파이썬 문법 다시 공부(Chapter 1 ~ Chapter 7 / p170)
 
 
 
-### Iamroot
+### Iamroot (리눅스 커널 구조)
 
 * 리눅스 커널 구조
 
@@ -74,3 +75,38 @@
      >
      >    ※ 쓰레드 모델은 자원 공유에 적합한 프로그래밍 
 
+
+
+### 파이썬 
+
+* 함수
+
+  1. 가변 인수 (*init)
+
+     ※ 매개변수의 개수를 정하지 않고 원하는 만큼 입력 받을 수 있다.
+
+     ※ 튜플로 전달
+
+  2. 인수의 기본값 (begin, end, **step = 1**)
+
+     ※ 특별히 값을 지정해주지 않으면 기본값으로 인자의 값이 들어가고, 값을 정해줄 경우 정해진 값으로 들어간다.
+
+  3. 키워드 가변 인수
+
+     ```python
+     ex) def calcstep(**args):
+     		begin = args['begin']
+     		end = args['end']
+     		step = args['step']
+     		
+     		sum = 0
+     		for num in range(begin, end + 1, step):
+     			sum += num
+     		return sum
+     		
+     ----------------------------------------
+     
+     print("1 ~ 10의 합은 = ", calcstep(begin = 1, end = 10, step = 1))
+     ```
+
+     
