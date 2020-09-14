@@ -1,4 +1,4 @@
-# Linux_ShellScript, DevOps_Vagrant
+# Today I Learned
 
 * if문
 * case 문
@@ -23,6 +23,8 @@
 * and = `-a` 또는 `&&` 
 * or = `-o` 또는 `||`
 * `테스트문[]`
+
+---
 
 
 
@@ -165,6 +167,8 @@ echo "실패"
 exit 0
 ```
 
+---
+
 
 
 ### eval (명령문인식)
@@ -181,6 +185,8 @@ ls -l eval.sh
 -rw-r--r-- 1 root root 57...
 ```
 
+---
+
 
 
 ### export (전역 변수)
@@ -188,6 +194,8 @@ ls -l eval.sh
 ```bash
 export var="외부 변수"
 ```
+
+---
 
 
 
@@ -201,6 +209,8 @@ echo $1 = 2020
 echo $2 = 09.
 echo $# = 6개
 ```
+
+---
 
 
 
@@ -225,6 +235,8 @@ myfunc AAA BBB CCC DDD EEE FFF GGG
 exit 0
 ```
 
+---
+
 
 
 ### crontab (크론 등록)
@@ -239,6 +251,8 @@ exit 0
 분 시 일 월 요일 
             0~6 : 일~토 
 ```
+
+---
 
 
 
@@ -265,6 +279,8 @@ backup2020.09.09.tar.xz			⇐ 압축 파일
 * 크론에 등록
 
 ![0. 클론에 등록](C:\dev\TIL\2020_09_09\0. 클론에 등록.PNG)
+
+---
 
 
 
@@ -378,7 +394,10 @@ backup2020.09.09.tar.xz			⇐ 압축 파일
   ==> default: Destroying VM and associated drives...
   ```
 
-  
+
+----
+
+
 
 ### Vagrant를 이용해서 웹 서버가 설치된 가상 머신을 배포 (P66) [URL](https://www.vagrantup.com/docs/provisioning)
 
