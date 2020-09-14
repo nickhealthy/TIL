@@ -22,6 +22,34 @@
 
 ---
 
+### Django
+
+
+
+<br />
+
+---
+
+### Django_Project
+
+주제 : 유튜브에서 원하는 노래(구간)만을 웹 스크래핑 기술을 통해 추출하고, 자신만의 플레이 리스트 저장소 사이트
+
+기간 : 2020_08_11 ~ 2020_09_03
+
+팀원 : 주성우, 배진수, 안예진
+
+팀 프로젝트 주소 : Git Organizations [URL](https://github.com/multicampus-cloud/django_playlist)
+
+<br />
+
+---
+
+### 클라우드 인프라
+
+기간 : 2020_09_04 ~ 2020_
+
+
+
 ### Activity record
 
 |                   kinds                    |    date    |                         information                          |                             link                             |
@@ -46,7 +74,7 @@
 |        *Django*<br />&<br />*DBMS*         | 2020_08_07 | @login_required(로그인,로그아웃처리)\_댓글모델(comment_model)\_mariaDB와_Django연동 | [@login_required(로그인,로그아웃처리)<br />댓글모델(comment_model)<br />mariaDB와_Django연동](https://github.com/nickhealthy/TIL/blob/master/2020_08_07/%40login_required(%EB%A1%9C%EA%B7%B8%EC%9D%B8%2C%EB%A1%9C%EA%B7%B8%EC%95%84%EC%9B%83%EC%B2%98%EB%A6%AC)_%EB%8C%93%EA%B8%80%EB%AA%A8%EB%8D%B8(comment_model)_mariaDB%EC%99%80_Django%EC%97%B0%EB%8F%99.md) |
 |     *git_repo*<br />&<br />*remote_DB*     | 2020_08_10 | Django_project<br />git 설치 및 repo 만들기<br />외부에서 localhost 접속하는 방법 | [Create_git_repo\_외부에서localhost\_접속하는_방법](https://github.com/nickhealthy/TIL/blob/master/2020_08_10/Create_git_repo_%EC%99%B8%EB%B6%80%EC%97%90%EC%84%9Clocalhost_%EC%A0%91%EC%86%8D%ED%95%98%EB%8A%94_%EB%B0%A9%EB%B2%95.md) |
 |                  *Django*                  | 2020_08_11 |                Django_Pagination 개념 및 연습                | [Django_Pagination](https://github.com/nickhealthy/TIL/blob/master/2020_08_11/Django_Pagination.md) |
-|                                            | 2020_08_17 |                                                              |                                                              |
+|     *DBMS*<br />&<br />*ML* & *Pandas*     | 2020_08_17 | Maria_DB, Mongo_DB 원격 접속 설정<br />&<br />iris를 활용한 ML기초(KNN 알고리즘)<br />& Pandas(Kaggle_titanic) | [DB원격접속설정\_ML기초(KNN알고리즘)_Pandas(titanic)](https://github.com/nickhealthy/TIL/blob/master/2020_08_17/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EC%9B%90%EA%B2%A9%EC%A0%91%EC%86%8D_%EC%84%A4%EC%A0%95_iris%EB%A5%BC_%ED%99%9C%EC%9A%A9%ED%95%9C_ML_%EA%B8%B0%EC%B4%88(KNN%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)_One_Hot_Encoding(titanic).md) |
 |                                            | 2020_08_18 |                                                              |                                                              |
 |                                            | 2020_08_20 |                                                              |                                                              |
 |                                            | 2020_08_21 |                                                              |                                                              |

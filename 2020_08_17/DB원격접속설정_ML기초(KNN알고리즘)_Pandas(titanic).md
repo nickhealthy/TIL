@@ -18,7 +18,7 @@
 
 ### maria DB를 원격으로 접속
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image1.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_17/1.PNG)
 
 1. 원격 접속이 가능한 사용자 계정을 root 계정으로 접속해서 만든다.
 
@@ -60,7 +60,9 @@
 
 3. settings.py에서 설정해준 뒤 python manage.py migrate
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image2.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image3.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_17/2.PNG)
+
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_17/3.PNG)
 
 ---
 
@@ -78,7 +80,7 @@
    >
    > 향후 예측을 통해 숫자를 예측(Serial data) - 회귀
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image4.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_17/4.PNG)
 
 >  Classification: 분류 / Regression: 회귀
 
@@ -96,7 +98,7 @@
 
  
 
-![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image5.png)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_17/5.PNG)
 
  
 
