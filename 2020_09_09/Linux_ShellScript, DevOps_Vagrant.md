@@ -278,7 +278,7 @@ backup2020.09.09.tar.xz			⇐ 압축 파일
 
 * 크론에 등록
 
-![0. 클론에 등록](C:\dev\TIL\2020_09_09\0. 클론에 등록.PNG)
+![0. 클론에 등록](https://github.com/nickhealthy/TIL/blob/master/2020_09_09/0.%20%ED%81%B4%EB%A1%A0%EC%97%90%20%EB%93%B1%EB%A1%9D.PNG)
 
 ---
 
@@ -379,7 +379,7 @@ backup2020.09.09.tar.xz			⇐ 압축 파일
   C:\HashiCorp\WorkDir> vagrant snapshot save FirstSnapshot
   ```
 
-  ![1. 스냅샷](C:\dev\TIL\2020_09_09\1. 스냅샷.PNG)
+  ![1. 스냅샷](https://github.com/nickhealthy/TIL/blob/master/2020_09_09/1.%20%EC%8A%A4%EB%83%85%EC%83%B7.PNG)
 
   9. 가상 머신을 정지 및 삭제
 
@@ -432,9 +432,9 @@ SCRIPT
 C:\HashiCorp\WorkDir> vagrant up
 ```
 
-![2. provisioning 실행](C:\dev\TIL\2020_09_09\2. provisioning 실행.PNG)
+![2. provisioning 실행](https://github.com/nickhealthy/TIL/blob/master/2020_09_09/2.%20provisioning%20%EC%8B%A4%ED%96%89.PNG)
 
 3. 결과를 확인
 
-![3. 결과를 확인](C:\dev\TIL\2020_09_09\3. 결과를 확인.PNG)
+![3. 결과를 확인](https://github.com/nickhealthy/TIL/blob/master/2020_09_09/3.%20%EA%B2%B0%EA%B3%BC%EB%A5%BC%20%ED%99%95%EC%9D%B8.PNG)
 
