@@ -67,7 +67,7 @@
 |        *Linux*<br />&<br />*DevOps*        | 2020_09_09 | 쉘 스크립트(if, and_or, for, eval, export, set, shift, crontab)<br />DevOps_Vagrant 개념 및 가상 환경 구축 | [Linux_ShellScript, DevOps_Vagrant](https://github.com/nickhealthy/TIL/blob/master/2020_09_09/Linux_ShellScript%2C%20DevOps_Vagrant.md) |
 |                  *DevOps*                  | 2020_09_10 |       Vagrant_Ansible <br />&<br />Vagrant_Serverspec        | [Vagrant_Ansible&Serverspec](https://github.com/nickhealthy/TIL/blob/master/2020_09_10/Vagrant_Ansible%26Serverspec.md) |
 |       *Docker*<br />&<br />*DevOps*        | 2020_09_11 |  Docker Hub, Docker Compose<br />Vagrant_Jenkins(Pipeline)   | [Docker기본사용법_Jenkins](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/Docker_Jenkins.md) |
-|        *Linux*<br />&<br />*Python*        | 2020_09_12 | Iamroot 스터디(운영체제, 커널구조, 태스크 관리)<br />Python 문법 복습(Chapter 1 ~ Chapter 7) |             [Iamroot리눅스스터디_파이썬문법복습]             |
+|        *Linux*<br />&<br />*Python*        | 2020_09_12 | Iamroot 스터디(운영체제, 커널구조, 태스크 관리)<br />Python 문법 복습(Chapter 1 ~ Chapter 7) | [Iamroot리눅스스터디_파이썬문법복습](https://github.com/nickhealthy/TIL/blob/master/2020_09_12/Iamroot%EB%A6%AC%EB%88%85%EC%8A%A4%EC%8A%A4%ED%84%B0%EB%94%94_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%AC%B8%EB%B2%95%EB%B3%B5%EC%8A%B5.md) |
 |       *Python*<br />&<br />*DevOps*        | 2020_09_13 | Python 문법 복습(Chapter 8 ~ Chapter 10)<br />&<br />Vagrant_Ansible, Serverspec, Jenkins 복습 |     [Python복습_Vagrant_ansible_serverspec_jenkins복습]      |
 |                  *Docker*                  | 2020_09_14 | Docker 개념 및 설치, 기본 문법, 이미지 생성 및 Docker_Hub 다루기 |           [Docker개념및설치\_이미지생성_DockerHub]           |
 
