@@ -195,7 +195,7 @@
 
 6. Semver(semantic 딱딱한)
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_20/clip_image002.gif)
 
  6.1 MAJOR : 호환이 안되는 완전히 다른 큰 변화
 
@@ -249,9 +249,9 @@
 
  3.2 git status: 방안에 상황을 보고 있고, 변동 상황을 확인
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_20/clip_image004.gif)
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_20/clip_image006.gif)
 
 ※ Untracked files: “무슨 파일인지 정말 모르겠다.” 라는 뜻
 
@@ -259,7 +259,7 @@
 
  3.4 “README.md” 파일을 수정하고서 git status: 다시 쳤을때
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image008.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_20/clip_image008.gif)
 
  3.5 “README.md” 를 수정 후 git add를 한번더 해주자
 
@@ -275,15 +275,15 @@ Changes not staged for commit: 이 나옴
 
  git restore --staged README.md
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image010.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_20/clip_image010.gif)
 
  3.10 commit 히스토리가 들어가있다.
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image012.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_20/clip_image012.gif)
 
  3.11 버전관리 안하는 법 (ex: .idea 같은 파일들)
 
- ![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image014.gif)
+ ![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_20/clip_image014.gif)
 
 3.12
 
