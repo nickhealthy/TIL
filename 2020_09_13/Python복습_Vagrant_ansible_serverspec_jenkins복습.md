@@ -4,7 +4,7 @@
 
 * Python 문법 복습
 
-* Vagrant_ansible, Serverspec, Docker, Jenkins 복습
+* Vagrant_ansible, Serverspec, Jenkins 복습
 
 ---
 
