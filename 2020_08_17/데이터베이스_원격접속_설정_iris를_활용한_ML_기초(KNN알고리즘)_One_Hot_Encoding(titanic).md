@@ -1,4 +1,6 @@
-# # 200817
+# Today I Learned
+
+
 
 - mariaDB를 원격으로 접속
 
@@ -10,7 +12,9 @@
 
 - One Hot Encoding (titanic)
 
- 
+----
+
+
 
 ### maria DB를 원격으로 접속
 
@@ -44,7 +48,9 @@
    >
    > admin 계정 새로 생성
 
- 
+---
+
+
 
 ### mongoDB를 원격으로 접속
 
@@ -56,7 +62,9 @@
 
 ![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image2.png)![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image3.png)
 
- 
+---
+
+
 
 ### iris를 활용한 ML 기초
 
@@ -78,7 +86,9 @@
 
 5. 좋은 입력 데이터를 골라 만들어 내는 과정을 'feature engineering'
 
- 
+---
+
+
 
 ### KNN 알고리즘
 
@@ -87,8 +97,6 @@
  
 
 ![img](C:\Users\NICK_~1\AppData\Local\Temp\clipData\clip_html0.files\clip_html0_image5.png)
-
- 
 
  
 
