@@ -1,5 +1,7 @@
 # Today I Learned
 
+
+
 * C:\Linux 아래에 만들어 놓은 가상머신 이미지 파일들을 다른 폴더 또는 PC로 옮길 경우
 * vagrant 로컬 레포지터리 위치
 * Vagrantfile로 인프라를 구성했을 때 장점
@@ -249,7 +251,7 @@ hello, production ansible
 
 [vagrant@demo ansible-playbook-sample]$ vi site.yml
 
-![1. vi site.yml](C:\dev\TIL\2020_09_10\1. vi site.yml.png)
+![1. vi site.yml](https://github.com/nickhealthy/TIL/blob/master/2020_09_10/1.%20vi%20site.yml.png)
 
 4. 실행 대상 정의를 확인
 
@@ -737,7 +739,7 @@ localhost                  : ok=9    changed=1    unreachable=0    failed=0    s
 # 호스트 PC에서 http://192.168.33.10/result.html 으로 접속
 ```
 
-![2. HTML형식으로 serverspec 확인](C:\dev\TIL\2020_09_10\2. HTML형식으로 serverspec 확인.PNG)
+![2. HTML형식으로 serverspec 확인](https://github.com/nickhealthy/TIL/blob/master/2020_09_10/2.%20HTML%ED%98%95%EC%8B%9D%EC%9C%BC%EB%A1%9C%20serverspec%20%ED%99%95%EC%9D%B8.PNG)
 
 ##### 'Git을 이용하여 필요한 구성 정보를 팀에 공유할 수 있도록 한다' 자율 학습(p104 ~ p145)
 
