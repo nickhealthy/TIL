@@ -209,8 +209,6 @@
 
 
 
- 
-
 ### git 
 
 0. touch .gitignore 만든 후에 안에 있는 파일들 다 ignore
@@ -227,21 +225,21 @@
 
 2. git init: git을 초기화 및 해당 명령어를 친 폴더에 “.git” 이라는 폴더를 만든다
 
- 2.1 git init 명령어를 친 폴더의 하위 폴더에는 다 .git 의 폴더가 들어가 있다.
+   * git init 명령어를 친 폴더의 하위 폴더에는 다 .git 의 폴더가 들어가 있다.
 
-> ls -a (숨김 폴더를 보여준다)
->
->  ls -al (전체 폴더를 보여준다.)
->
->  rm -rf .git (.git 이라는 폴더를 지운다.)
->
-> rm -r test_dir
->
-> touch: 파일을 만드는것
->
-> git status: 상태 확인
->
-> git add: 파일을 허용하겠다.
+     > ls -a (숨김 폴더를 보여준다)
+     >
+     >  ls -al (전체 폴더를 보여준다.)
+     >
+     >  rm -rf .git (.git 이라는 폴더를 지운다.)
+     >
+     > rm -r test_dir
+     >
+     > touch: 파일을 만드는것
+     >
+     > git status: 상태 확인
+     >
+     > git add: 파일을 허용하겠다.
 
  
 
@@ -423,7 +421,7 @@ Changes not staged for commit: 이 나옴
 
 3. mkdir git
 
-4.touch git/git_basic.md
+4. touch git/git_basic.md
 
 5. mkdir 4th
 
