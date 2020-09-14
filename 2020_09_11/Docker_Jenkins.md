@@ -2,7 +2,7 @@
 
 
 
-* [Dorker Hub](https://hub.docker.com/)
+* [Docker Hub](https://hub.docker.com/)
 * [도커 사용법 도움말 참조](http://pyrasis.com/docker.html)
 
 * Docker (p 145)
@@ -166,7 +166,7 @@ ADD centos-7-x86_64-docker.tar.xz /
 CMD ["/bin/bash"]	
 ```
 
-![image-20200911105536631](C:\Users\Nick_주성우\AppData\Roaming\Typora\typora-user-images\image-20200911105536631.png)
+![image-20200911105536631](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/1.%20centos_dockerfile.PNG)
 
 * [Nginx Dockerfile](https://github.com/nginxinc/docker-nginx/blob/9774b522d4661effea57a1fbf64c883e699ac3ec/mainline/buster/Dockerfile)
 
@@ -434,21 +434,21 @@ firewall-cmd --reload
 
 6. 프로젝트를 생성 (업무단위로 나눠놓은 것)
 
-![2. jenkis](C:\dev\TIL\2020_09_11\2. jenkis.PNG)
+![2. jenkis](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/2.%20jenkis.PNG)
 
-![3. jenkis](C:\dev\TIL\2020_09_11\3. jenkis.PNG)
+![3. jenkis](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/3.%20jenkis.PNG)
 
 7. 프로젝트 실행(build now)
 
-![4. 프로젝트 실행](C:\dev\TIL\2020_09_11\4. 프로젝트 실행.PNG)
+![4. 프로젝트 실행](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/4.%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%8B%A4%ED%96%89.PNG)
 
 
 
-![5. 프로젝트 결과 일람](C:\dev\TIL\2020_09_11\5. 프로젝트 결과 일람.PNG)
+![5. 프로젝트 결과 일람](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/5.%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B2%B0%EA%B3%BC%20%EC%9D%BC%EB%9E%8C.PNG)
 
-![image-20200911152643820](C:\Users\Nick_주성우\AppData\Roaming\Typora\typora-user-images\image-20200911152643820.png)
+![image-20200911152643820](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/6.%20%EB%A7%A4%EC%8B%9C%EA%B0%81%EC%97%90%20%EC%8B%A4%ED%96%89%EB%90%98%EB%8A%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC%20%EC%83%9D%EC%84%B1.PNG)
 
-![6. 실행되고 있는것을 확인](C:\dev\TIL\2020_09_11\6. 실행되고 있는것을 확인.PNG)
+![6. 실행되고 있는것을 확인](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/6.%20%EC%8B%A4%ED%96%89%EB%90%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%EA%B2%83%EC%9D%84%20%ED%99%95%EC%9D%B8.PNG)
 
 ---
 
@@ -476,13 +476,13 @@ jenkins ALL=(ALL) NOPASSWD:ALL
 
 3. exec-ansible 프로젝트 생성
 
-![7. exec-ansible 프로젝트 생성](C:\dev\TIL\2020_09_11\7. exec-ansible 프로젝트 생성.PNG)
+![7. exec-ansible 프로젝트 생성](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/7.%20exec-ansible%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.PNG)
 
-![7-1](C:\dev\TIL\2020_09_11\7-1.PNG)
+![7-1](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/7-1.PNG)
 
-![7-2](C:\dev\TIL\2020_09_11\7-2.PNG)
+![7-2](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/7-2.PNG)
 
-![7-3](C:\dev\TIL\2020_09_11\7-3.PNG)
+![7-3](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/7-3.PNG)
 
 ---
 
@@ -490,17 +490,17 @@ jenkins ALL=(ALL) NOPASSWD:ALL
 
 ### Jenkins에서 Serverspec을 실행
 
-![8. Jenkins에서 Serverspec을 실행](C:\dev\TIL\2020_09_11\8. Jenkins에서 Serverspec을 실행.PNG)
+![8. Jenkins에서 Serverspec을 실행](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/8.%20Jenkins%EC%97%90%EC%84%9C%20Serverspec%EC%9D%84%20%EC%8B%A4%ED%96%89.PNG)
 
 
 
-![8-1](C:\dev\TIL\2020_09_11\8-1.PNG)
+![8-1](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/8-1.PNG)
 
 
 
-![8-2](C:\dev\TIL\2020_09_11\8-2.PNG)
+![8-2](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/8-2.PNG)
 
-![8-3](C:\dev\TIL\2020_09_11\8-3.PNG)
+![8-3](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/8-3.PNG)
 
 
 
@@ -514,13 +514,13 @@ jenkins ALL=(ALL) NOPASSWD:ALL
 
 ### exec-ansible 프로젝트 실행 후 이어서 exec-serverspec 프로젝트가 실행되도록 수정
 
-![9.exec-ansible 프로젝트 실행 후 이어서 exec-serverspec 프로젝트가 실행되도록 수정](C:\dev\TIL\2020_09_11\9.exec-ansible 프로젝트 실행 후 이어서 exec-serverspec 프로젝트가 실행되도록 수정.PNG)
+![9.exec-ansible 프로젝트 실행 후 이어서 exec-serverspec 프로젝트가 실행되도록 수정](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/9.exec-ansible%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%8B%A4%ED%96%89%20%ED%9B%84%20%EC%9D%B4%EC%96%B4%EC%84%9C%20exec-serverspec%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B0%80%20%EC%8B%A4%ED%96%89%EB%90%98%EB%8F%84%EB%A1%9D%20%EC%88%98%EC%A0%95.PNG)
 
 
 
 * 하위 프로젝트 생성
 
-![image-20200911162513177](C:\Users\Nick_주성우\AppData\Roaming\Typora\typora-user-images\image-20200911162513177.png)
+![image-20200911162513177](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/9-1.PNG)
 
 ---
 
@@ -534,21 +534,21 @@ jenkins ALL=(ALL) NOPASSWD:ALL
 
 1. exec-ansible에서 후행 프로젝트로 exec-serverspec을 설정해 둔 것을 해제
 
-![10. exec-ansible에서 후행 프로젝트로 exec-serverspec을 설정해 둔 것을 해제](C:\dev\TIL\2020_09_11\10. exec-ansible에서 후행 프로젝트로 exec-serverspec을 설정해 둔 것을 해제.PNG)
+![10. exec-ansible에서 후행 프로젝트로 exec-serverspec을 설정해 둔 것을 해제](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/10.%20exec-ansible%EC%97%90%EC%84%9C%20%ED%9B%84%ED%96%89%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A1%9C%20exec-serverspec%EC%9D%84%20%EC%84%A4%EC%A0%95%ED%95%B4%20%EB%91%94%20%EA%B2%83%EC%9D%84%20%ED%95%B4%EC%A0%9C.PNG)
 
 
 
 2. Pipeline 프로젝트 생성
 
-![10-1](C:\dev\TIL\2020_09_11\10-1.PNG)
+![10-1](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/10-1.PNG)
 
-![10-2](C:\dev\TIL\2020_09_11\10-2.PNG)
+![10-2](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/10-2.PNG)
 
 **stage: 단계별로 수행할 스텝**
 
 **build: 어떤일을 해야하는지 기술**
 
-![10-3](C:\dev\TIL\2020_09_11\10-3.PNG)
+![10-3](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/10-3.PNG)
 
 
 
@@ -562,19 +562,19 @@ jenkins ALL=(ALL) NOPASSWD:ALL
 
 1. exec-ansible 매개변수 추가
 
-![11. 파라미터를 받아서 빌드하도록 수정](C:\dev\TIL\2020_09_11\11. 파라미터를 받아서 빌드하도록 수정.PNG)
+![11. 파라미터를 받아서 빌드하도록 수정](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/11.%20%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EB%A5%BC%20%EB%B0%9B%EC%95%84%EC%84%9C%20%EB%B9%8C%EB%93%9C%ED%95%98%EB%8F%84%EB%A1%9D%20%EC%88%98%EC%A0%95.PNG)
 
 2. ansible 빌드하기
 
-![11-1](C:\dev\TIL\2020_09_11\11-1.PNG)
+![11-1](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/11-1.PNG)
 
 3. exec-ansible-Serverspec 매개변수 추가
 
-![11-2](C:\dev\TIL\2020_09_11\11-2.PNG)
+![11-2](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/11-2.PNG)
 
 
 
-![11-3](C:\dev\TIL\2020_09_11\11-3.PNG)
+![11-3](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/11-3.PNG)
 
 node {  
 
@@ -586,7 +586,7 @@ build 'exec-serverspec'
 
 }
 
-![11-4](C:\dev\TIL\2020_09_11\11-4.PNG)
+![11-4](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/11-4.PNG)
 
 ※ 원인은? 
 
@@ -665,7 +665,7 @@ end
 
 **exec-ansible-serverspec 프로젝트를 실행 (ENVIRONMENT로 production을 선택)**
 
-![11-5.통과](C:\dev\TIL\2020_09_11\11-5.통과.PNG)
+![11-5.통과](https://github.com/nickhealthy/TIL/blob/master/2020_09_11/11-5.%ED%86%B5%EA%B3%BC.PNG)
 
 ※ 이후 테스트 통과
 
