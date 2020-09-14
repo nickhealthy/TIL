@@ -18,7 +18,6 @@
 
 - [x] __6day__ _ beautifulsoup, Anaconda(package), regular_expression,
 
-
 <br />
 
 ---
@@ -64,7 +63,13 @@
 |     *Iamroot(Linux)*<br />&<br />*git*     | 2020_09_05 |          Iamroot 스터디<br />git 및 로컬 파일 정리           | [Iamroot\_및_파일정리](https://github.com/nickhealthy/TIL/blob/master/2020_09_05/Iamroot_%EB%B0%8F_%ED%8C%8C%EC%9D%BC%EC%A0%95%EB%A6%AC.md) |
 |                  *Linux*                   | 2020_09_06 | 리눅스 1 ~ 128page 읽기<br />리눅스 설치(우분투 서버, 쿠분투)<br />vi editor 공부 | [리눅스\_설치\_및_vi_editor(1~128pages)](https://github.com/nickhealthy/TIL/blob/master/2020_09_06/%EB%A6%AC%EB%88%85%EC%8A%A4_%EC%84%A4%EC%B9%98_%EB%B0%8F_vi_editor(1~128pages).md) |
 |                  *Linux*                   | 2020_09_07 | 스니핑 (보안 프로토콜 SSH)<br />프롬프트와 옵션 설정 방법<br />마운트의 개념 및 실습<br />네트워크 설정 변경 및 실습 | [SSH\_런레벨\_마운트_네트워크설정](https://github.com/nickhealthy/TIL/blob/master/2020_09_07/SSH_%EB%9F%B0%EB%A0%88%EB%B2%A8_%EB%A7%88%EC%9A%B4%ED%8A%B8_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%84%A4%EC%A0%95.md) |
-|                  *Linux*                   | 2020_09_08 | 사용자 및 그룹관리<br />프로세스 & 링크 & 서비스<br />쉘스크립트 |                [사용자관리\_링크\_쉘스크립트]                |
+|                  *Linux*                   | 2020_09_08 | 사용자 및 그룹관리<br />프로세스 & 링크 & 서비스<br />쉘 스크립트 | [사용자관리\_링크\_쉘스크립트](https://github.com/nickhealthy/TIL/blob/master/2020_09_08/%EC%82%AC%EC%9A%A9%EC%9E%90%EA%B4%80%EB%A6%AC_%EB%A7%81%ED%81%AC_%EC%89%98%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.md) |
+|        *Linux*<br />&<br />*DevOps*        | 2020_09_09 | 쉘 스크립트(if, and_or, for, eval, export, set, shift, crontab)<br />DevOps_Vagrant 개념 및 가상 환경 구축 |             [Linux_ShellScript, DevOps_Vagrant]              |
+|                  *DevOps*                  | 2020_09_10 |       Vagrant_Ansible <br />&<br />Vagrant_Serverspec        |                 [Vagrant_Ansible&Serverspec]                 |
+|       *Docker*<br />&<br />*DevOps*        | 2020_09_11 |  Docker Hub, Docker Compose<br />Vagrant_Jenkins(Pipeline)   |                  [Docker기본사용법_Jenkins]                  |
+|        *Linux*<br />&<br />*Python*        | 2020_09_12 | Iamroot 스터디(운영체제, 커널구조, 태스크 관리)<br />Python 문법 복습(Chapter 1 ~ Chapter 7) |             [Iamroot리눅스스터디_파이썬문법복습]             |
+|       *Python*<br />&<br />*DevOps*        | 2020_09_13 | Python 문법 복습(Chapter 8 ~ Chapter 10)<br />&<br />Vagrant_Ansible, Serverspec, Jenkins 복습 |     [Python복습_Vagrant_ansible_serverspec_jenkins복습]      |
+|                  *Docker*                  | 2020_09_14 | Docker 개념 및 설치, 기본 문법, 이미지 생성 및 Docker_Hub 다루기 |           [Docker개념및설치\_이미지생성_DockerHub]           |
 
 
 
