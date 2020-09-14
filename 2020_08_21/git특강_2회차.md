@@ -65,7 +65,7 @@ $ git commit --amend
 
 ### commit를 구분하여 넣어야 하는데 모든 것을 다 때려박아서 commit 메시지를 파일마다 다르게 수정하고 싶을때
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_21/clip_image002.gif)
 
  
 
@@ -97,7 +97,7 @@ $ git checkout -- board.py : 마지막 commit 했을때의 파일로 되돌리�
 
  ※ 주의사항: 한번 수정하면 다시 되돌리지 못하니까 정말 바꾸고 싶을때만 쓰기!
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_21/clip_image004.gif)
 
  
 
@@ -129,13 +129,13 @@ $ git checkout -- board.py : 마지막 commit 했을때의 파일로 되돌리�
 
   ※ master branch 계정에서 commit 를 한것이기 때문에 feature/auth 브랜치에서 log를 찍어봐도 7.2에서 commit 한 내용이 안나온다. (해당 브랜치에서 커밋한 브랜치에서만 확인가능)
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_21/clip_image006.gif)
 
 ※ 서로 다른 브랜치에서 파일이름이 같지만, 코드가 다를 경우가 진짜 충돌의 시작!
 
 # master|merging 병합중이니 commit으로 병합 후 작업해라
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image008.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_21/clip_image008.gif)
 
  ※ commit 를 해야 합쳐진다.
 
@@ -145,7 +145,7 @@ $ git checkout -- board.py : 마지막 commit 했을때의 파일로 되돌리�
 
 # git diff HEAD
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image010.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_21/clip_image010.gif)
 
 ※ git diff HEAD바뀐 파일들의 목록을 볼 수 있다.
 
@@ -155,7 +155,7 @@ $ git checkout -- board.py : 마지막 commit 했을때의 파일로 되돌리�
 
 ※ 무시해도 되는 경고 unix 와 window의 encoding 얘기임
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image012.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_21/clip_image012.gif)
 
  
 
@@ -167,7 +167,7 @@ $ git checkout -- board.py : 마지막 commit 했을때의 파일로 되돌리�
 
 2. private 형태로 만들면 초대해줘야함
 
-![img](file:///C:/Users/NICK_~1/AppData/Local/Temp/msohtmlclip1/01/clip_image014.gif)
+![img](https://github.com/nickhealthy/TIL/blob/master/2020_08_21/clip_image014.gif)
 
  
 
