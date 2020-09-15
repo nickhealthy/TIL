@@ -1,7 +1,6 @@
 # Today I Learned
 
 
-
 * 도커/쿠버네티스를 활용한 컨테이너 개발 실전 입문 [참고 URL](http://pyrasis.com/docker.html) / [참고 URL](https://www.slideshare.net/pyrasis/docker-fordummies-44424016?from_action=save)
 
 * Docker
