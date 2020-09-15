@@ -769,7 +769,7 @@ root@7a26c2712474:/var/www/html# ping mysql
 
    **방법1. CentOS 가상 머신으로 실행한 경우 ⇒ http://192.168.33.10:32772** **접속** 
 
-![1. wordpress 웹서버 접속확인](C:\dev\TIL\2020_09_15\1. wordpress 웹서버 접속확인.PNG)
+![1. wordpress 웹서버 접속확인](https://github.com/nickhealthy/TIL/blob/master/2020_09_15/1.%20wordpress%20%EC%9B%B9%EC%84%9C%EB%B2%84%20%EC%A0%91%EC%86%8D%ED%99%95%EC%9D%B8.PNG)
 
 ---
 
