@@ -97,6 +97,7 @@
 |        *Linux*<br />&<br />*Python*        | 2020_09_12 | Iamroot 스터디(운영체제, 커널구조, 태스크 관리)<br />Python 문법 복습(Chapter 1 ~ Chapter 7) | [Iamroot리눅스스터디_파이썬문법복습](https://github.com/nickhealthy/TIL/blob/master/2020_09_12/Iamroot%EB%A6%AC%EB%88%85%EC%8A%A4%EC%8A%A4%ED%84%B0%EB%94%94_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%AC%B8%EB%B2%95%EB%B3%B5%EC%8A%B5.md) |
 |       *Python*<br />&<br />*DevOps*        | 2020_09_13 | Python 문법 복습(Chapter 8 ~ Chapter 10)<br />&<br />Vagrant_Ansible, Serverspec, Jenkins 복습 | [Python복습_Vagrant_ansible_serverspec_jenkins복습](https://github.com/nickhealthy/TIL/blob/master/2020_09_13/Python%EB%B3%B5%EC%8A%B5_Vagrant_ansible_serverspec_jenkins%EB%B3%B5%EC%8A%B5.md) |
 |                  *Docker*                  | 2020_09_14 | Docker 개념 및 설치, 기본 문법, 이미지 생성 및 Docker_Hub 다루기 | [Docker개념및설치\_이미지생성_DockerHub](https://github.com/nickhealthy/TIL/blob/master/2020_09_14/Docker%EA%B0%9C%EB%85%90%EB%B0%8F%EC%84%A4%EC%B9%98_%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%83%9D%EC%84%B1_DockerHub.md) |
+|                  *Docker*                  | 2020_09_15 | Dockerfile layer용량, 필터링<br />exec (컨테이너 명령 전달), wordpress와 mysql을 컨테이너 연동, volume(데이터 영속적) |   [docker필터링\_exec\_이미지연동(mysql,wordpress)_volume]   |
 
 
 
