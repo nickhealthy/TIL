@@ -323,7 +323,7 @@ func main() {
 	})
 	log.Println("start server")
 	server := &http.Server{ Addr: ":8080" }
-	if err := server.ListenAndServe(); err != nill {
+	if err := server.ListenAndServe(); err != nil {
 		log.Println(err)
 	}
 }
@@ -504,9 +504,9 @@ vagrant@xenial64:~$ curl https://hub.docker.com/v2/repositories/library/mysql/ta
 
 
 
-### 생성한 이미지를 도커 허브에 등록
+### 도커 이미지 버전 관리
 
-1. 테스트용 베이스 이미지를 생성
+1. 테스트용 베이스 이미지 정의(Dockerfile 작성)
 
 ```bash
 vagrant@xenial64:~/chap02$ mkdir ~/basetest && cd ~/basetest
@@ -525,7 +525,7 @@ vagrant@xenial64:~/basetest$ docker image build -t alskadmlcraz/basetest:latest 
 vagrant@xenial64:~/basetest$ docker image ls
 ```
 
-3. 도커 허브에 등록
+3. 생성한 테스트용 이미지를 도커 허브에 등록
 
 ```bash
 vagrant@xenial64:~/basetest$ docker login
@@ -550,7 +550,7 @@ RUN   cat /tmp/version
 vagrant@xenial64:~/pulltest$ docker image build -t myanjini/pulltest:latest .
 ```
 
-5. 테스트용 베이스 이미지를 업그레이드
+5. 동일한 조건(변경된 내용이 없는 경우)으로 이미지를 생성하면 생성되지 않는 것을 확인
 
 ```bash
 vagrant@xenial64:~/pulltest$ cd ~/basetest
@@ -560,7 +560,7 @@ FROM busybox
 RUN  echo `"version = 2"` > /tmp/version
 ```
 
-6. 테스트용 베이스 이미지를 이용한 이미지를 생성
+6. 베이스 이미지를 수정
 
 ```bash
 vagrant@xenial64:~/pulltest$ docker image build -t myanjini/pulltest:latest .
