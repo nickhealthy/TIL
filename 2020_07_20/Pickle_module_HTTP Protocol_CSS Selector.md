@@ -21,10 +21,12 @@
 1. class <=> Table
 2. object <=> (Row = Record, 행)
 3. variable <=> column
-- Jupyter Notebook (jupyter lab) : 라이브 코드, 등식, 시각화와 설명을 위한 텍스트 등을 포함한 문서를 만들고 공유가 가능한 오픈소스 웹 어플리케이션입니다. 
+### Jupyter Notebook (jupyter lab) : 라이브 코드, 등식, 시각화와 설명을 위한 텍스트 등을 포함한 문서를 만들고 공유가 가능한 오픈소스 웹 어플리케이션입니다. 
+
 : ipython 기반으로 되어있다.
 : ipython <> python : input, output 존재
 : 경로 설정
+
 1. cmd 창에서 jupyter notebook 입력
 2. cd "경로"
 3. jupyter notebook

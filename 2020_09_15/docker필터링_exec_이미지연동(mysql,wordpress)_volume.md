@@ -832,11 +832,13 @@ vagrant@xenial64:/home$ docker container ls -a
 
 # 데이터 다시 확인
 vagrant@xenial64:/home$ ls /home/vagrant/wordpress_db/
-# 컨테이너는 삭제되었지만 공유되고 있던 파일(디렉터리)은 그대로 남아 있음을 확인 
-# 데이터의 영속성을 부여
 ```
 
-6.  **MySQL 이미지를 이용해서 컨테이너를 실행 (기존 호스트 볼륨을 맵핑)**
+* 컨테이너는 삭제되었지만 공유되고 있던 파일(디렉터리)은 그대로 남아 있음을 확인 
+
+* 데이터의 영속성을 부여
+
+6. **MySQL 이미지를 이용해서 컨테이너를 실행 (기존 호스트 볼륨을 맵핑)**
 
 ```bash
 vagrant@xenial64:/home$ docker run -d --name wordpressdb_hostvolume -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=wordpress -v /home/vagrant/wordpress_db:/var/lib/mysql mysql:5.7

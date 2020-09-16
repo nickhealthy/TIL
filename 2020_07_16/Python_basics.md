@@ -11,10 +11,11 @@
 
 
 ### Pythonic Code 작성법
-- The Hitchhiker's Guide to Python 책 추천 (https://python-guide-kr.readthedocs.io/ko/latest/) << 파이썬 개발 블로그 좋음
+- [The Hitchhiker's Guide to Python 책 추천](https://python-guide-kr.readthedocs.io/ko/latest/) << 파이썬 개발 블로그 좋음
 - 인자로 받은 값 자체를 바꾸진 말 것 (꼭 필요하면 변수 복사를 추천)
 
-1. ```python
+
+
   # 일반적인 for loop
      my_list = []
      for val in range(10):

@@ -1,26 +1,39 @@
-### Python basics
+소개내용 적기
 
-- [x] __1day__ _ type, string, list, control_stmt
-- [x] __2day__ _ data_structure, function, pythonic_code, flake8
-- [x] __3day__ _ lambda, list comprehension, class
 
-- [x] __4day__ _ class(Private variable, Polymorphism, Abstract class)  exception, logging, to use pip install `module name`, Handling files, package
 
-- [x] __5day__ _ `pickle module`, [pycon](https://www.pycon.kr/en/2020/), jupyter_notebook
+# Project
 
-<br />
+* **인터페이스 개발 [팀 프로젝트]**
+  * 주제 : 유튜브에서 원하는 노래(구간)만을 웹 스크래핑 기술을 통해 추출하고, 자신만의 플레이 리스트 저장소 사이트
+  * 기간 : 2020_08_11 ~ 2020_09_03
+  * 팀원 : 주성우, 배진수, 안예진
+  * 기술 스택 : 
+  * 팀 프로젝트 주소 : Git Organizations [URL](https://github.com/multicampus-cloud/django_playlist)
 
 ---
 
+<br />
+
+# 인터페이스 개발 (7/14 ~ 9/3)
+
+### Python Basics
+
+- [x] __1day__ _ Python ,type, string, list, control_stmt
+- [x] __2day__ _ data_structure, function, pythonic_code, flake8
+- [x] __3day__ _ pythonic_code, lambda, list comprehension, class
+- [x] __4day__ _ class(Private variable, Polymorphism, Abstract class)  exception, logging, to use pip install `module name`, Handling files, module and packages  
+- [x] __5day__ _ `pickle module`, [pycon](https://www.pycon.kr/en/2020/), Anaconda(requests, BeautifulSoup, pandas, matplotlib, seaborn, pymysql, pymongo, sqlalchemy), regular expression
+
+<br />
+
 ### Web scraping
 
-- [x] __5day__ _ HTTP Protocol, CSS Selector(tag, ID, class, attribute), NHN\_서비스_사용, NHN\_papago\_서비스 사용
+- [x] __5day__ _ jupyter_notebook, HTTP Protocol, CSS Selector(tag, ID, class, attribute), NHN\_서비스_사용, NHN\_papago\_서비스 사용
 
 - [x] __6day__ _ beautifulsoup, Anaconda(package), regular_expression,
 
 <br />
-
----
 
 ### Django
 
@@ -30,23 +43,17 @@
 
 ---
 
-### Django_Project
 
-주제 : 유튜브에서 원하는 노래(구간)만을 웹 스크래핑 기술을 통해 추출하고, 자신만의 플레이 리스트 저장소 사이트
 
-기간 : 2020_08_11 ~ 2020_09_03
+# 클라우드 인프라(9/3 ~ )
 
-팀원 : 주성우, 배진수, 안예진
+### Vagrant
 
-팀 프로젝트 주소 : Git Organizations [URL](https://github.com/multicampus-cloud/django_playlist)
-
-<br />
+* 
 
 ---
 
-### 클라우드 인프라
-
-기간 : 2020_09_04 ~ 2020_
+<br />
 
 
 
@@ -55,10 +62,10 @@
 |                   kinds                    |    date    |                         information                          |                             link                             |
 | :----------------------------------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                  *python*                  | 2020_07_14 |                        Python_basics                         | [Python basics](https://github.com/nickhealthy/TIL/blob/master/2020_07_14/Python_basics.md) |
-|                  *python*                  | 2020_07_15 |                        Python_basics                         | [Python_basics](https://github.com/nickhealthy/TIL/blob/master/2020_07_15/Python_basics.md) |
-|                  *python*                  | 2020_07_16 |                        Python_basics                         | [Python_basics](https://github.com/nickhealthy/TIL/blob/master/2020_07_16/Python_basics.md) |
-|                  *python*                  | 2020_07_17 | Class(Private variable, Polymorphism, Abstract class), <br />Exception, Logging, pip, Package | [Class_Exception_Logging_pip_Package](https://github.com/nickhealthy/TIL/blob/master/2020_07_17/Class_Exception_Logging_pip_Package.md) |
-|    *python*<br />&<br />*Web Scraping*     | 2020_07_20 | Pickle module, HTTP Protocol, CSS Selector<br />NHN\_서비스\_사용, NHN\_파파고\_서비스\_사용(Yesterday 번역) | [Pickle_module_HTTP Protocol_CSS Selector](https://github.com/nickhealthy/TIL/blob/master/2020_07_20/Pickle_module_HTTP%20Protocol_CSS%20Selector.md) |
+|                  *python*                  | 2020_07_15 |       data_structure, function, flake8, pythonic_code        | [Python_basics](https://github.com/nickhealthy/TIL/blob/master/2020_07_15/Python_basics.md) |
+|                  *python*                  | 2020_07_16 |     pythonic_code, list comprehension<br />lambda, class     | [Python_basics](https://github.com/nickhealthy/TIL/blob/master/2020_07_16/Python_basics.md) |
+|                  *python*                  | 2020_07_17 | Class(Private variable, Polymorphism, Abstract class), <br />Exception, Logging, pip, module and packages | [Class_Exception_Logging_pip_Package](https://github.com/nickhealthy/TIL/blob/master/2020_07_17/Class_Exception_Logging_pip_Package.md) |
+|    *python*<br />&<br />*Web Scraping*     | 2020_07_20 | Pickle module, Anaconda,<br />HTTP Protocol, CSS Selector<br />Web Scraping[NHN\_서비스\_사용, NHN\_파파고\_서비스\_사용(Yesterday 번역)] | [Pickle_module_HTTP Protocol_CSS Selector](https://github.com/nickhealthy/TIL/blob/master/2020_07_20/Pickle_module_HTTP%20Protocol_CSS%20Selector.md) |
 |               *Web Scraping*               | 2020_07_21 |         NHN\_웹툰\_이미지, NHN\_웹툰\_이미지_여러개          | [HTTP.method_referer_header](https://github.com/nickhealthy/TIL/blob/master/2020_07_21/HTTP.method_referer_header.md) |
 | *Web Scraping*<br />&<br />*Data analysis* | 2020_07_22 | Requests, BeautifulSoup, Regular Expression, RSS, Pandas 개념<br />Jupyter notebook: NHN\_웹툰\_이미지\_여러개, 기상청\_날씨\_데이터\_조회하기, Pandas활용한\_행정구역정보_분석 | [WEB_SCRAPING\_개념_Regular_Expression_Pandas](https://github.com/nickhealthy/TIL/blob/master/2020_07_22/WEB_SCRAPING_개념_Regular_Expression_Pandas.md) |
 |              *Data analysis*               | 2020_07_23 | Pandas활용한\_행정구역\_정보\_분석, <br />타이타닉 생존률 [Kaggle] | [Pandas개념_kaggle_matplotlib_database_Pymysql](https://github.com/nickhealthy/TIL/blob/master/2020_07_23/Pandas개념_kaggle_matplotlib_database_Pymysql.md) |
@@ -98,6 +105,7 @@
 |       *Python*<br />&<br />*DevOps*        | 2020_09_13 | Python 문법 복습(Chapter 8 ~ Chapter 10)<br />&<br />Vagrant_Ansible, Serverspec, Jenkins 복습 | [Python복습_Vagrant_ansible_serverspec_jenkins복습](https://github.com/nickhealthy/TIL/blob/master/2020_09_13/Python%EB%B3%B5%EC%8A%B5_Vagrant_ansible_serverspec_jenkins%EB%B3%B5%EC%8A%B5.md) |
 |                  *Docker*                  | 2020_09_14 | Docker 개념 및 설치, 기본 문법, 이미지 생성 및 Docker_Hub 다루기 | [Docker개념및설치\_이미지생성_DockerHub](https://github.com/nickhealthy/TIL/blob/master/2020_09_14/Docker%EA%B0%9C%EB%85%90%EB%B0%8F%EC%84%A4%EC%B9%98_%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%83%9D%EC%84%B1_DockerHub.md) |
 |                  *Docker*                  | 2020_09_15 | Dockerfile layer용량, 필터링<br />exec (컨테이너 명령 전달), wordpress와 mysql을 컨테이너 연동, volume(데이터 영속적) | [docker필터링\_exec\_이미지연동(mysql,wordpress)_volume](https://github.com/nickhealthy/TIL/blob/master/2020_09_15/docker%ED%95%84%ED%84%B0%EB%A7%81_exec_%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%97%B0%EB%8F%99(mysql%2Cwordpress)_volume.md) |
+|                  *Docker*                  | 2020_09_16 |                                                              |                                                              |
 
 
 
