@@ -16,7 +16,6 @@
   * bubble sort, selection sort는 O(n^2)
 * 정렬된 자료를 반으로 나누어 탐색함
 * 데이터는 반드시 오름차순으로 정렬된 자료형!
-* 
 
 
 
@@ -117,13 +116,13 @@ vagrant@xenial64:~$ docker container rm -f echo
 vagrant@xenial64:~$ docker container run --name echo -itd -p 8889:8080 myanjini/echo:latest /bin/bash
 ```
 
-#### **기존에 생성된 컨테이너가 있으면 삭제하고, 새롭게 컨테이너를 생성**
+##### **기존에 생성된 컨테이너가 있으면 삭제하고, 새롭게 컨테이너를 생성**
 
 ```bash
 vagrant@xenial64:~$ docker container rm -f echo ; docker container run --name echo -itd -p 8889:8080 myanjini/echo:latest /bin/bash
 ```
 
-#### **Quiz. 아래 요건을 만족하는 쉘 스크립트를 작성하시오.**
+##### **Quiz. 아래 요건을 만족하는 쉘 스크립트를 작성하시오.**
 
 1. run.sh 스크립트를 작성합니다. 
 2. run.sh 스크립트는 실행할 컨테이너의 이름을 파라미터로 입력받습니다. 
@@ -166,6 +165,8 @@ exit 0
 
 ### 도커 컴포즈
 
+* **여러개의 컨테이너 파일들을 효율적으로 관리하기 위해 컴포즈를 씀**
+
 * **도커 컨테이너 파일들을 여러개로 묶고 필요에 따라 여러개를 증설, 삭제할 수 있음 (Scale)**
 
 ```bash
@@ -193,7 +194,6 @@ vagrant@xenial64:~$ docker-compose version
 vagrant@xenial64:~$ mkdir ~/compose && cd ~/compose
 
 vagrant@xenial64:~/compose$ vi docker-compose.yml
-
  # 문법 버전
 version: "3"                         
 services:  
@@ -227,11 +227,9 @@ vagrant@xenial64:~$ docker container ls
 vagrant@xenial64:~/compose$ docker-compose down
 ```
 
----
 
 
-
-### 이미지를 만들고 컨테이너를 실행
+### 이미지를 빌드하고 컨테이너를 실행
 
 1. **이전에 만들어 놓은 Dockerfile, main.go 파일을 작업 디렉터리로 복사**
 
@@ -268,11 +266,12 @@ vagrant@xenial64:~/compose$ docker container ls
 `6cb17d61c6f1        compose_echo           "go run /echo/main.go"   4 minutes ago       Up 4 minutes        0.0.0.0:9000->8080/tcp   compose_echo_1`
 ```
 
----
-
 
 
 ### **젠킨스 컨테이너 실행** ＊ 보류
+
+* 마스터 - 슬레이브 노드 구조
+* 여러개의 컨테이너들을 
 
 1. **docker-compose.yml 파일 작성**
 
@@ -341,11 +340,11 @@ services:
       - JENKINS_SLAVE_SSH_PUBKEY= 위에서 공개키 검색하고 입력
 ```
 
----
-
 
 
 ### **docker-compose를 이용해서 MySQL과 Wordpress를 연동**
+
+* depends_on : 의존 관계를 가지고 있는 컨테이너를 한번에 해결 (여러개의 컨테이너)
 
 * 기존 컨테이너, 이미지, 볼륨 등을 모두 삭제
 
@@ -399,9 +398,13 @@ vagrant@xenial64:~/compose$ docker-compose ps
 
 * 이후 VirtualBox에서 포트포워딩 설정
 
+![2. 포트](C:\dev\TIL\2020_09_16\2. 포트.png)
+
+![2-1](C:\dev\TIL\2020_09_16\2-1.png)
+
 ![1. 도커컴포즈_포트포워딩](C:\dev\TIL\2020_09_16\1. 도커컴포즈_포트포워딩.PNG)
 
----
+
 
 
 
@@ -462,11 +465,12 @@ vagrant@xenial64:~/compose$ docker-compose up -d --scale db=2
 
 ### **도커 스웜 클러스터를 구성** (dind는 안함)
 
-* 정기적으로 작업을 해야하는 것을 한번에
+* 이전까지 하나의 노드에서 관리
+* 여러개의 노드를 하나의 노드에서 관리
 
 
 
-##### 도커 스웜 모드의 구조
+#### 도커 스웜 모드의 구조
 
 * 매니저(manager) 노드와 워커(worker) 노드로 구성
 * 워커 노드 ⇒ 실제 컨테이너가 생성되고 관리되는 도커 서버
@@ -474,6 +478,10 @@ vagrant@xenial64:~/compose$ docker-compose up -d --scale db=2
 * 매니저 노드는 워커 노드의 역할을 포함
 * 클러스터를 구성하기 위해서는 최소 1개 이상의 매니저 노드가 존재해야 함
   * 매니저 노드 하나로 워커 노드까지 구현 가능함 (권장하는 방식은 x)
+
+
+
+#### 테스트 환경 구성 방법1
 
 ##### 준비작업
 
@@ -546,6 +554,7 @@ vagrant@xenial64:~/compose$ docker-compose up -d --scale db=2
 
 
 1. **매니저 역할의 서버에서 스웜 클러스터를 시작**
+   * 토큰키로 노드를 서로 연결해줌
 
 ```bash
 # --advertise-addr 192.168.111.100 ⇒ 매니저 노드의 주소 
@@ -583,6 +592,7 @@ This node joined a swarm as a worker.
 `ID                           HOSTNAME       STATUS  AVAILABILITY  MANAGER STATUS
 `u0aezhea44cx9z5faipmntbpl    swarm-worker2  Ready   Active
 `wdnqgalwfd9828npcr516uw2s    swarm-worker1  Ready   Active
+# ym6n02vuulxa9izewh25vdv57 `*` : 위치를 나타냄
 `ym6n02vuulxa9izewh25vdv57 *  swarm-manager  Ready   Active        Leader
 ```
 
@@ -615,5 +625,102 @@ This node joined a swarm as a worker.
 
 
 
-#### 다른 방법
+
+
+#### **테스트 환경 구성 방법2 ⇐ 권장**
+
+1. **우분투 18.04 를 베이스로 하는 가상머신을 생성하고 도커를 설치**
+
+```bash
+c:\swarm\Vagrantfile
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/bionic64"
+  config.vm.hostname = "swarm-manager"
+  config.vm.network "private_network", ip: "192.168.111.100"
+  config.vm.synced_folder ".", "/vagrant_data", disabled: true
+end
+
+
+C:\swarm> vagrant up
+C:\swarm> vagrant ssh
+
+vagrant@swarm-manager:~$ sudo apt update
+vagrant@swarm-manager:~$ sudo apt upgrade
+
+vagrant@swarm-manager:~$ sudo apt install -y docker.io
+vagrant@swarm-manager:~$ sudo usermod -a -G docker $USER
+vagrant@swarm-manager:~$ sudo service docker restart
+vagrant@swarm-manager:~$ sudo chmod 666 /var/run/docker.sock
+vagrant@swarm-manager:~$ docker version
+
+exit
+vagrant halt
+```
+
+2. **1에서 생성한 가상머신으로 스웜 테스트에서 사용할 가상머신을 복제해서 제작**
+   * VirtualBox 관리자 > #1번에서 생성한 가상머신을 선택 > 머신 메뉴 > 복제 메뉴 클릭 (3번 반복)
+
+```bash
+이름: swarm-manager, swarm-worker1, swarm-worker2 (각각)
+경로: c:\swarm
+```
+
+3. **가상머신(도커 스웜의 노드로 동작)을 실행** 
+
+```bash
+#3-1 swarm_manager 시작
+
+#3-2 swarm_worker1 시작
+$ sudo vi /etc/netplan/50-vagrant.yml
+IP를 192.168.111.101 으로 변경 후 저장
+$ sudo netplan apply 
+$ sudo hostnamectl set-hostname swarm-worker1
+$ reboot
+
+#3-3 swarm_worker2 시작
+$ sudo vi /etc/netplan/50-vagrant.yml
+IP를 192.168.111.102 으로 변경 후 저장
+$ sudo netplan apply 
+$ sudo hostnamectl set-hostname swarm-worker2
+$ reboot
+```
+
+4. **Bitvise SSH Client로 접속할 수 있도록 키를 등록**
+
+```
+enp0s3
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s8:
+      dhcp4: false
+      addresses:
+                 - 192.168.111.101/24
+      gateway4 :
+                  192.168.111.1
+      nameservers:
+              addresses: [8.8.8.8, 8.8.4.4]
+```
+
+5. **Bitvise 실행 > 주소 변경(swarm-manager, swarm-worker1, swarm-worker2 각각) > SSH 접속 (3번 반복)**
+
+```undefined
+network:
+    ethernets:
+        enp0s31f6:
+            addresses: [192.168.0.214/24]
+            gateway4: 192.168.0.1
+            nameservers:
+              addresses: [168.126.63.1,8.8.8.8]
+              #  search: [lesstif.com]
+              #            dhcp4: yes
+            dhcp4: no
+#            optional: true
+    version: 2
+```
 
