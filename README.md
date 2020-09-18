@@ -29,9 +29,16 @@
 
 ### Web scraping
 
-- [x] __5day__ _ jupyter_notebook, HTTP Protocol, CSS Selector(tag, ID, class, attribute), NHN\_서비스_사용, NHN\_papago\_서비스 사용
+- [x] __5day__ _ jupyter_notebook, HTTP Protocol, CSS Selector(tag, ID, class, attribute), NHN\_서비스_사용, NHN\_papago\_서비스 사용(Yesterday)
+- [x] __6day__ _ http_method, Anaconda(request, beautifulsoup), regular_expression, NHN\_웹툰\_이미지, NHN\_웹툰\_이미지_여러개
 
-- [x] __6day__ _ beautifulsoup, Anaconda(package), regular_expression,
+- [x] **7day** _ NHN\_웹툰\_이미지_여러개 review, 정규표현식, RSS, CSS Selector, 
+
+- [x] **8day** _
+
+- [x] **9day** _
+
+
 
 <br />
 
@@ -66,7 +73,7 @@
 |                  *python*                  | 2020_07_16 |     pythonic_code, list comprehension<br />lambda, class     | [Python_basics](https://github.com/nickhealthy/TIL/blob/master/2020_07_16/Python_basics.md) |
 |                  *python*                  | 2020_07_17 | Class(Private variable, Polymorphism, Abstract class), <br />Exception, Logging, pip, module and packages | [Class_Exception_Logging_pip_Package](https://github.com/nickhealthy/TIL/blob/master/2020_07_17/Class_Exception_Logging_pip_Package.md) |
 |    *python*<br />&<br />*Web Scraping*     | 2020_07_20 | Pickle module, Anaconda,<br />HTTP Protocol, CSS Selector<br />Web Scraping[NHN\_서비스\_사용, NHN\_파파고\_서비스\_사용(Yesterday 번역)] | [Pickle_module_HTTP Protocol_CSS Selector](https://github.com/nickhealthy/TIL/blob/master/2020_07_20/Pickle_module_HTTP%20Protocol_CSS%20Selector.md) |
-|               *Web Scraping*               | 2020_07_21 |         NHN\_웹툰\_이미지, NHN\_웹툰\_이미지_여러개          | [HTTP.method_referer_header](https://github.com/nickhealthy/TIL/blob/master/2020_07_21/HTTP.method_referer_header.md) |
+|               *Web Scraping*               | 2020_07_21 | http_method(GET, POST), NHN\_웹툰\_이미지, NHN\_웹툰\_이미지_여러개 | [HTTP.method_referer_header](https://github.com/nickhealthy/TIL/blob/master/2020_07_21/HTTP.method_referer_header.md) |
 | *Web Scraping*<br />&<br />*Data analysis* | 2020_07_22 | Requests, BeautifulSoup, Regular Expression, RSS, Pandas 개념<br />Jupyter notebook: NHN\_웹툰\_이미지\_여러개, 기상청\_날씨\_데이터\_조회하기, Pandas활용한\_행정구역정보_분석 | [WEB_SCRAPING\_개념_Regular_Expression_Pandas](https://github.com/nickhealthy/TIL/blob/master/2020_07_22/WEB_SCRAPING_개념_Regular_Expression_Pandas.md) |
 |              *Data analysis*               | 2020_07_23 | Pandas활용한\_행정구역\_정보\_분석, <br />타이타닉 생존률 [Kaggle] | [Pandas개념_kaggle_matplotlib_database_Pymysql](https://github.com/nickhealthy/TIL/blob/master/2020_07_23/Pandas개념_kaggle_matplotlib_database_Pymysql.md) |
 | *Web Scraping*<br />&<br />*Data analysis* | 2020_07_24 | JSON, Ajax, Regular Expression function, Pandas<br />Melon100Chart\_파싱\_분석\_저장, 국회의원현황\_스크래핑\_분석_저장 | [국회의원\_정보\_조회_Regular_Expreession_Ajax](https://github.com/nickhealthy/TIL/blob/master/2020_07_24/국회의원_정보_조회_Regular_Expreession_Ajax.md) |
