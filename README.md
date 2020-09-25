@@ -92,6 +92,14 @@
 
 - [x] __09/22__ _ 
 
+<br />
+
+### 포트폴리오 특강
+
+- [x] __09/23__ _ 
+
+- [x] __09/24__ _ 
+
 ---
 
 <br />
@@ -151,8 +159,8 @@
 |           *Docker*<br />*Kubernetes*            | 2020_09_18 | 스웜모드 볼륨(volume, bind), 스웜 모드 노드 다루기(Active, Drain, Pause, 노드라벨추가, 서비스 제약 설정), 쿠버네티스 환경 설정 및 개념, 실습1, 실습2 | [스웜모드볼륨\_스웜모드노드다루기_쿠버네티스](https://github.com/nickhealthy/TIL/blob/master/2020_09_18/%EC%8A%A4%EC%9B%9C%EB%AA%A8%EB%93%9C%EB%B3%BC%EB%A5%A8_%EC%8A%A4%EC%9B%9C%EB%AA%A8%EB%93%9C%EB%85%B8%EB%93%9C%EB%8B%A4%EB%A3%A8%EA%B8%B0_%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4.md) |
 |                  *Kubernetes*                   | 2020_09_21 | 레플리카셋, 디플로이먼트, 서비스(ClusterIP, NodePort), 네임스페이스 | [레플리카셋\_디플로이먼트\_서비스_네임스페이스](https://github.com/nickhealthy/TIL/blob/master/2020_09_21/%EB%A0%88%ED%94%8C%EB%A6%AC%EC%B9%B4%EC%85%8B_%EB%94%94%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%A8%BC%ED%8A%B8_%EC%84%9C%EB%B9%84%EC%8A%A4_%EB%84%A4%EC%9E%84%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4.md) |
 |                  *Kubernetes*                   | 2020_09_22 |                                                              |                                                              |
-|                                                 |            |                                                              |                                                              |
-|                                                 |            |                                                              |                                                              |
+|                *포트폴리오 특강*                | 2020_09_23 |                                                              |                                                              |
+|                *포트폴리오 특강*                | 2020_09_24 |                                                              |                                                              |
 
 
 
