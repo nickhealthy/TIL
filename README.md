@@ -39,7 +39,7 @@
 - [x] **7/24** _ JSON, Ajax, Regular Expression function, Pandas, Melon 100 chart, 6. 국회의원현황(Ajax)\_스크래핑\_분석_저장
 
 - [x] __7/27__ _ Ajax(XHR, JSON), Datagrip tool, MariaDB, 시각화 모듈(visualization): Matplotlib, Seaborn, Melon100Chart\_파싱\_분석\_저장, 6. 국회의원현황(Ajax)\_스크래핑\_분석_저장
- 
+
 <br />
 
 ### SQL / NoSQL
@@ -161,6 +161,7 @@
 |                  *Kubernetes*                   | 2020_09_22 |                                                              |                                                              |
 |                *포트폴리오 특강*                | 2020_09_23 |                                                              |                                                              |
 |                *포트폴리오 특강*                | 2020_09_24 |                                                              |                                                              |
+|                   *Algorithm*                   | 2020_09_27 |       알고리즘 2문제, `sorted`함수, `collections`모듈        |                [알고리즘2문제_PythonFunction]                |
 
 
 
