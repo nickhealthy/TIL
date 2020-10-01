@@ -72,16 +72,10 @@
 ### Docker
 
 - [x] __09/14__ _  Docker 개념 및 설치, 기본 문법, 이미지 생성 및 Docker_Hub 다루기
-
 - [x] __09/15__ _ Dockerfile layer용량, 필터링, exec (컨테이너 명령 전달), wordpress와 mysql을 컨테이너 연동, volume(데이터 영속적 - 도커 볼륨)
-
 - [x] __09/16__ _ 도커볼륨, 컨테이너 중복이름 제어 & 쉘스크립트 사용, 도커컴포즈, 도커스웜 클러스터 구성
-
 - [x] __09/17__ _ 도커 스웜 모드 서비스(복제모드, 글로벌 모드), 스웜 모드의 서비스 장애 복구(특정 노드 장애시 자동으로 생성, 서비스 롤링 업데이트), 서비스 설정 정보 전달(secret, config), 도커 스웜 네트워크, 서비스 디스커버리
-
 - [x] __09/18__ _ 스웜모드 볼륨(volume, bind), 스웜 모드 노드 다루기(Active, Drain, Pause, 노드라벨추가, 서비스 제약 설정), 쿠버네티스(실습1, 실습2)
-
-
 
 <br />
 
@@ -105,6 +99,28 @@
 ### 인터페이스 개발 1차 프로젝트 발표 및 평가
 
 - [x] __09/25__ _ Django 웹 프레임워크로 만든 프로젝트에서 8개의 팀 중 **최우수상** 수상 & 2단위 테스트
+
+<br />
+
+### Docker
+
+- [x] __09/28__ _ 도커 스웜을 이용한 실전 애플리케이션 개발 (NGINX, MYSQL, FRONTEND, WEBSERVER 연동)
+
+<br />
+
+### 프로젝트 관리 특강
+
+- [x] __09/29__ _ 프로젝트 개요, 프로젝트 방법론(Waterfall vs Agile),  MS Project를 활용한 WBS 작성 실습
+
+<br />
+
+### 추석 연휴
+
+- [x] __09/30 ~ 10/4__ _ 휴강
+
+<br />
+
+### 
 
 ---
 
@@ -168,6 +184,11 @@
 |                *포트폴리오 특강*                | 2020_09_23 | 기획과 보고서 개념 및 작성 요령, 실습, 파워포인트 개념 및 기본 명령어 | [기획과보고서\_파워포인트개념_기본명령어](https://github.com/nickhealthy/TIL/blob/master/2020_09_23/%EA%B8%B0%ED%9A%8D%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C_%ED%8C%8C%EC%9B%8C%ED%8F%AC%EC%9D%B8%ED%8A%B8%EA%B0%9C%EB%85%90_%EA%B8%B0%EB%B3%B8%EB%AA%85%EB%A0%B9%EC%96%B4.md) |
 |                *포트폴리오 특강*                | 2020_09_24 | 파워포인트 고급 기술(레이아웃 마스터 등), 이상적인 프레젠테이션 구조(발표), 프레젠테이션 기술 | [파워포인트를\_더\_잘다루기_프레젠테이션(이해와발표기술)](https://github.com/nickhealthy/TIL/blob/master/2020_09_24/%ED%8C%8C%EC%9B%8C%ED%8F%AC%EC%9D%B8%ED%8A%B8%EB%A5%BC_%EB%8D%94_%EC%9E%98%EB%8B%A4%EB%A3%A8%EA%B8%B0_%ED%94%84%EB%A0%88%EC%A0%A0%ED%85%8C%EC%9D%B4%EC%85%98(%EC%9D%B4%ED%95%B4%EC%99%80%EB%B0%9C%ED%91%9C%EA%B8%B0%EC%88%A0).md) |
 |                   *Algorithm*                   | 2020_09_27 |       알고리즘 2문제, `sorted`함수, `collections`모듈        | [알고리즘2문제_PythonFunction](https://github.com/nickhealthy/TIL/blob/master/2020_09_27/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982%EB%AC%B8%EC%A0%9C_PythonFunction.md) |
+|                 *Docker Swarm*                  | 2020_09_28 |                                                              |                                                              |
+|               *프로젝트관리 특강*               | 2020_09_29 |                                                              |                                                              |
+|            *Algorithm*<br />*Python*            | 2020_09_30 | 알고리즘 2문제, `sum()`, `slicing`,  `iterable vs iterator(iter)` |              [알고리즘2문제_iterable_iterator]               |
+|           *Algorithm*<br />*DevStack*           | 2020_10_01 | 알고리즘 2문제, `itertools` 모듈 사용`(cycle)`, `index()`, Devstack 설치 |                 [알고리즘2문제_DevStack설치]                 |
+|                                                 | 2020_10_02 |                                                              |                                                              |
 
 
 
