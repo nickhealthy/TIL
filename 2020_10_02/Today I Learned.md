@@ -6,6 +6,18 @@
 
 
 
+### 알고리즘 - [programmers]\_나누어\_떨어지는_숫자배열
+
+----
+
+### 
+
+### 알고리즘 - [programmers]_체육복
+
+---
+
+
+
 ### Ubuntu 저장소 repo 미러사이트로 변경
 
 * 기본 설정된 ubuntu 저장소는 **archive.ubuntu.com**

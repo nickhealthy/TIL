@@ -15,7 +15,7 @@
 ---
 
 <br />
- 
+
 # 인터페이스 개발 (7/14 ~ 9/3)
 
 ### Python Basics
@@ -186,7 +186,7 @@
 |               *프로젝트관리 특강*               | 2020_09_29 |                                                              |                                                              |
 |            *Algorithm*<br />*Python*            | 2020_09_30 | 알고리즘 2문제, `sum()`, `slicing`,  `iterable vs iterator(iter)` | [알고리즘2문제_iterable_iterator](https://github.com/nickhealthy/TIL/blob/master/2020_09_30/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982%EB%AC%B8%EC%A0%9C_iterable_iterator.md) |
 |           *Algorithm*<br />*DevStack*           | 2020_10_01 | 알고리즘 2문제, `itertools` 모듈 사용`(cycle)`, `index()`, Devstack 설치 | [알고리즘2문제_DevStack설치](https://github.com/nickhealthy/TIL/blob/master/2020_10_01/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982%EB%AC%B8%EC%A0%9C_DevStack%EC%84%A4%EC%B9%98.md) |
-|                                                 | 2020_10_02 |                                                              |                                                              |
+|                     *Linux*                     | 2020_10_02 |      알고리즘 2문제, Ubuntu 저장소 repo 미러사이트 변경      |            [알고리즘2문제_ubuntu미러사이트변경]()            |
 
 <br />
 
