@@ -191,7 +191,7 @@
 |            *Algorithm*<br />*Python*            | 2020_09_30 | 알고리즘 2문제, `sum()`, `slicing`,  `iterable vs iterator(iter)` | [알고리즘2문제_iterable_iterator](https://github.com/nickhealthy/TIL/blob/master/2020_09_30/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982%EB%AC%B8%EC%A0%9C_iterable_iterator.md) |
 |           *Algorithm*<br />*DevStack*           | 2020_10_01 | 알고리즘 2문제, `itertools` 모듈 사용`(cycle)`, `index()`, Devstack 설치 | [알고리즘2문제_DevStack설치](https://github.com/nickhealthy/TIL/blob/master/2020_10_01/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982%EB%AC%B8%EC%A0%9C_DevStack%EC%84%A4%EC%B9%98.md) |
 |                     *Linux*                     | 2020_10_02 |      알고리즘 2문제, Ubuntu 저장소 repo 미러사이트 변경      | [알고리즘2문제_ubuntu미러사이트변경](https://github.com/nickhealthy/TIL/blob/master/2020_10_02/Today%20I%20Learned.md) |
-|                      *AWS*                      | 2020_10_05 |                 Guru.site(AWS S3, Route 53)                  |                        [AWS(연습)]()                         |
+|                      *AWS*                      | 2020_10_05 |                 Guru.site(AWS S3, Route 53)                  | [AWS(연습)](https://github.com/nickhealthy/TIL/blob/master/2020_10_05/Today%20I%20Learned.md) |
 
 <br />
 

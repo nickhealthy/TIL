@@ -20,7 +20,7 @@
 * 사용자와 그룹 확인
 * 스크립트가 어떤 식으로 설정 되어 있는지 확인이 가능함
 
-![0. lab_diagram_Screen Shot 2018-03-27 at 8.40.46 AM](C:\dev\TIL\2020_10_05\img\0. lab_diagram_Screen Shot 2018-03-27 at 8.40.46 AM.png)
+![0. lab_diagram_Screen Shot 2018-03-27 at 8.40.46 AM](https://github.com/nickhealthy/TIL/blob/master/2020_10_05/img/0.%20lab_diagram_Screen%20Shot%202018-03-27%20at%208.40.46%20AM.png)
 
 ----
 
@@ -36,7 +36,7 @@
 * 버킷 설정에서 **버전관리 선택 시** 파일마다 버전 설정을 다르게 해줄 수 있음(권한 설정 등)
 * **Lab Diagram**
 
-![1. lab_diagram_Introduction to Amazon S3](C:\dev\TIL\2020_10_05\img\1. lab_diagram_Introduction to Amazon S3.png)
+![1. lab_diagram_Introduction to Amazon S3](https://github.com/nickhealthy/TIL/blob/master/2020_10_05/img/1.%20lab_diagram_Introduction%20to%20Amazon%20S3.png)
 
 ---
 
@@ -49,9 +49,9 @@
 * AWS Glacier는 다른 AWS 스토리지 옵션보다 저렴한 스토리지를 제공하는 장기 아카이브 스토리지 서비스입니다.
 * 특정 기간 동안 데이터에 액세스하지 않은 경우 수명주기 정책을 사용하여 S3 스토리지 클래스간에 자동으로 이동할 수 있습니다. 이 실습에서는 기본 Amazon S3 수명주기 정책을 생성합니다.
 
-![2. lab_diagram_CCP_Diagrams - s3 lifecycle policy (1)](C:\dev\TIL\2020_10_05\img\2. lab_diagram_CCP_Diagrams - s3 lifecycle policy (1).png)
+![2. lab_diagram_CCP_Diagrams - s3 lifecycle policy (1)](https://github.com/nickhealthy/TIL/blob/master/2020_10_05/img/2-1.%20lab_diagram_CCP_Diagrams%20-%20s3%20lifecycle%20policy%20(1).png)
 
-![2-1. lab_diagram_CCP_Diagrams - s3 lifecycle policy (1)](C:\dev\TIL\2020_10_05\img\2-1. lab_diagram_CCP_Diagrams - s3 lifecycle policy (1).png)
+![2-1. lab_diagram_CCP_Diagrams - s3 lifecycle policy (1)](https://github.com/nickhealthy/TIL/blob/master/2020_10_05/img/2.%20lab_diagram_CCP_Diagrams%20-%20s3%20lifecycle%20policy%20(1).png)
 
 ---
 
@@ -81,7 +81,7 @@
 * Route 53 서비스에서 생성된 레코드 이름(cmcloudlab373.info)을 가지고 똑같은 이름으로 S3 저장소를 만듬
   * Route 53 서비스에서 - 레코드를 생성 및 설정
 
-![3. lab_diagram_static-site](C:\dev\TIL\2020_10_05\img\3. lab_diagram_static-site.png)
+![3. lab_diagram_static-site](https://github.com/nickhealthy/TIL/blob/master/2020_10_05/img/3.%20lab_diagram_static-site.png)
 
 ---
 
@@ -91,7 +91,7 @@
 
 * 300번대의 응답헤더와 리다이렉트 주소를 브라우저로 전달하고, 브라우저가 전달받은 주소로 재요청
 
-![4. 리다이렉트](C:\dev\TIL\2020_10_05\img\4. 리다이렉트.PNG)
+![4. 리다이렉트](https://github.com/nickhealthy/TIL/blob/master/2020_10_05/img/4.%20%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8.PNG)
 
 ---
 
