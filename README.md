@@ -54,7 +54,7 @@
 ### Django
 
 
- 
+
 
 
 ---
@@ -120,11 +120,20 @@
 
 <br />
 
-### Basic AWS
+### AWS
 
 - [x] __10/5__ _ Guru.site(AWS S3, Route 53)
-
 - [x] __10/6__ _ 
+
+- [x] __10/7__ _
+
+- [x] __10/8__ _ 
+
+- [x] __10/12__ _ EC2 인스턴스 생성, git을 통한 소스코드 배포, Auto Scaling그룹, 대상 그룹, 로드 밸런스 구성, 장애 조치 아키텍처 구성
+
+- [x] __10/13__ _ 
+
+- [x] __10/14__ _ 
 
 ---
 
@@ -192,6 +201,17 @@
 |           *Algorithm*<br />*DevStack*           | 2020_10_01 | 알고리즘 2문제, `itertools` 모듈 사용`(cycle)`, `index()`, Devstack 설치 | [알고리즘2문제_DevStack설치](https://github.com/nickhealthy/TIL/blob/master/2020_10_01/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982%EB%AC%B8%EC%A0%9C_DevStack%EC%84%A4%EC%B9%98.md) |
 |                     *Linux*                     | 2020_10_02 |      알고리즘 2문제, Ubuntu 저장소 repo 미러사이트 변경      | [알고리즘2문제_ubuntu미러사이트변경](https://github.com/nickhealthy/TIL/blob/master/2020_10_02/Today%20I%20Learned.md) |
 |                      *AWS*                      | 2020_10_05 |                 Guru.site(AWS S3, Route 53)                  | [AWS(연습)](https://github.com/nickhealthy/TIL/blob/master/2020_10_05/Today%20I%20Learned.md) |
+|                      *AWS*                      | 2020_10_06 |                                                              |                                                              |
+|                      *AWS*                      | 2020_10_07 |                                                              |                                                              |
+|                      *AWS*                      | 2020_10_08 |                                                              |                                                              |
+|                      *AWS*                      | 2020_10_12 | EC2 인스턴스 생성, git을 통한 소스코드 배포, Auto Scaling그룹, 대상 그룹, 로드 밸런스 구성, 장애 조치 아키텍처 구성 |                    [AWS교재실습_(p13~78)]                    |
+|                      *AWS*                      | 2020_10_13 |                                                              |                                                              |
+|                      *AWS*                      | 2020_10_14 |                                                              |                                                              |
+|                      *AWS*                      | 2020_10_15 |                                                              |                                                              |
+|                                                 |            |                                                              |                                                              |
+|                                                 |            |                                                              |                                                              |
+|                                                 |            |                                                              |                                                              |
+|                                                 |            |                                                              |                                                              |
 
 <br />
 
