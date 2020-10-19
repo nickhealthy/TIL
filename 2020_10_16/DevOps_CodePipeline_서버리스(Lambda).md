@@ -67,7 +67,7 @@
 3. 승인이 될 경우 Elastic Beanstalk를 이용해 코드를 배포
 4. AWS Lambda 함수를 호출해서 SNS로 배포 완료 알림을 발송
 
-![1. AWS_파이프라인](C:\dev\TIL\2020_10_16\img\1. AWS_파이프라인.PNG)
+![1. AWS_파이프라인](https://github.com/nickhealthy/TIL/blob/master/2020_10_16/img/1.%20AWS_%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8.PNG)
 
 ---
 
@@ -160,7 +160,7 @@ Default output format [None]:
   * 정책 업데이트하면 연결된 **모든 사용자와 그룹에 적용**
     * ex) CSS에서 같은 *ID*나 *Class*에 적용해서 같은 값을 가진 태그들에 한해 **모두 적용**
 
-![2. 람다 정책설정](C:\dev\TIL\2020_10_16\img\2. 람다 정책설정.PNG)
+![2. 람다 정책설정](https://github.com/nickhealthy/TIL/blob/master/2020_10_16/img/2.%20%EB%9E%8C%EB%8B%A4%20%EC%A0%95%EC%B1%85%EC%84%A4%EC%A0%95.PNG)
 
 #### 5. S3 버킷 생성
 
@@ -267,7 +267,7 @@ C:\serverless\transcode-video> type package.json
 
 #### 1. Lambda 함수 작성
 
-![3. 첫번째 람다함수 생성](C:\dev\TIL\2020_10_16\img\3. 첫번째 람다함수 생성.PNG)
+![3. 첫번째 람다함수 생성](https://github.com/nickhealthy/TIL/blob/master/2020_10_16/img/3.%20%EC%B2%AB%EB%B2%88%EC%A7%B8%20%EB%9E%8C%EB%8B%A4%ED%95%A8%EC%88%98%20%EC%83%9D%EC%84%B1.PNG)
 
 ```javascript
 C:\serverless\transcode-video\index.js
@@ -429,9 +429,9 @@ C:\serverless\transcode-video> npm run deploy
 
 #### 5. S3를 Lambda에 연결 (p56)
 
-![4. S3람다연결](C:\dev\TIL\2020_10_16\img\4. S3람다연결.PNG)
+![4. S3람다연결](https://github.com/nickhealthy/TIL/blob/master/2020_10_16/img/4.%20S3%EB%9E%8C%EB%8B%A4%EC%97%B0%EA%B2%B0.PNG)
 
-![5. 람다실행](C:\dev\TIL\2020_10_16\img\5. 람다실행.PNG)
+![5. 람다실행](https://github.com/nickhealthy/TIL/blob/master/2020_10_16/img/5.%20%EB%9E%8C%EB%8B%A4%EC%8B%A4%ED%96%89.PNG)
 
 ---
 
