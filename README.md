@@ -28,16 +28,16 @@
 
 ### Web scraping / Data analysis
 
-- [x] **7/20** * jupyter_notebook, HTTP Protocol, CSS Selector(tag, ID, class, attribute), NHN\_서비스*사용, NHN_papago\_서비스 사용(Yesterday)
-- [x] **7/21** * http_method, Anaconda(request, beautifulsoup), regular_expression, NHN\_웹툰\_이미지, NHN\_웹툰\_이미지*여러개
+- [x] **7/20** _ jupyter_notebook, HTTP Protocol, CSS Selector(tag, ID, class, attribute), NHN\_서비스*사용, NHN_papago\_서비스 사용(Yesterday)
+- [x] **7/21** _ http_method, Anaconda(request, beautifulsoup), regular_expression, NHN\_웹툰\_이미지, NHN\_웹툰\_이미지*여러개
 
-- [x] **7/22** * NHN\_웹툰\_이미지*여러개 review, 정규표현식, RSS, CSS Selector, Pandas, 3.BeautifulSoup_select_find함수사용, 3.1+기상청+날씨+데이터+조회하기, 4.Pandas활용한+행정구역정보+분석
+- [x] **7/22** _ NHN\_웹툰\_이미지*여러개 review, 정규표현식, RSS, CSS Selector, Pandas, 3.BeautifulSoup_select_find함수사용, 3.1+기상청+날씨+데이터+조회하기, 4.Pandas활용한+행정구역정보+분석
 
 - [x] **7/23** \_ 4.Pandas활용한+행정구역정보+분석, matplotlib, database, Pymysql, MySQL, 타이타닉 연습문제
 
-- [x] **7/24** * JSON, Ajax, Regular Expression function, Pandas, Melon 100 chart, 6. 국회의원현황(Ajax)\_스크래핑\_분석*저장
+- [x] **7/24** _ JSON, Ajax, Regular Expression function, Pandas, Melon 100 chart, 6. 국회의원현황(Ajax)\_스크래핑\_분석*저장
 
-- [x] **7/27** * Ajax(XHR, JSON), Datagrip tool, MariaDB, 시각화 모듈(visualization): Matplotlib, Seaborn, Melon100Chart\_파싱\_분석\_저장, 6. 국회의원현황(Ajax)\_스크래핑\_분석*저장
+- [x] **7/27** _ Ajax(XHR, JSON), Datagrip tool, MariaDB, 시각화 모듈(visualization): Matplotlib, Seaborn, Melon100Chart\_파싱\_분석\_저장, 6. 국회의원현황(Ajax)\_스크래핑\_분석*저장
 
 <br />
 
@@ -118,16 +118,17 @@
 
 - [x] **10/5** \_ Guru.site(AWS S3, Route 53)
 - [x] **10/6** \_
-
 - [x] **10/7** \_
-
 - [x] **10/8** \_
-
 - [x] **10/12** \_ EC2 인스턴스 생성, git을 통한 소스코드 배포, Auto Scaling그룹, 대상 그룹, 로드 밸런스 구성, 장애 조치 아키텍처 구성
+- [x] **10/13** \_ AWS에서 제공하는 모니터링 기능[(CloudWatch, CloudTrail, API작업, 비 API작업 모두를 기록, 이벤트는 형태에 따라 관리 이벤트와 데이터 이벤트로 분류, 추적(Trail)]
+- [x] **10/14** \_ 배포(deploy)의 종류 (Rolling, Blue/Green, Canary), API_Gateway 개념, 실습
 
-- [x] **10/13** \_
+- [x] **10/15** \_
 
-- [x] **10/14** \_
+- [x] **10/16** \_
+
+- [x] **10/19** \_
 
 ---
 
@@ -199,8 +200,8 @@
 |                      _AWS_                      | 2020_10_07 |                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                      _AWS_                      | 2020_10_08 |                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                      _AWS_                      | 2020_10_12 |                                              EC2 인스턴스 생성, git을 통한 소스코드 배포, Auto Scaling그룹, 대상 그룹, 로드 밸런스 구성, 장애 조치 아키텍처 구성                                               |                                                                                                                                                                                                                        [AWS교재실습_(p13~78)]                                                                                                                                                                                                                        |
-|                      _AWS_                      | 2020_10_13 |                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|                      _AWS_                      | 2020_10_14 |                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                      _AWS_                      | 2020_10_13 |                         AWS에서 제공하는 모니터링 기능(CloudWatch, CloudTrail, API작업, 비 API작업 모두를 기록, 이벤트는 형태에 따라 관리 이벤트와 데이터 이벤트로 분류, 추적(Trail))                          |                                                                                                                                                                                                                          [AWS_모니터링기능]                                                                                                                                                                                                                          |
+|                      _AWS_                      | 2020_10_14 |                                                                 배포(deploy)의 종류 (Rolling, Blue/Green, Canary)<br />API_Gateway 개념, 실습                                                                  |                                                                                                                                                                                                                       [AWS_배포(deploy)의종류]                                                                                                                                                                                                                       |
 |                      _AWS_                      | 2020_10_15 |                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                 |            |                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                 |            |                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -208,6 +209,3 @@
 |                                                 |            |                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 <br />
-
-​
-d
