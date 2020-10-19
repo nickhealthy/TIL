@@ -69,7 +69,7 @@
 
 * EC2 인스턴스의 상태 변경이 발생할 때 엔지니어(관리자)에게 알림을 제공
 
-![1. lab_diagram_Monitoring and Notifications with CW Events and SNS](C:\dev\TIL\2020_10_13\img\1. lab_diagram_Monitoring and Notifications with CW Events and SNS.png)
+![1. lab_diagram_Monitoring and Notifications with CW Events and SNS](https://github.com/nickhealthy/TIL/blob/master/2020_10_13/img/1.%20lab_diagram_Monitoring%20and%20Notifications%20with%20CW%20Events%20and%20SNS.png)
 
 ---
 
@@ -79,7 +79,7 @@
 
 * EC2 인스턴스에서 발생하는 로그 정보를 수집해서 CloudWatch로 전송
 
-![2. lab_diagram_DevOps Pro Playbook - CustomEC2Logging](C:\dev\TIL\2020_10_13\img\2. lab_diagram_DevOps Pro Playbook - CustomEC2Logging.png)
+![2. lab_diagram_DevOps Pro Playbook - CustomEC2Logging](https://github.com/nickhealthy/TIL/blob/master/2020_10_13/img/2.%20lab_diagram_DevOps%20Pro%20Playbook%20-%20CustomEC2Logging.png)
 
 ---
 
@@ -87,7 +87,7 @@
 
 ### AWS Access Control Alerts with CloudWatch and CloudTrail
 
-![3. lab_diagram_Screen Shot 2018-07-05 at 11.15.51 AM](C:\dev\TIL\2020_10_13\img\3. lab_diagram_Screen Shot 2018-07-05 at 11.15.51 AM.png)
+![3. lab_diagram_Screen Shot 2018-07-05 at 11.15.51 AM](https://github.com/nickhealthy/TIL/blob/master/2020_10_13/img/3.%20lab_diagram_Screen%20Shot%202018-07-05%20at%2011.15.51%20AM.png)
 
 ---
 
@@ -99,7 +99,7 @@
 
 사실상 기능을 구현할 코드만 올리면 되기 때문에 **서버리스**
 
-![4. lab_diagram_LDD_Live_Act_1](C:\dev\TIL\2020_10_13\img\4. lab_diagram_LDD_Live_Act_1.png)
+![4. lab_diagram_LDD_Live_Act_1](https://github.com/nickhealthy/TIL/blob/master/2020_10_13/img/4.%20lab_diagram_LDD_Live_Act_1.png)
 
 ---
 
@@ -109,7 +109,7 @@
 
 * CLI 환경에서 람다 함수 만들기
 
-![5. lab_diagram_LDD_Live_Act_5_Create_Lambda_CLI](C:\dev\TIL\2020_10_13\img\5. lab_diagram_LDD_Live_Act_5_Create_Lambda_CLI.png)
+![5. lab_diagram_LDD_Live_Act_5_Create_Lambda_CLI](https://github.com/nickhealthy/TIL/blob/master/2020_10_13/img/5.%20lab_diagram_LDD_Live_Act_5_Create_Lambda_CLI.png)
 
 ---
 
@@ -117,7 +117,7 @@
 
 ### Triggering Lambda from SQS
 
-![6. lab_diagram_Triggering Lambda from SQS](C:\dev\TIL\2020_10_13\img\6. lab_diagram_Triggering Lambda from SQS.png)
+![6. lab_diagram_Triggering Lambda from SQS](https://github.com/nickhealthy/TIL/blob/master/2020_10_13/img/6.%20lab_diagram_Triggering%20Lambda%20from%20SQS.png)
 
 ---
 
