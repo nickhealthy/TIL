@@ -21,7 +21,7 @@
   * 부하가 집중될 때 부하를 견딜 수 있는지 예측
   * Rollback(v2 --> v1)에 많은 시간이 소요될 수 있음
 
-![image-20201014094120900](C:\Users\Nick_주성우\AppData\Roaming\Typora\typora-user-images\image-20201014094120900.png)
+![image-rollback](https://github.com/nickhealthy/TIL/blob/master/2020_10_14/img/1.%20rollback.PNG)
 
 
 
@@ -31,7 +31,7 @@
 * 구버전에서 신번전으로 일제히 변경
   * 버전을 동시에 돌리고 있다가 안정화가 되었을 시, 블루 그룹 연결을 **로드 밸런스로부터** 연결 해제
 
-![image-20201014094532205](C:\Users\Nick_주성우\AppData\Roaming\Typora\typora-user-images\image-20201014094532205.png)
+![image-blue,green](https://github.com/nickhealthy/TIL/blob/master/2020_10_14/img/2.%20blue%2Cgreen.PNG)
 
 
 
@@ -40,7 +40,7 @@
 * 위험을 빠르게 감지할 수 있는 배포기법
 * **점진적으로 신버전**으로 증가
 
-![image-20201014095252886](C:\Users\Nick_주성우\AppData\Roaming\Typora\typora-user-images\image-20201014095252886.png)
+![image-20201014095252886](https://github.com/nickhealthy/TIL/blob/master/2020_10_14/img/3.%20canary.PNG)
 
 ---
 
@@ -51,7 +51,7 @@
   * Lambda
   * API Gateway --> Canary Deployment
 
-![3-2 New-API-GW-Diagram.c9fc9835d2a9aa00ef90d0ddc4c6402a2536de0d](C:\dev\TIL\2020_10_14\img\3-2 New-API-GW-Diagram.c9fc9835d2a9aa00ef90d0ddc4c6402a2536de0d.png)
+![3-2 New-API-GW-Diagram.c9fc9835d2a9aa00ef90d0ddc4c6402a2536de0d](https://github.com/nickhealthy/TIL/blob/master/2020_10_14/img/3-2%20New-API-GW-Diagram.c9fc9835d2a9aa00ef90d0ddc4c6402a2536de0d.png)
 
 ---
 
@@ -63,7 +63,7 @@
 * 안정화될 시 점진적으로 새로운 버전으로 증가
 * API Gateway 서비스에서 **Canary** 설정
 
-![3-1. lab_diagram_AWS DevOps Pro 2019 - APIGatewayCanary](C:\dev\TIL\2020_10_14\img\3-1. lab_diagram_AWS DevOps Pro 2019 - APIGatewayCanary.png)
+![3-1. lab_diagram_AWS DevOps Pro 2019 - APIGatewayCanary](https://github.com/nickhealthy/TIL/blob/master/2020_10_14/img/3-1.%20lab_diagram_AWS%20DevOps%20Pro%202019%20-%20APIGatewayCanary.png)
 
 ---
 
@@ -75,7 +75,7 @@
   * 일정한 양식의 코드 기반으로  AWS 서비스 및 인프라를 구축
 * CloudFormation **스택 기능**을 이용
 
-![4. lab_diagram_cftemp](C:\dev\TIL\2020_10_14\img\4. lab_diagram_cftemp.png)
+![4. lab_diagram_cftemp](https://github.com/nickhealthy/TIL/blob/master/2020_10_14/img/4.%20lab_diagram_cftemp.png)
 
 ---
 
