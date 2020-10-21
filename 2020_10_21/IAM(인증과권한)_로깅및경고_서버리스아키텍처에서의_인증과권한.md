@@ -193,7 +193,7 @@
 >
 > 2. 프론트엔드에서 많은 서비스에 직접 접근할 수 있지만, 일부 서비스는 추가 보안 조치 및 유효성 확인이 가능한 컴퓨팅 서비스 기능에 숨겨져 있어야 함
 
-![2. 24-hour-video 인증추가](C:\dev\TIL\2020_10_21\img\2. 24-hour-video 인증추가.PNG)
+![2. 24-hour-video 인증추가](https://github.com/nickhealthy/TIL/blob/master/2020_10_21/img/2.%2024-hour-video%20%EC%9D%B8%EC%A6%9D%EC%B6%94%EA%B0%80.PNG)
 
 ---
 
@@ -360,4 +360,4 @@ var configConstants= {
 5. c:\serverless\24-hour-video\user-controller.js 파일 생성
    * 로그인, 로그아웃 버튼을 클릭했을 때 액션을 정의하는 역할
 
-![3. Auto 범용 인증 구현](C:\dev\TIL\2020_10_21\img\3. Auto 범용 인증 구현.PNG)
+![3. Auto 범용 인증 구현](https://github.com/nickhealthy/TIL/blob/master/2020_10_21/img/3.%20Auto%20%EB%B2%94%EC%9A%A9%20%EC%9D%B8%EC%A6%9D%20%EA%B5%AC%ED%98%84.PNG)
