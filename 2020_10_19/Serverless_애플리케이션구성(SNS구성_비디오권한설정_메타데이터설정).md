@@ -16,20 +16,20 @@
 
 * 파일의 변화가 있을때 *Lambda* 함수에서 *SNS event* 발생
 
-![1. SNS구성](C:\dev\TIL\2020_10_19\img\1. SNS구성.PNG)
+![1. SNS구성](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/1.%20SNS%EA%B5%AC%EC%84%B1.PNG)
 
 
 
 * Lambda함수에서 *S3* 이벤트 버킷 설정
   * 해당 버킷의 변화가 감지될 시 SNS 발송
 
-![2. S3이벤트 버킷설정](C:\dev\TIL\2020_10_19\img\2. S3이벤트 버킷설정.PNG)
+![2. S3이벤트 버킷설정](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/2.%20S3%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%B2%84%ED%82%B7%EC%84%A4%EC%A0%95.PNG)
 
 
 
 #### 1. S3 버킷과 SNS를 연결
 
-![3. S3버킷과 SNS이벤트 연결(이벤트설정)](C:\dev\TIL\2020_10_19\img\3. S3버킷과 SNS이벤트 연결(이벤트설정).PNG)
+![3. S3버킷과 SNS이벤트 연결(이벤트설정)](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/3.%20S3%EB%B2%84%ED%82%B7%EA%B3%BC%20SNS%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%97%B0%EA%B2%B0(%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%84%A4%EC%A0%95).PNG)
 
 
 
@@ -52,7 +52,7 @@
 
 * 변환된 파일을 외부에서 접근할 수 있도록 권한을 변경
 
-![4.  2번째 람다함수 비디오권한설정](C:\dev\TIL\2020_10_19\img\4.  2번째 람다함수 비디오권한설정.PNG)
+![4.  2번째 람다함수 비디오권한설정](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/4.%20%202%EB%B2%88%EC%A7%B8%20%EB%9E%8C%EB%8B%A4%ED%95%A8%EC%88%98%20%EB%B9%84%EB%94%94%EC%98%A4%EA%B6%8C%ED%95%9C%EC%84%A4%EC%A0%95.PNG)
 
 ```cmd
 C:\> cd serverless
@@ -130,23 +130,23 @@ C:\serverless\set-permissions> npm run deploy
 
 ### SNS에 Lambda 함수를 연결
 
-![5. SNS에 람다함수 연결](C:\dev\TIL\2020_10_19\img\5. SNS에 람다함수 연결.PNG)
+![5. SNS에 람다함수 연결](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/5.%20SNS%EC%97%90%20%EB%9E%8C%EB%8B%A4%ED%95%A8%EC%88%98%20%EC%97%B0%EA%B2%B0.PNG)
 
 
 
 #### 1. S3 버킷을 퍼블릭 접근할 수 있도록 변경
 
-![6. S3버킷을 퍼블릭 접근할 수 있도록 변경](C:\dev\TIL\2020_10_19\img\6. S3버킷을 퍼블릭 접근할 수 있도록 변경.PNG)
+![6. S3버킷을 퍼블릭 접근할 수 있도록 변경](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/6.%20S3%EB%B2%84%ED%82%B7%EC%9D%84%20%ED%8D%BC%EB%B8%94%EB%A6%AD%20%EC%A0%91%EA%B7%BC%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8F%84%EB%A1%9D%20%EB%B3%80%EA%B2%BD.PNG)
 
 
 
 #### 2. 변환된 파일의 이름을 변경해서 퍼플릭 접근 권한을 부여하는 람다 함수를 테스트
 
-![7. 퍼블릭 접근권한을 부여하는 람다함수 테스트](C:\dev\TIL\2020_10_19\img\7. 퍼블릭 접근권한을 부여하는 람다함수 테스트.PNG)
+![7. 퍼블릭 접근권한을 부여하는 람다함수 테스트](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/7.%20%ED%8D%BC%EB%B8%94%EB%A6%AD%20%EC%A0%91%EA%B7%BC%EA%B6%8C%ED%95%9C%EC%9D%84%20%EB%B6%80%EC%97%AC%ED%95%98%EB%8A%94%20%EB%9E%8C%EB%8B%A4%ED%95%A8%EC%88%98%20%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG)
 
 * 람다함수 권한 설정
 
-![8. 람다함수 권한설정](C:\dev\TIL\2020_10_19\img\8. 람다함수 권한설정.PNG)
+![8. 람다함수 권한설정](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/8.%20%EB%9E%8C%EB%8B%A4%ED%95%A8%EC%88%98%20%EA%B6%8C%ED%95%9C%EC%84%A4%EC%A0%95.PNG)
 
 
 
@@ -167,7 +167,7 @@ C:\serverless\set-permissions> npm run deploy
 
 * AWS Lambda Node.js 런타임을 사용하기 위해서는 **Amazon Linux 2 이미지를 사용**해야 함
 
-![9. 람다함수 node.js 런타임](C:\dev\TIL\2020_10_19\img\9. 람다함수 node.js 런타임.PNG)
+![9. 람다함수 node.js 런타임](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/9.%20%EB%9E%8C%EB%8B%A4%ED%95%A8%EC%88%98%20node.js%20%EB%9F%B0%ED%83%80%EC%9E%84.PNG)
 
 
 
@@ -199,7 +199,7 @@ wget https://www.johnvansickle.com/ffmpeg/old-releases/ffmpeg-4.2.2-amd64-static
 
 #### 4. Lambda 함수 생성
 
-![10. 메타데이터 람다함수 생성](C:\dev\TIL\2020_10_19\img\10. 메타데이터 람다함수 생성.PNG)
+![10. 메타데이터 람다함수 생성](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/10.%20%EB%A9%94%ED%83%80%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%9E%8C%EB%8B%A4%ED%95%A8%EC%88%98%20%EC%83%9D%EC%84%B1.PNG)
 
 
 
@@ -328,9 +328,9 @@ AWS Secret Access Key [None]: WM3PDgDQFvs3CUZ9GRAxq5l/CN6ZPocqm3f/JJjL
 
 #### 8. SNS에 람다 함수 연결
 
-![11. SNS에 람다 함수 연결](C:\dev\TIL\2020_10_19\img\11. SNS에 람다 함수 연결.PNG)
+![11. SNS에 람다 함수 연결](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/11.%20SNS%EC%97%90%20%EB%9E%8C%EB%8B%A4%20%ED%95%A8%EC%88%98%20%EC%97%B0%EA%B2%B0.PNG)
 
 #### 9. 변환된 파일의 이름을 변경해서 메타 데이터 파일을 생성하는 람다 함수를 테스트
 
-![12. 변환된 파일의 이름을 변경해서 메타 데이터 파일을 생성하는 람다 함수를 테스트](C:\dev\TIL\2020_10_19\img\12. 변환된 파일의 이름을 변경해서 메타 데이터 파일을 생성하는 람다 함수를 테스트.PNG)
+![12. 변환된 파일의 이름을 변경해서 메타 데이터 파일을 생성하는 람다 함수를 테스트](https://github.com/nickhealthy/TIL/blob/master/2020_10_19/img/12.%20%EB%B3%80%ED%99%98%EB%90%9C%20%ED%8C%8C%EC%9D%BC%EC%9D%98%20%EC%9D%B4%EB%A6%84%EC%9D%84%20%EB%B3%80%EA%B2%BD%ED%95%B4%EC%84%9C%20%EB%A9%94%ED%83%80%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%8C%8C%EC%9D%BC%EC%9D%84%20%EC%83%9D%EC%84%B1%ED%95%98%EB%8A%94%20%EB%9E%8C%EB%8B%A4%20%ED%95%A8%EC%88%98%EB%A5%BC%20%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG)
 
