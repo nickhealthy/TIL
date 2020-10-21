@@ -123,12 +123,21 @@
 - [x] **10/12** \_ EC2 인스턴스 생성, git을 통한 소스코드 배포, Auto Scaling그룹, 대상 그룹, 로드 밸런스 구성, 장애 조치 아키텍처 구성
 - [x] **10/13** \_ AWS에서 제공하는 모니터링 기능[(CloudWatch, CloudTrail, API작업, 비 API작업 모두를 기록, 이벤트는 형태에 따라 관리 이벤트와 데이터 이벤트로 분류, 추적(Trail)]
 - [x] **10/14** \_ 배포(deploy)의 종류 (Rolling, Blue/Green, Canary), API_Gateway 개념, 실습
-
 - [x] **10/15** \_ 비밀 값 관리, AWS Secrets Manager(KMS), 모니터링 시스템 구축 및 활용, AWS Elastic Beanstalk
-
 - [x] **10/16** \_ DevOps(지속적 통합, 지속적전달/배포)의 개념, AWS CodePipeline, 서버리스(Lambda)의 개념 및 구축 실습
-
 - [x] **10/19** \_
+
+<br />
+
+#### 취업특강(자소서)
+
+- [x] __10/20__ _ 취업특강(자소서 피드백), 기업 분석 및 모의 면접 진행
+
+#### AWS
+
+- [x] __10/21__ _ IAM 그룹관리, MFA(Multi-factor authentication), 로깅 및 경고(CloudWatch, CloudTrail)<br />Auto0, 서버리스 아키텍처에서의 인증과 권한
+
+- [x] __10/22__ _ 
 
 ---
 
@@ -205,8 +214,10 @@
 |                      _AWS_                      | 2020_10_15 | 비밀 값 관리, AWS Secrets Manager(KMS), 모니터링 시스템 구축 및 활용, AWS Elastic Beanstalk | [AWS_SecretsManager\_모니터링시스템_ElasticBeanstalk](https://github.com/nickhealthy/TIL/blob/master/2020_10_15/AWS_SecretsManager_%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%EC%8B%9C%EC%8A%A4%ED%85%9C_ElasticBeanstalk.md) |
 |                      _AWS_                      | 2020_10_16 | DevOps(지속적 통합, 지속적전달/배포)의 개념, AWS CodePipeline, 서버리스(Lambda)의 개념 및 구축 실습 | [DevOps_CodePipeline_서버리스(Lambda)](https://github.com/nickhealthy/TIL/blob/master/2020_10_16/DevOps_CodePipeline_%EC%84%9C%EB%B2%84%EB%A6%AC%EC%8A%A4(Lambda).md) |
 |                      _AWS_                      | 2020_10_19 |                                                              |                                                              |
-|                                                 |            |                                                              |                                                              |
-|                                                 |            |                                                              |                                                              |
+|           _취업특강_<br />_Algorithm_           | 2020_10_20 | 취업특강(자소서 피드백), 기업 분석 및 모의 면접 진행<br />알고리즘(배열과 해쉬 trade-off), 연결 리스트(Linked List), 서버리스 사용 사례 |     [알고리즘(배열과해쉬,연결리스트),서버리스_사용사례]      |
+|                      _AWS_                      | 2020_10_21 | IAM 그룹관리, MFA(Multi-factor authentication), 로깅 및 경고(CloudWatch, CloudTrail)<br />Auto0, 서버리스 아키텍처에서의 인증과 권한 | [IAM(인증과권한)\_로깅및경고\_서버리스아키텍처에서의_인증과권한] |
+|                                                 | 2020_10_22 |                                                              |                                                              |
+|                                                 | 2020_10_23 |                                                              |                                                              |
 
 <br />
 
