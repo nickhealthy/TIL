@@ -42,7 +42,7 @@ var add = function add(x, y) { return x + y; }
     * 함수 내부에서 해당 함수를 재귀적으로 호출할 때 또는 디버깅 할 때 사s용
 * Function() 생성자 함수
 
-![1. 자바스크립트 함수정의](C:\dev\TIL\2020_10_22\img\1. 자바스크립트 함수정의.PNG)
+![1. 자바스크립트 함수정의](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/1.%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%ED%95%A8%EC%88%98%EC%A0%95%EC%9D%98.PNG)
 
 
 
@@ -436,9 +436,9 @@ HTML5 스펙에 추가된 개념
 
 일정 규모의 데이터를 저장할 수 있도록 만들어 놓은 개념
 
-![3. storage 저장소](C:\dev\TIL\2020_10_22\img\3. storage 저장소.PNG)
+![3. storage 저장소](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/3.%20storage%20%EC%A0%80%EC%9E%A5%EC%86%8C.PNG)
 
-![2. storage 확인](C:\dev\TIL\2020_10_22\img\2. storage 확인.PNG)
+![2. storage 확인](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/2.%20storage%20%ED%99%95%EC%9D%B8.PNG)
 
 ---
 
@@ -446,7 +446,7 @@ HTML5 스펙에 추가된 개념
 
 ### html 태그 및 css 선택자
 
-![4. html 태그 및 css 선택자](C:\dev\TIL\2020_10_22\img\4. html 태그 및 css 선택자.PNG)
+![4. html 태그 및 css 선택자](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/4.%20html%20%ED%83%9C%EA%B7%B8%20%EB%B0%8F%20css%20%EC%84%A0%ED%83%9D%EC%9E%90.PNG)
 
 ---
 
@@ -457,19 +457,19 @@ HTML5 스펙에 추가된 개념
 * Auth0 lock를 통해 로그인(인증)에 성공했을 때 반환되는 값
   * accessToken을 localStorage에 저장
 
-![5. accessToken을 localStorage에 저장](C:\dev\TIL\2020_10_22\img\5. accessToken을 localStorage에 저장.PNG)
+![5. accessToken을 localStorage에 저장](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/5.%20accessToken%EC%9D%84%20localStorage%EC%97%90%20%EC%A0%80%EC%9E%A5.PNG)
 
 * **로그인한 사용자 정보를 조회할 때** localStorage에 저장된 access token을 authentication **요청 헤더를 통해서 전달**
 
-![6. access token을 authentication 요청 헤더를 통해서 전달](C:\dev\TIL\2020_10_22\img\6. access token을 authentication 요청 헤더를 통해서 전달.PNG)
+![6. access token을 authentication 요청 헤더를 통해서 전달](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/6.%20access%20token%EC%9D%84%20authentication%20%EC%9A%94%EC%B2%AD%20%ED%97%A4%EB%8D%94%EB%A5%BC%20%ED%86%B5%ED%95%B4%EC%84%9C%20%EC%A0%84%EB%8B%AC.PNG)
 
 * 사용자 프로필 정보를 반환
 
-![7. 사용자 프로필정보를 반환](C:\dev\TIL\2020_10_22\img\7. 사용자 프로필정보를 반환.PNG)
+![7. 사용자 프로필정보를 반환](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/7.%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%ED%94%84%EB%A1%9C%ED%95%84%EC%A0%95%EB%B3%B4%EB%A5%BC%20%EB%B0%98%ED%99%98.PNG)
 
 * auth0.com 인증 내역 확인
 
-![8. auth0 인증 내역 확인](C:\dev\TIL\2020_10_22\img\8. auth0 인증 내역 확인.PNG)
+![8. auth0 인증 내역 확인](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/8.%20auth0%20%EC%9D%B8%EC%A6%9D%20%EB%82%B4%EC%97%AD%20%ED%99%95%EC%9D%B8.PNG)
 
 #### Auto0 서비스를 이용하지 않을 시
 
@@ -495,7 +495,7 @@ HTML5 스펙에 추가된 개념
   http://www.sample.com:8080/xyz.html  	⇒ 기원이 다르다.
   ```
 
-![9. origin(기원)](C:\dev\TIL\2020_10_22\img\9. origin(기원).PNG)
+![9. origin(기원)](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/9.%20origin(%EA%B8%B0%EC%9B%90).PNG)
 
 #### HTTP 요청은 기본적으로 교차 기원 요청이 가능
 
@@ -528,7 +528,7 @@ HTML5 스펙에 추가된 개념
     * ex) 127.0.0.1에서 orign.com/test.jpg 호출시 도메인이 달라서 jpg 이미지가 차단돼서 보이지 않음
 * XMLHttpRequest 객체을 사용해서 가져오는 리소스는 해당 웹 애플리케이션과 **동일 기원으로 제한**
 
-![10. SOP(교차 기원 제한)](C:\dev\TIL\2020_10_22\img\10. SOP(교차 기원 제한).PNG)
+![10. SOP(교차 기원 제한)](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/10.%20SOP(%EA%B5%90%EC%B0%A8%20%EA%B8%B0%EC%9B%90%20%EC%A0%9C%ED%95%9C).PNG)
 
 ---
 
@@ -544,7 +544,7 @@ HTML5 스펙에 추가된 개념
   * 콘텐츠를 제공해주는 사이트에서 우리의 **Access-Control-Allow-Orgin를 넣어주면 사용이 가능**
   * 범용적으로 풀어주고 싶으면 * 를 넣어줌 (보안적으로 올바른 방법 X)
 
-![11. CORS(SOP완화 정책)](C:\dev\TIL\2020_10_22\img\11. CORS(SOP완화 정책).PNG)
+![11. CORS(SOP완화 정책)](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/img/11.%20CORS(SOP%EC%99%84%ED%99%94%20%EC%A0%95%EC%B1%85).PNG)
 
 ---
 
