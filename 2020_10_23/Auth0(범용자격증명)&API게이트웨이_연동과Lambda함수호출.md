@@ -47,7 +47,7 @@
 
 ### 람다와 API 게이트웨이
 
-![1. API 게이트웨이 + 람다](C:\dev\TIL\2020_10_23\img\1. API 게이트웨이 + 람다.PNG)
+![1. API 게이트웨이 + 람다](https://github.com/nickhealthy/TIL/blob/master/2020_10_23/img/1.%20API%20%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4%20%2B%20%EB%9E%8C%EB%8B%A4.PNG)
 
 * 클라이언트에서 JWT를 이용해 API Gateway 접속한 후 람다 함수 호출
 
@@ -176,7 +176,7 @@ C:\serverless\user-profile> npm run start
 
 #### 람다 함수 테스트
 
-![2. 람다함수테스트](C:\dev\TIL\2020_10_23\img\2. 람다함수테스트.PNG)
+![2. 람다함수테스트](https://github.com/nickhealthy/TIL/blob/master/2020_10_23/img/2.%20%EB%9E%8C%EB%8B%A4%ED%95%A8%EC%88%98%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG)
 
 ---
 
@@ -205,4 +205,4 @@ C:\serverless\user-profile> npm run start
 
 ### API Gateway를 통한 Lambda함수 호출
 
-![3. API게이트웨이를 통한 람다 호출](C:\dev\TIL\2020_10_23\img\3. API게이트웨이를 통한 람다 호출.PNG)
+![3. API게이트웨이를 통한 람다 호출](https://github.com/nickhealthy/TIL/blob/master/2020_10_23/img/3.%20API%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4%EB%A5%BC%20%ED%86%B5%ED%95%9C%20%EB%9E%8C%EB%8B%A4%20%ED%98%B8%EC%B6%9C.PNG)
