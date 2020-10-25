@@ -224,6 +224,7 @@
 |                      _AWS_                      | 2020_10_21 | IAM 그룹관리, MFA(Multi-factor authentication), 로깅 및 경고(CloudWatch, CloudTrail)<br />Auto0, 서버리스 아키텍처에서의 인증과 권한 | [IAM(인증과권한)\_로깅및경고\_서버리스아키텍처에서의_인증과권한](https://github.com/nickhealthy/TIL/blob/master/2020_10_21/IAM(%EC%9D%B8%EC%A6%9D%EA%B3%BC%EA%B6%8C%ED%95%9C)_%EB%A1%9C%EA%B9%85%EB%B0%8F%EA%B2%BD%EA%B3%A0_%EC%84%9C%EB%B2%84%EB%A6%AC%EC%8A%A4%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%97%90%EC%84%9C%EC%9D%98_%EC%9D%B8%EC%A6%9D%EA%B3%BC%EA%B6%8C%ED%95%9C.md) |
 |        *JavaScript*<br />*HTTP Protocol*        | 2020_10_22 | JavaScript 함수(정의, 종류, arguments 객체, this 바인딩), HTTP Protocol(Storage, Auto0 사용자 인증, SOP, CORS) | [JavaScript함수개념_HTTP(Storage,Origin,SOP,CORS)](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/JavaScript%ED%95%A8%EC%88%98%EA%B0%9C%EB%85%90_HTTP(Storage%2COrigin%2CSOP%2CCORS).md) |
 |                      *AWS*                      | 2020_10_23 |  Auth0(범용자격증명) & API게이트웨이 연동과 Lambda함수 호출  | [Auth0(범용자격증명)&API게이트웨이_연동과Lambda함수호출](https://github.com/nickhealthy/TIL/blob/master/2020_10_23/Auth0(%EB%B2%94%EC%9A%A9%EC%9E%90%EA%B2%A9%EC%A6%9D%EB%AA%85)%26API%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4_%EC%97%B0%EB%8F%99%EA%B3%BCLambda%ED%95%A8%EC%88%98%ED%98%B8%EC%B6%9C.md) |
+|                 *Web Scraping*                  | 2020_10_24 |   웹 스크래핑(requests, BeautifulSoup, Regular Expression)   |                       [웹스크래핑연습]                       |
 
 <br />
 
