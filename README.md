@@ -145,6 +145,8 @@
 
 - [x] __10/23__ _ Auth0(범용자격증명) & API게이트웨이 연동과 Lambda함수 호출
 
+- [x] __10/26__ _ 10/23 Review, Lambda_func(user-profile, custom-authorizer), 람다 함수 호출하는 두가지 방법(Event, RequestResponse), 비동기 폭포(Async waterfall), CLI - Lambda 사용
+
 ---
 
 <br />
@@ -225,7 +227,7 @@
 |        *JavaScript*<br />*HTTP Protocol*        | 2020_10_22 | JavaScript 함수(정의, 종류, arguments 객체, this 바인딩), HTTP Protocol(Storage, Auto0 사용자 인증, SOP, CORS) | [JavaScript함수개념_HTTP(Storage,Origin,SOP,CORS)](https://github.com/nickhealthy/TIL/blob/master/2020_10_22/JavaScript%ED%95%A8%EC%88%98%EA%B0%9C%EB%85%90_HTTP(Storage%2COrigin%2CSOP%2CCORS).md) |
 |                      *AWS*                      | 2020_10_23 |  Auth0(범용자격증명) & API게이트웨이 연동과 Lambda함수 호출  | [Auth0(범용자격증명)&API게이트웨이_연동과Lambda함수호출](https://github.com/nickhealthy/TIL/blob/master/2020_10_23/Auth0(%EB%B2%94%EC%9A%A9%EC%9E%90%EA%B2%A9%EC%A6%9D%EB%AA%85)%26API%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4_%EC%97%B0%EB%8F%99%EA%B3%BCLambda%ED%95%A8%EC%88%98%ED%98%B8%EC%B6%9C.md) |
 |                 *Web Scraping*                  | 2020_10_24 |   웹 스크래핑(requests, BeautifulSoup, Regular Expression)   | [웹스크래핑연습](https://github.com/nickhealthy/TIL/blob/master/2020_10_24/%EC%9B%B9%EC%8A%A4%ED%81%AC%EB%9E%98%ED%95%91%EC%97%B0%EC%8A%B5.md) |
-|                                                 | 2020_10_26 |                                                              |                                                              |
+|                      _AWS_                      | 2020_10_26 | 10/23 Review, Lambda_func(user-profile, custom-authorizer), 람다 함수 호출하는 두가지 방법(Event, RequestResponse), 비동기 폭포(Async waterfall), CLI - Lambda 사용 | [lambda(사용자유저정보확인,custom-authorizer)\_CORS\_람다함수호출방법\_비동기폭포_람다CLI사용] |
 
 <br />
 
