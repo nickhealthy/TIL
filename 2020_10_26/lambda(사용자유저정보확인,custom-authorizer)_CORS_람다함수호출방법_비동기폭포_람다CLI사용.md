@@ -91,7 +91,7 @@ exports.handler = function (event, context, callback) {
 
 * 로그인 후 Local Storage에 저장된 값을 이용해서 아래와 같은 형태의 테스트 데이트를 생성
 
-![1. user-profile Test](C:\dev\TIL\2020_10_26\img\1. user-profile Test.PNG)
+![1. user-profile Test](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/1.%20user-profile%20Test.PNG)
 
 ---
 
@@ -99,11 +99,11 @@ exports.handler = function (event, context, callback) {
 
 ### API Gateway 생성 후 테스트하면 아래와 같은 오류가 발생
 
-![2. API Gateway 생성 후 테스트하면 아래와 같은 오류가 발생](C:\dev\TIL\2020_10_26\img\2. API Gateway 생성 후 테스트하면 아래와 같은 오류가 발생.PNG)
+![2. API Gateway 생성 후 테스트하면 아래와 같은 오류가 발생](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/2.%20API%20Gateway%20%EC%83%9D%EC%84%B1%20%ED%9B%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%A9%B4%20%EC%95%84%EB%9E%98%EC%99%80%20%EA%B0%99%EC%9D%80%20%EC%98%A4%EB%A5%98%EA%B0%80%20%EB%B0%9C%EC%83%9D.PNG)
 
 
 
-![2-1. API Gateway 생성 후 테스트하면 아래와 같은 오류가 발생](C:\dev\TIL\2020_10_26\img\2-1. API Gateway 생성 후 테스트하면 아래와 같은 오류가 발생.PNG)
+![2-1. API Gateway 생성 후 테스트하면 아래와 같은 오류가 발생](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/2-1.%20API%20Gateway%20%EC%83%9D%EC%84%B1%20%ED%9B%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%A9%B4%20%EC%95%84%EB%9E%98%EC%99%80%20%EA%B0%99%EC%9D%80%20%EC%98%A4%EB%A5%98%EA%B0%80%20%EB%B0%9C%EC%83%9D.PNG)
 
 * 클라이언트의 요청이 API Gateway를 통해서 람다 함수까지는 전달되었음
 * 람다 함수가 처리하는 과정에서 오류가 발생
@@ -120,13 +120,13 @@ exports.handler = function (event, context, callback) {
 
 * API Gateway에서 Authorization 헤더로 전달된 값을 AuthToken 이름의 이벤트로 전달하되도록 맵핑을 설정
 
-![2-2. API Gateway에서 Authorization 헤더로 전달된 값을 AuthToken 이름의 이벤트로 전달하되도록 맵핑을 설정](C:\dev\TIL\2020_10_26\img\2-2. API Gateway에서 Authorization 헤더로 전달된 값을 AuthToken 이름의 이벤트로 전달하되도록 맵핑을 설정.PNG)
+![2-2. API Gateway에서 Authorization 헤더로 전달된 값을 AuthToken 이름의 이벤트로 전달하되도록 맵핑을 설정](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/2-2.%20API%20Gateway%EC%97%90%EC%84%9C%20Authorization%20%ED%97%A4%EB%8D%94%EB%A1%9C%20%EC%A0%84%EB%8B%AC%EB%90%9C%20%EA%B0%92%EC%9D%84%20AuthToken%20%EC%9D%B4%EB%A6%84%EC%9D%98%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%A1%9C%20%EC%A0%84%EB%8B%AC%ED%95%98%EB%90%98%EB%8F%84%EB%A1%9D%20%EB%A7%B5%ED%95%91%EC%9D%84%20%EC%84%A4%EC%A0%95.PNG)
 
 
 
 #### profile 버튼을 클릭했을 때 사용자 정보가 조회, 출력되는 것을 확인
 
-![2-3. profile 버튼을 클릭했을 때 사용자 정보가 조회, 출력되는 것을 확인](C:\dev\TIL\2020_10_26\img\2-3. profile 버튼을 클릭했을 때 사용자 정보가 조회, 출력되는 것을 확인.PNG)
+![2-3. profile 버튼을 클릭했을 때 사용자 정보가 조회, 출력되는 것을 확인](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/2-3.%20profile%20%EB%B2%84%ED%8A%BC%EC%9D%84%20%ED%81%B4%EB%A6%AD%ED%96%88%EC%9D%84%20%EB%95%8C%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A0%95%EB%B3%B4%EA%B0%80%20%EC%A1%B0%ED%9A%8C%2C%20%EC%B6%9C%EB%A0%A5%EB%90%98%EB%8A%94%20%EA%B2%83%EC%9D%84%20%ED%99%95%EC%9D%B8.PNG)
 
 ---
 
@@ -191,13 +191,13 @@ exports.handler = function(event, context, callback) {
 
 #### custom-authorizer 람다 함수 테스트
 
-![3. custom-authorizer 람다 함수 테스트](C:\dev\TIL\2020_10_26\img\3. custom-authorizer 람다 함수 테스트.PNG)
+![3. custom-authorizer 람다 함수 테스트](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/3.%20custom-authorizer%20%EB%9E%8C%EB%8B%A4%20%ED%95%A8%EC%88%98%20%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG)
 
 * jwt.verify() 함수에서 오류를 유발하는 것을 확인
   * https://jwt.io 사이트를 통해서 토큰을 수작업으로 검증
 * ErrorType: invailed algorithm
 
-![4. JWT.io](C:\dev\TIL\2020_10_26\img\4. JWT.io.PNG)
+![4. JWT.io](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/4.%20JWT.io.PNG)
 
 * `JWT.IO`를 이용 시 JWT 토큰에는 이상 없음을 확인
 
@@ -206,13 +206,13 @@ exports.handler = function(event, context, callback) {
     * Public Key(RS256)
     * Secret Key(HS256) 
 
-![4-1. auth0.com에서 서명에 사용한 알고리즘을 HS256으로 변경](C:\dev\TIL\2020_10_26\img\4-1. auth0.com에서 서명에 사용한 알고리즘을 HS256으로 변경.PNG)
+![4-1. auth0.com에서 서명에 사용한 알고리즘을 HS256으로 변경](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/4-1.%20auth0.com%EC%97%90%EC%84%9C%20%EC%84%9C%EB%AA%85%EC%97%90%20%EC%82%AC%EC%9A%A9%ED%95%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84%20HS256%EC%9C%BC%EB%A1%9C%20%EB%B3%80%EA%B2%BD.PNG)
 
 
 
 #### 재로그인을 통해 새롭게 받은 ID토큰으로 테스트 케이스를 재 작성 후 테스트를 실행
 
-![5. 재로그인을 통해 새롭게 받은 ID토큰으로 테스트 케이스를 재 작성 후 테스트를 실행](C:\dev\TIL\2020_10_26\img\5. 재로그인을 통해 새롭게 받은 ID토큰으로 테스트 케이스를 재 작성 후 테스트를 실행.PNG)
+![5. 재로그인을 통해 새롭게 받은 ID토큰으로 테스트 케이스를 재 작성 후 테스트를 실행](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/5.%20%EC%9E%AC%EB%A1%9C%EA%B7%B8%EC%9D%B8%EC%9D%84%20%ED%86%B5%ED%95%B4%20%EC%83%88%EB%A1%AD%EA%B2%8C%20%EB%B0%9B%EC%9D%80%20ID%ED%86%A0%ED%81%B0%EC%9C%BC%EB%A1%9C%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%BC%80%EC%9D%B4%EC%8A%A4%EB%A5%BC%20%EC%9E%AC%20%EC%9E%91%EC%84%B1%20%ED%9B%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC%20%EC%8B%A4%ED%96%89.PNG)
 
 ---
 
@@ -222,19 +222,19 @@ exports.handler = function(event, context, callback) {
 
 #### 브라우저에 LocalStorage 확인
 
-![6. 브라우저에 LocalStorage 확인](C:\dev\TIL\2020_10_26\img\6. 브라우저에 LocalStorage 확인.PNG)
+![6. 브라우저에 LocalStorage 확인](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/6.%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%20LocalStorage%20%ED%99%95%EC%9D%B8.PNG)
 
 
 
 #### CloudWatch에서 /aws/lambda/custom-authorizer 로그 그룹 확인
 
-![6-1. CloudWatch에서 로그 그룹 확인](C:\dev\TIL\2020_10_26\img\6-1. CloudWatch에서 로그 그룹 확인.PNG)
+![6-1. CloudWatch에서 로그 그룹 확인](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/6-1.%20CloudWatch%EC%97%90%EC%84%9C%20%EB%A1%9C%EA%B7%B8%20%EA%B7%B8%EB%A3%B9%20%ED%99%95%EC%9D%B8.PNG)
 
 
 
 #### 브라우저에서 로그를 확인
 
-![7. 브라우저에서 로그를 확인](C:\dev\TIL\2020_10_26\img\7. 브라우저에서 로그를 확인.PNG)
+![7. 브라우저에서 로그를 확인](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/7.%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C%20%EB%A1%9C%EA%B7%B8%EB%A5%BC%20%ED%99%95%EC%9D%B8.PNG)
 
 ---
 
@@ -317,7 +317,7 @@ $ node sample.js
 * CLI에서 함수를 직접 만들기 위해 **권한 설정**
   * 그룹 설정에서 이전에 생성한 정책에서 *createFunction*를 추가로 입력
 
-![8. CLI에서 생성할 람다함수 권한 설정](C:\dev\TIL\2020_10_26\img\8. CLI에서 생성할 람다함수 권한 설정.PNG)
+![8. CLI에서 생성할 람다함수 권한 설정](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/8.%20CLI%EC%97%90%EC%84%9C%20%EC%83%9D%EC%84%B1%ED%95%A0%20%EB%9E%8C%EB%8B%A4%ED%95%A8%EC%88%98%20%EA%B6%8C%ED%95%9C%20%EC%84%A4%EC%A0%95.PNG)
 
 
 
@@ -496,20 +496,20 @@ npm run create
 
 #### 트러블슈팅
 
-![9. 트러블슈팅](C:\dev\TIL\2020_10_26\img\9. 트러블슈팅.PNG)
+![9. 트러블슈팅](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/9.%20%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85.PNG)
 
 
 
-![9-1. 트러블슈팅](C:\dev\TIL\2020_10_26\img\9-1. 트러블슈팅.PNG)
+![9-1. 트러블슈팅](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/9-1.%20%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85.PNG)
 
 
 
 #### 람다 함수 생성 및 배포 여부 확인 및 환경 변수 설정
 
-![10. 람다 함수 생성 및 배포 여부 확인 및 환경 변수 설정](C:\dev\TIL\2020_10_26\img\10. 람다 함수 생성 및 배포 여부 확인 및 환경 변수 설정.PNG)
+![10. 람다 함수 생성 및 배포 여부 확인 및 환경 변수 설정](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/10.%20%EB%9E%8C%EB%8B%A4%20%ED%95%A8%EC%88%98%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%EB%B0%B0%ED%8F%AC%20%EC%97%AC%EB%B6%80%20%ED%99%95%EC%9D%B8%20%EB%B0%8F%20%ED%99%98%EA%B2%BD%20%EB%B3%80%EC%88%98%20%EC%84%A4%EC%A0%95.PNG)
 
 
 
 #### 람다 함수 테스트
 
-![11. 람다 함수 테스트](C:\dev\TIL\2020_10_26\img\11. 람다 함수 테스트.PNG)
+![11. 람다 함수 테스트](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/img/11.%20%EB%9E%8C%EB%8B%A4%20%ED%95%A8%EC%88%98%20%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG)
