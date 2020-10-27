@@ -24,7 +24,7 @@
 
 * `get`메서드 추가
 
-![1. apigateway 연결](C:\dev\TIL\2020_10_27\img\1. apigateway 연결.PNG)
+![1. apigateway 연결](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/img/1.%20apigateway%20%EC%97%B0%EA%B2%B0.PNG)
 
 ---
 
@@ -133,13 +133,13 @@ npm start
 
 ### 잘못된 경로 APIGateway 주소 확인
 
-![2. 잘못된 경로 APIGateway 주소](C:\dev\TIL\2020_10_27\img\2. 잘못된 경로 APIGateway 주소.PNG)
+![2. 잘못된 경로 APIGateway 주소](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/img/2.%20%EC%9E%98%EB%AA%BB%EB%90%9C%20%EA%B2%BD%EB%A1%9C%20APIGateway%20%EC%A3%BC%EC%86%8C.PNG)
 
 * `APIGateway`
   * ` user-pofile` 쪽으로 접속하고 있음
   * `get-video-list` API의 배포 주소로 변경
 
-![2-1. 잘못된 경로 APIGateway 주소](C:\dev\TIL\2020_10_27\img\2-1. 잘못된 경로 APIGateway 주소.PNG)
+![2-1. 잘못된 경로 APIGateway 주소](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/img/2-1.%20%EC%9E%98%EB%AA%BB%EB%90%9C%20%EA%B2%BD%EB%A1%9C%20APIGateway%20%EC%A3%BC%EC%86%8C.PNG)
 
 
 
@@ -186,13 +186,13 @@ var configConstants = {
 
 ### CORS 추가 및 활성화
 
-![3. CORS 설정](C:\dev\TIL\2020_10_27\img\3. CORS 설정.PNG)
+![3. CORS 설정](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/img/3.%20CORS%20%EC%84%A4%EC%A0%95.PNG)
 
 *  `CORS` 오류가 발생
 * 응답 헤더에 `Access-Control-Allow-Origin` 헤더가 포함되어 있지 않음
   *  `API Gateway`에 CORS 활성화가 되어 있지 않음
 
-![3-1. CORS 활성화](C:\dev\TIL\2020_10_27\img\3-1. CORS 활성화.PNG)
+![3-1. CORS 활성화](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/img/3-1.%20CORS%20%ED%99%9C%EC%84%B1%ED%99%94.PNG)
 
 
 
@@ -202,13 +202,13 @@ var configConstants = {
   * 본 요청에서 해당 요청 헤더를 수용할 수 있는지 확인
     * 서비스를 제공해 주는 쪽(`API Gateway`)에서 허용을 해줘야 함
 
-![4. CORS 활성화 이후에도 동일한 문제가 발생](C:\dev\TIL\2020_10_27\img\4. CORS 활성화 이후에도 동일한 문제가 발생.PNG)
+![4. CORS 활성화 이후에도 동일한 문제가 발생](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/img/4.%20CORS%20%ED%99%9C%EC%84%B1%ED%99%94%20%EC%9D%B4%ED%9B%84%EC%97%90%EB%8F%84%20%EB%8F%99%EC%9D%BC%ED%95%9C%20%EB%AC%B8%EC%A0%9C%EA%B0%80%20%EB%B0%9C%EC%83%9D.PNG)
 
 
 
 * CORS 활성화하는 부분에서 `Access-Contol-Allow-Headers` 부분에 Authorization, AccessToken **2개를 추가**해야 함
 
-![4-1. 해결](C:\dev\TIL\2020_10_27\img\4-1. 해결.PNG)
+![4-1. 해결](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/img/4-1.%20%ED%95%B4%EA%B2%B0.PNG)
 
 ---
 
