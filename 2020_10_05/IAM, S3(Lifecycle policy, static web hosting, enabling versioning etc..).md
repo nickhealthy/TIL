@@ -1,24 +1,31 @@
 # Today I Learned
 
 * A Cloud Guru : 클라우드 강좌 사이트에서 실습 연습
-  * 실습 - Introduction to AWS Identity and Access Management (IAM)
+  * Introduction to AWS Identity and Access Management (IAM) | 사용자 권한 관리도구
   * Introduction To Amazon S3 (Simple Storage Service)
-  * Creating a Basic Amazon S3 Lifecycle Policy
-  * Configuring Amazon S3 Buckets to Host a Static Website with a Custom Domain
+  * Creating a Basic Amazon S3 Lifecycle Policy | 기본 아마존 S3 기간 정책 만들기
+  * Configuring Amazon S3 Buckets to Host a Static Website with a Custom Domain | 사용자 지정 도메인으로 정적 웹 사이트를 호스팅하도록 Amazon S3 버킷 구성
 * 리다이렉트 vs 포워드
+
+* Creating Amazon S3 Buckets, Managing Objects, and Enabling Versioning | Amazon S3 버킷 생성, 객체 관리 및 버전 관리 활성화
+
 * 엘리스 코딩 알고리즘 강좌
 
 ---
 
 
 
-### A Cloud Guru - Introduction to AWS Identity and Access Management (IAM)
+### Introduction to AWS Identity and Access Management (IAM) | 사용자 권한 관리도구
 
 [URL](https://learn.acloud.guru/handson/e907e3ec-1021-4208-8bb4-04ddfd99280d)
 
 * **IAM 서비스는 사용 가능한 API / 서비스에 대한 사용자의 액세스 및 권한을 관리 할 수 있도록 하는 서비스**
+* ARN(Amazon Resource Name)
+* 두가지의 정책 관리
+  * 관리형 정책:  AWS 또는 AWS 계정 내 관리자가 사전 구축 한 **사용자 및 또는 그룹간에 공유 되는 정책** **업데이트되면 이 정책에 대한 변경 사항이 연결된 모든 사용자 및 그룹에 즉시 적용**
+  * 인라인 정책: 일반적으로 **일회성 상황에서 사용되는 하나의 사용자 또는 그룹에만 할당 된 정책**
 * 사용자와 그룹 확인
-* 스크립트가 어떤 식으로 설정 되어 있는지 확인이 가능함
+  * 스크립트가 어떤 식으로 설정 되어 있는지 확인이 가능함
 
 ![0. lab_diagram_Screen Shot 2018-03-27 at 8.40.46 AM](https://github.com/nickhealthy/TIL/blob/master/2020_10_05/img/0.%20lab_diagram_Screen%20Shot%202018-03-27%20at%208.40.46%20AM.png)
 
@@ -42,7 +49,7 @@
 
 
 
-### Creating a Basic Amazon S3 Lifecycle Policy
+### Creating a Basic Amazon S3 Lifecycle Policy | 기본 아마존 S3 기간 정책 만들기
 
 [URL](https://learn.acloud.guru/handson/d485772f-3128-4e2e-99c8-e948bbb95fc2)
 
@@ -71,7 +78,7 @@
 
 
 
-### Configuring Amazon S3 Buckets to Host a Static Website with a Custom Domain
+### Configuring Amazon S3 Buckets to Host a Static Website with a Custom Domain | 사용자 지정 도메인으로 정적 웹 사이트를 호스팅하도록 Amazon S3 버킷 구성
 
 [URL](https://learn.acloud.guru/handson/2d9e37e1-3733-4227-8e46-8d22dc519585)
 
@@ -97,11 +104,13 @@
 
 
 
-### Creating Amazon S3 Buckets, Managing Objects, and Enabling Versioning
+### Creating Amazon S3 Buckets, Managing Objects, and Enabling Versioning | Amazon S3 버킷 생성, 객체 관리 및 버전 관리 활성화
 
 [URL](https://learn.acloud.guru/handson/c3870bf7-5d98-44fe-acf5-4c0bbdddb3d9)
 
-* 개체 관리 (프라이빗, 퍼블릭 설정)
+![5. lab_diagram_CCP_Diagrams - s3buckets_objects](C:\dev\TIL\2020_10_05\img\5. lab_diagram_CCP_Diagrams - s3buckets_objects.png)
+
+* 객체 관리 (프라이빗, 퍼블릭 설정)
 * 버전 관리 활성화를 통해 버전을 원하는 형태로 바꿀 수 있음
 
 ---
