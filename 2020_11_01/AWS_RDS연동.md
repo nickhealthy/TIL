@@ -185,11 +185,11 @@ conn.close()
 
 * 결과
 
-![1. RDS 인스턴스에 데이터 임포트](C:\dev\TIL\2020_11_01\1. RDS 인스턴스에 데이터 임포트.PNG)
+![1. RDS 인스턴스에 데이터 임포트](https://github.com/nickhealthy/TIL/blob/master/2020_11_01/1.%20RDS%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%97%90%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%9E%84%ED%8F%AC%ED%8A%B8.PNG)
 
 
 
-* 엔질리너스 수정
+#### 엔질리너스 수정
 
 ```python
 import requests, os, sqlalchemy, pymysql, pandas as pd, numpy as np
