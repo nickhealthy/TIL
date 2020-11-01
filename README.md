@@ -129,24 +129,41 @@
 
 <br />
 
-#### 취업특강(자소서)
+### 취업특강(자소서)
 
 - [x] __10/20__ _ 취업특강(자소서 피드백), 기업 분석 및 모의 면접 진행
 
-#### AWS
+<br />
+
+### AWS
 
 - [x] __10/21__ _ IAM 그룹관리, MFA(Multi-factor authentication), 로깅 및 경고(CloudWatch, CloudTrail)<br />Auto0, 서버리스 아키텍처에서의 인증과 권한
 
-#### JavaScript & HTTP Protocol
+<br />
+
+### JavaScript & HTTP Protocol
 
 - [x] __10/22__ _ JavaScript 함수(정의, 종류, arguments 객체, this 바인딩), HTTP Protocol(Storage, Auto0 사용자 인증, SOP, CORS)
 
-#### AWS
+<br />
+
+### AWS
 
 - [x] __10/23__ _ Auth0(범용자격증명) & API게이트웨이 연동과 Lambda함수 호출
 - [x] __10/26__ _ 10/23 Review, Lambda_func(user-profile, custom-authorizer), 람다 함수 호출하는 두가지 방법(Event, RequestResponse), 비동기 폭포(Async waterfall), CLI - Lambda 사용
-
 - [x] __10/27__ _ API_Gateway(get-video-list추가), CORS 요청 헤더 값 수정(access-control-request-headers), video 주소목록(src주소추가_lambda)구현
+
+<br />
+
+### 2차 프로젝트
+
+- [x] __10/28 ~ 11/17__ _ 2차 프로젝트 (클라우드 서비스 및 웹 개발)
+
+<br />
+
+### 알고리즘 특강
+
+- [x] __10/31__ _ 선형리스트(추가, 삽입, 삭제), 연결리스트, 스택, 큐(원형 큐), 정렬, 검색(순차 검색, 이진 검색)
 
 ---
 
@@ -230,6 +247,8 @@
 |                 *Web Scraping*                  | 2020_10_24 |   웹 스크래핑(requests, BeautifulSoup, Regular Expression)   | [웹스크래핑연습](https://github.com/nickhealthy/TIL/blob/master/2020_10_24/%EC%9B%B9%EC%8A%A4%ED%81%AC%EB%9E%98%ED%95%91%EC%97%B0%EC%8A%B5.md) |
 |                      _AWS_                      | 2020_10_26 | 10/23 Review, Lambda_func(user-profile, custom-authorizer), 람다 함수 호출하는 두가지 방법(Event, RequestResponse), 비동기 폭포(Async waterfall), CLI - Lambda 사용 | [lambda(사용자유저정보확인,custom-authorizer)\_CORS\_람다함수호출방법\_비동기폭포_람다CLI사용](https://github.com/nickhealthy/TIL/blob/master/2020_10_26/lambda(%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9C%A0%EC%A0%80%EC%A0%95%EB%B3%B4%ED%99%95%EC%9D%B8%2Ccustom-authorizer)_CORS_%EB%9E%8C%EB%8B%A4%ED%95%A8%EC%88%98%ED%98%B8%EC%B6%9C%EB%B0%A9%EB%B2%95_%EB%B9%84%EB%8F%99%EA%B8%B0%ED%8F%AD%ED%8F%AC_%EB%9E%8C%EB%8B%A4CLI%EC%82%AC%EC%9A%A9.md) |
 |       _AWS_<br />*Web_Scraping(project)*        | 2020_10_27 | API_Gateway(get-video-list추가), CORS 요청 헤더 값 수정(access-control-request-headers), video 주소목록(src주소추가_lambda)구현 | [API_Gateway(get-video-list추가),CORS\_요청헤더값수정,video목록(src주소추가_lambda)구현](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/API_Gateway(get-video-list%EC%B6%94%EA%B0%80)%2CCORS_%EC%9A%94%EC%B2%AD%ED%97%A4%EB%8D%94%EA%B0%92%EC%88%98%EC%A0%95%2Cvideo%EB%AA%A9%EB%A1%9D(src%EC%A3%BC%EC%86%8C%EC%B6%94%EA%B0%80_lambda)%EA%B5%AC%ED%98%84.md)<br />[Web_Scraping_for_Project](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/Web_Scraping_for_Project.md) |
+|             *Web_Scraping(project)*             | 2020_10_29 | Selenium 개념 및 사용 (hidden 태그를 가져오기 위해 셀리니움 이용) |                          [Selenium]                          |
+|                 _Algorithm특강_                 | 2020_10_31 | 선형리스트(추가, 삽입, 삭제), 연결리스트, 스택, 큐(원형 큐), 정렬, 검색(순차 검색, 이진 검색) |                       [알고리즘_특강]                        |
 
 <br />
 
