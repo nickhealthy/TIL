@@ -249,6 +249,7 @@
 |       _AWS_<br />*Web_Scraping(project)*        | 2020_10_27 | API_Gateway(get-video-list추가), CORS 요청 헤더 값 수정(access-control-request-headers), video 주소목록(src주소추가_lambda)구현 | [API_Gateway(get-video-list추가),CORS\_요청헤더값수정,video목록(src주소추가_lambda)구현](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/API_Gateway(get-video-list%EC%B6%94%EA%B0%80)%2CCORS_%EC%9A%94%EC%B2%AD%ED%97%A4%EB%8D%94%EA%B0%92%EC%88%98%EC%A0%95%2Cvideo%EB%AA%A9%EB%A1%9D(src%EC%A3%BC%EC%86%8C%EC%B6%94%EA%B0%80_lambda)%EA%B5%AC%ED%98%84.md)<br />[Web_Scraping_for_Project](https://github.com/nickhealthy/TIL/blob/master/2020_10_27/Web_Scraping_for_Project.md) |
 |             *Web_Scraping(project)*             | 2020_10_29 | Selenium 개념 및 사용 (hidden 태그를 가져오기 위해 셀리니움 이용) | [Selenium](https://github.com/nickhealthy/TIL/blob/master/2020_10_29/Selenium.md) |
 |                 _Algorithm특강_                 | 2020_10_31 | 선형리스트(추가, 삽입, 삭제), 연결리스트, 스택, 큐(원형 큐), 정렬, 검색(순차 검색, 이진 검색) | [알고리즘_특강](https://github.com/nickhealthy/TIL/blob/master/2020_10_31/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%ED%8A%B9%EA%B0%95.md) |
+| *Web_Scraping(project)*<br />_AWS_RDS(project)_ | 2020_11_01 | sqlalchemy(ORM), Pandas(numpy) - to_sql 메서드 사용, pymysql, AWS_RDS에 연동 및 데이터 임포트, Selenium |                        [AWS_RDS연동]                         |
 
 <br />
 
