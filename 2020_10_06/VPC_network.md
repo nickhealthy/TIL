@@ -10,8 +10,11 @@
 * 라우팅
 * 보안 그룹
 * NACL (Network Access Control List)
-* Creating a Basic VPC and Associated Components
-* Building a Three-Tier Network VPC from Scratch in AWS
+* Creating a Basic VPC and Associated Components | 기본 VPC 및 관련 구성 요소 생성
+* Building a Three-Tier Network VPC from Scratch in AWS | AWS에서 처음부터 3 계층 네트워크 VPC 구축
+* Troubleshooting AWS Network Connectivity: Security Groups and NACLs
+* Create a Linux EC2 Instance in AWS and Connect Using SSH
+* 엘리스 코딩 강좌
 
 ---
 
@@ -19,7 +22,7 @@
 
 ### VPC (Virtual private Cloud)
 
-* 네트워크 계층
+* **네트워크 계층**
 * EC2 인스턴스를 비롯한 여러 AWS 서비스의 리소스를 담을 수 있는 가상 네트워크
 * 한 AWS 리전 안에서만 존재할 수 있고, 한 리전에 만든 VPC는 다른 리전에서는 보이지 않음
 * 연속적인 IP 주소 범위로 구성 - **CIDR**블록으로 표시
@@ -29,6 +32,8 @@
   
 
 ---
+
+
 
 ### ※ CIDR (Classless Inter-Domain Routing)
 
@@ -41,15 +46,15 @@
 
 ### 서브넷 (subnet)
 
-* VPC 내 논리 컨테이너
-* EC2 인스턴스를 배치하는 장소 - 인스턴스는 서브넷 안에 위치
-  * 한번 서브넷에 인스턴스를 생성하면 다른 서브넷으로 옮길 수 있음
+* **VPC 내 논리 컨테이너**
+* EC2 인스턴스를 배치하는 장소 = 인스턴스는 서브넷 안에 위치
+  * 한번 서브넷에 인스턴스를 생성하면 다른 서브넷으로 옮길 수 없음
   * 인스턴스를 종료하고 다른 서브넷에 새 인스턴스를 만들 수는 있음
 * 인스턴스를 서로 격리하고, 인스턴스 간의 트래픽 흐름을 제어하고, 인스턴스를 기능별로 묶을 수 있음
-* 서브넷 CIRD 블록
+* 서브넷 CIDR 블록
   * VPC의 일부, VPC 내에서는 유니크해야 함
   * 모든 서브넷에서 처음 4개의 IP와 마지막 1개는 예약되어 있으므로 인스턴스에 할당할 수 없음
-    * 예: 서브넷 CIRD이 172.16.100.0/24인 경우
+    * 예: 서브넷 CIDR이 172.16.100.0/24인 경우
     * 172.16.100.0 ~ 172.16.100.3
     * 172.16.100.255
 * 서브넷은 하나의 가용 영역(Available Zone, AZ) 내에서만 존재할 수 있음
@@ -99,9 +104,8 @@
 * 방화벽과 같은 기능을 제공
 * 인스턴스의 ENI에서 송수신하는 트래픽을 허가해서 트래픽을 제어
 * 모든 ENI는 최소 한개 이상의 보안 그룹과 연결되야 하고, 보안 그룹은 여러 ENI와 연결될 수 있음
-* 생성할 때 보안 그룹 이름, 설명, 포함될 VPC를 지정하고, 생성 후에 인바운드, 아웃바운드 규칙을 지정
-  * 트래픽을 허용
-* 상태 저장 방화벽 역할 - 보안 그룹이 트래픽을 한 방향으로 전달되도록 허용할 때 반대 방향의 응답 트래픽을 지능적으로 허용 (예: 웹 클라이언트에서 HTTPS로 요청을 허용했다면 요청에 대한 응답도 허용)
+* 생성할 때 보안 그룹 이름, 설명, 포함될 VPC를 지정하고, 생성 후에 인바운드, 아웃바운드 규칙을 지정 - 트래픽을 허용
+* **상태 저장** 방화벽 역할 - 보안 그룹이 트래픽을 한 방향으로 전달됟고록 허용할 때 반대 방향의 응답 트래픽을 지능적으로 허용 (예: 웹 클라이언트에서 HTTPS로 요청을 허용했다면 요청에 대한 응답도 허용)
 
 ---
 
@@ -113,8 +117,8 @@
   * 원본 또는 대상 주소 CIDR, 프로토콜, 포트를 기반으로 트래픽을 **인바운드, 아웃바운드 규칙으로 제어**
     * 방화벽과 같은 역할
   * VPC에 삭제할 수 없는 기본 NACL이 있음
-* 서브넷에 연결되어 해당 서브넷과 송수신되는 트래픽을 제어
-* 상태 비저장
+* **서브넷에 연결되어 해당 서브넷과 송수신되는 트래픽을 제어**
+* **상태 비저장**
   * NACL을 통과한 연결 상태를 추적하지 않는다.
   * 모든 인바운드와 아웃바운드 트래픽의 허용 규칙을 별도로 작성해야 함
 * 규칙을 적용할 때 규칙 번호의 오름차순으로 처리
@@ -126,7 +130,7 @@
 
 
 
-### Creating a Basic VPC and Associated Components
+### Creating a Basic VPC and Associated Components | 기본 VPC 및 관련 구성 요소 생성
 
 [URL](https://learn.acloud.guru/handson/934b78e6-5327-4ed3-a369-1b60b382722f/course/178db59b-70f1-4bd8-8d74-9ab9263f8f9a)
 
@@ -138,7 +142,7 @@
 
 
 
-### Building a Three-Tier Network VPC from Scratch in AWS
+### Building a Three-Tier Network VPC from Scratch in AWS | AWS에서 처음부터 3 계층 네트워크 VPC 구축
 
 [URL](https://learn.acloud.guru/handson/f2a24706-8b7b-4a21-9ad6-859bd5595215/course/178db59b-70f1-4bd8-8d74-9ab9263f8f9a)
 
@@ -189,6 +193,8 @@
 
 
 ---
+
+
 
 ### 엘리스 코딩 강좌
 
