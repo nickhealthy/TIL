@@ -93,7 +93,7 @@
 * 기본 라우팅이 포함된 라우팅 테이블과 연결된 서브넷 - 퍼블릭 서브넷
 * 기본 라우팅이 포함된 라우팅 테이블과 연결되지 않은 서브넷 - 프라이빗 서브넷
 
-![1](C:\dev\TIL\2020_10_06\img\1.PNG)
+![1](https://github.com/nickhealthy/TIL/blob/master/2020_10_06/img/1.PNG)
 
 ---
 
@@ -136,7 +136,7 @@
 
 * `VPC` 가상 라우터와 `Subnet`, `NACL`, `IGW`, `Route Table` 통신 설정
 
-![1.1](C:\dev\TIL\2020_10_06\img\1.1.PNG)
+![1.1](https://github.com/nickhealthy/TIL/blob/master/2020_10_06/img/1.1.PNG)
 
 ---
 
@@ -164,9 +164,9 @@
   * public
   * private
 
-![2. lab_diagram_LabDiag_AWS-SysOps_Building_3-tier](C:\dev\TIL\2020_10_06\img\2. lab_diagram_LabDiag_AWS-SysOps_Building_3-tier.png)
+![2. lab_diagram_LabDiag_AWS-SysOps_Building_3-tier](https://github.com/nickhealthy/TIL/blob/master/2020_10_06/img/2.%20lab_diagram_LabDiag_AWS-SysOps_Building_3-tier.png)
 
-![2-1. lab_diagram_LabDiag_AWS-SysOps_Building_3-tier](C:\dev\TIL\2020_10_06\img\2-1. lab_diagram_LabDiag_AWS-SysOps_Building_3-tier.png)
+![2-1. lab_diagram_LabDiag_AWS-SysOps_Building_3-tier](https://github.com/nickhealthy/TIL/blob/master/2020_10_06/img/2-1.%20lab_diagram_LabDiag_AWS-SysOps_Building_3-tier.png)
 
 ---
 
