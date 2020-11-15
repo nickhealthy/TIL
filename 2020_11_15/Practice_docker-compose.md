@@ -118,8 +118,8 @@ docker-compose up
 
 #### 프론트엔드에서 http-server 로 frontend 파일만 실행
 
-![프론트엔드에서 http-server로 띄우기](C:\dev\TIL\2020_11_15\img\프론트엔드에서 http-server로 띄우기.PNG)
+![프론트엔드에서 http-server로 띄우기](https://github.com/nickhealthy/TIL/blob/master/2020_11_15/img/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%97%90%EC%84%9C%20http-server%EB%A1%9C%20%EB%9D%84%EC%9A%B0%EA%B8%B0.PNG)
 
 #### 최종화면 - 프론트엔드(nodejs) + 백엔드(python flask) + 데이터베이스(mysql) 연동
 
-![최종 화면](C:\dev\TIL\2020_11_15\img\최종 화면.PNG)
+![최종 화면](https://github.com/nickhealthy/TIL/blob/master/2020_11_15/img/%EC%B5%9C%EC%A2%85%20%ED%99%94%EB%A9%B4.PNG)
