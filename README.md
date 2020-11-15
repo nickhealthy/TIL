@@ -157,7 +157,7 @@
 
 ### 2차 프로젝트
 
-- [x] __10/28 ~ 11/17__ _ 2차 프로젝트 (클라우드 서비스 및 웹 개발)
+- [x] __10/28 ~ 11/17__ _ 2차 전공 프로젝트 (클라우드 서비스 및 웹 개발)
 
 <br />
 
@@ -250,6 +250,10 @@
 |             *Web_Scraping(project)*             | 2020_10_29 | Selenium 개념 및 사용 (hidden 태그를 가져오기 위해 셀리니움 이용) | [Selenium](https://github.com/nickhealthy/TIL/blob/master/2020_10_29/Selenium.md) |
 |                 _Algorithm특강_                 | 2020_10_31 | 선형리스트(추가, 삽입, 삭제), 연결리스트, 스택, 큐(원형 큐), 정렬, 검색(순차 검색, 이진 검색) | [알고리즘_특강](https://github.com/nickhealthy/TIL/blob/master/2020_10_31/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%ED%8A%B9%EA%B0%95.md) |
 | *Web_Scraping(project)*<br />_AWS_RDS(project)_ | 2020_11_01 | sqlalchemy(ORM), Pandas(numpy) - to_sql 메서드 사용, pymysql, AWS_RDS에 연동 및 데이터 임포트, Selenium | [AWS_RDS연동](https://github.com/nickhealthy/TIL/blob/master/2020_11_01/AWS_RDS%EC%97%B0%EB%8F%99.md) |
+|                    *AWS RDS*                    | 2020_11_01 |                                                              |                                                              |
+|               *AWS EC2 Instance*                | 2020_11_03 |                                                              |                                                              |
+|                     *React*                     | 2020_11_04 |    Component, 코드 작성부분과 실행 및 배포, Props, State     |                         [리액트공부]                         |
+|                    *docker*                     | 2020_11_15 | 도커 기본 명령어 & 옵션<br />Dockerfile, Docker-compose에 대한 이해<br />실습( 프론트엔드 - nodejs, 백엔드 - python flask, 데이터베이스 - mysql) |                  [Practice_docker-compose]                   |
 
 <br />
 
