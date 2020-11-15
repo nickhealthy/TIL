@@ -253,7 +253,7 @@
 |                    *AWS RDS*                    | 2020_11_01 |                                                              |                                                              |
 |               *AWS EC2 Instance*                | 2020_11_03 |                                                              |                                                              |
 |                     *React*                     | 2020_11_04 |    Component, 코드 작성부분과 실행 및 배포, Props, State     |                         [리액트공부]                         |
-|                    *docker*                     | 2020_11_15 | 도커 기본 명령어 & 옵션<br />Dockerfile, Docker-compose에 대한 이해<br />실습( 프론트엔드 - nodejs, 백엔드 - python flask, 데이터베이스 - mysql) |                  [Practice_docker-compose]                   |
+|                    *docker*                     | 2020_11_15 | 도커 기본 명령어 & 옵션<br />Dockerfile, Docker-compose에 대한 이해<br />실습( 프론트엔드 - nodejs, 백엔드 - python flask, 데이터베이스 - mysql) | [Practice_docker-compose](https://github.com/nickhealthy/TIL/blob/master/2020_11_15/Practice_docker-compose.md) |
 
 <br />
 
