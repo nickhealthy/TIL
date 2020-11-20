@@ -262,9 +262,9 @@
 |               *AWS EC2 Instance*                | 2020_11_03 |                                                              |                                                              |
 |                     *React*                     | 2020_11_04 |    Component, 코드 작성부분과 실행 및 배포, Props, State     | [리액트공부](https://github.com/nickhealthy/TIL/blob/master/2020_11_04/%EB%A6%AC%EC%95%A1%ED%8A%B8%EA%B3%B5%EB%B6%80.md) |
 |                    *docker*                     | 2020_11_15 | 도커 기본 명령어 & 옵션<br />Dockerfile, Docker-compose에 대한 이해<br />실습( 프론트엔드 - nodejs, 백엔드 - python flask, 데이터베이스 - mysql) | [Practice_docker-compose](https://github.com/nickhealthy/TIL/blob/master/2020_11_15/Practice_docker-compose.md) |
-|                                                 | 2020_11_17 |                                                              |                                                              |
-|                   *전공소개*                    | 2020_11_18 |         IoT, AI, Big-data 타 전공 소개 및 교육 내용          |                 [융복합프로젝트-타전공소개]                  |
-|                  *RESTful_API*                  | 2020_11_20 |                    RESTful_API 개념 정리                     |                          [REST_API]                          |
+|                  *PPT 피드백*                   | 2020_11_17 |                     발표 이후 PPT피드백                      | [강사님PPT전체피드백](https://github.com/nickhealthy/TIL/blob/master/2020_11_17/%EA%B0%95%EC%82%AC%EB%8B%98PPT%EC%A0%84%EC%B2%B4%ED%94%BC%EB%93%9C%EB%B0%B1.md) |
+|                   *전공소개*                    | 2020_11_18 |         IoT, AI, Big-data 타 전공 소개 및 교육 내용          | [융복합프로젝트-타전공소개](https://github.com/nickhealthy/TIL/blob/master/2020_11_18/%EC%9C%B5%EB%B3%B5%ED%95%A9%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%83%80%EC%A0%84%EA%B3%B5%EC%86%8C%EA%B0%9C.md) |
+|                  *RESTful_API*                  | 2020_11_20 |                    RESTful_API 개념 정리                     | [REST_API](https://github.com/nickhealthy/TIL/blob/master/2020_11_20/REST_API.md) |
 |                                                 |            |                                                              |                                                              |
 
 <br />
