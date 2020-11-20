@@ -165,6 +165,14 @@
 
 - [x] __10/31__ _ 선형리스트(추가, 삽입, 삭제), 연결리스트, 스택, 큐(원형 큐), 정렬, 검색(순차 검색, 이진 검색)
 
+### 융복합 프로젝트 - 타 전공 소개
+
+- [x] __11/18__ _ IoT, AI, Big-data 타 전공 소개 및 교육 내용
+
+### 융복합 프로젝트
+
+- [x] __11/19__ ~ __12/24__ _ IoT, AI, Big-data, Cloud 4개의 전공이 모여 하나의 융복합 프로젝트를 진행
+
 ---
 
 <br />
@@ -254,6 +262,10 @@
 |               *AWS EC2 Instance*                | 2020_11_03 |                                                              |                                                              |
 |                     *React*                     | 2020_11_04 |    Component, 코드 작성부분과 실행 및 배포, Props, State     | [리액트공부](https://github.com/nickhealthy/TIL/blob/master/2020_11_04/%EB%A6%AC%EC%95%A1%ED%8A%B8%EA%B3%B5%EB%B6%80.md) |
 |                    *docker*                     | 2020_11_15 | 도커 기본 명령어 & 옵션<br />Dockerfile, Docker-compose에 대한 이해<br />실습( 프론트엔드 - nodejs, 백엔드 - python flask, 데이터베이스 - mysql) | [Practice_docker-compose](https://github.com/nickhealthy/TIL/blob/master/2020_11_15/Practice_docker-compose.md) |
+|                                                 | 2020_11_17 |                                                              |                                                              |
+|                   *전공소개*                    | 2020_11_18 |         IoT, AI, Big-data 타 전공 소개 및 교육 내용          |                 [융복합프로젝트-타전공소개]                  |
+|                  *RESTful_API*                  | 2020_11_20 |                    RESTful_API 개념 정리                     |                          [REST_API]                          |
+|                                                 |            |                                                              |                                                              |
 
 <br />
 
