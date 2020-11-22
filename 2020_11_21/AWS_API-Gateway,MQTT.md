@@ -74,7 +74,7 @@ HTTP, TCP 등의 통신과 같이 클라이언트-서버 구조로 이루어지�
 * Broker는 이들을 중계하는 역할을 하며, 
 * 단일 Topic에 여러 Subscriber가 구독할 수 있기 때문에, 1:N 통신 구축에도 매우 유용함
 
-![MQTT 통신 데이터분배](C:\dev\TIL\2020_11_21\img\MQTT 통신 데이터분배.PNG)
+![MQTT 통신 데이터분배](https://github.com/nickhealthy/TIL/blob/master/2020_11_21/img/MQTT%20%ED%86%B5%EC%8B%A0%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EB%B0%B0.PNG)
 
 * 이런식으로 계층을 구성하면, IoT 센서와 같은 데이터를 관리하기에 매우 용이함
 
@@ -106,9 +106,9 @@ $ docker run -it -p 1883:1883 -p 9001:9001 -v /mosquitto/data -v /mosquitto/log 
 * MQTT-Explorer을 이용해 topic을 발행(publish)
 * Python에서 구독(subscribe) 하여 데이터를 가져옴
 
-![MQTT-Explorer0](C:\dev\TIL\2020_11_21\img\MQTT-Explorer0.PNG)
+![MQTT-Explorer0](https://github.com/nickhealthy/TIL/blob/master/2020_11_21/img/MQTT-Explorer0.PNG)
 
-![MQTT-Explorer](C:\dev\TIL\2020_11_21\img\MQTT-Explorer.PNG)
+![MQTT-Explorer](https://github.com/nickhealthy/TIL/blob/master/2020_11_21/img/MQTT-Explorer.PNG)
 
 
 
