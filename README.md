@@ -276,6 +276,7 @@
 |                   *전공소개*                    | 2020_11_18 |         IoT, AI, Big-data 타 전공 소개 및 교육 내용          | [융복합프로젝트-타전공소개](https://github.com/nickhealthy/TIL/blob/master/2020_11_18/%EC%9C%B5%EB%B3%B5%ED%95%A9%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%83%80%EC%A0%84%EA%B3%B5%EC%86%8C%EA%B0%9C.md) |
 |                  *RESTful_API*                  | 2020_11_20 |                    RESTful_API 개념 정리                     | [REST_API](https://github.com/nickhealthy/TIL/blob/master/2020_11_20/REST_API.md) |
 |            *API-Gateway*<br />*MQTT*            | 2020_11_21 | AWS API-Gateway 개념 정리<br />MQTT 개념 정리 및 실습과 구현 | [AWS_API-Gateway,MQTT](https://github.com/nickhealthy/TIL/blob/master/2020_11_21/AWS_API-Gateway%2CMQTT.md) |
+|                    *AWS-IoT*                    | 2020_11_22 | AWS_IoT-Core MQTT 통신 설정<br />AWS-IoT 온라인 컨퍼런스 강의 |                [IoT-MQTT통신,AWS-IoT컨퍼런스]                |
 
 <br />
 
