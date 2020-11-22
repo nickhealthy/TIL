@@ -76,7 +76,7 @@ HTTPS 엔드포인트 주소가 실제로 MQTT를 이어주는 주소
 
 많은 데이터들을 디바이스로부터 들어오면 그것들을 다양한 AWS 서비스 or 제3의 서비스들과 연동해서 의미있는 일들을 해야하는데 그것을 가능하게 하는 Front Door 역할을 한다고 할 수 있음
 
-![AWS 서비스로의 Front Door](C:\dev\TIL\2020_11_22\img\AWS 서비스로의 Front Door.PNG)
+![AWS 서비스로의 Front Door](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/AWS%20%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A1%9C%EC%9D%98%20Front%20Door.PNG)
 
 
 
@@ -170,13 +170,13 @@ WHERE color = 'red'
 
 ## Connected Car 구현 아키텍처 - 음성인식 및 실시간 위치 파악
 
-![온라인 컨퍼런스 - 커넥티드 카](C:\dev\TIL\2020_11_22\img\온라인 컨퍼런스 - 커넥티드 카.PNG)
+![온라인 컨퍼런스 - 커넥티드 카](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4%20-%20%EC%BB%A4%EB%84%A5%ED%8B%B0%EB%93%9C%20%EC%B9%B4.PNG)
 
 
 
 ## Connected 트럭 - 이동경로 시각화
 
-![온라인 컨퍼런스 - 커넥티드 트럭시각화](C:\dev\TIL\2020_11_22\img\온라인 컨퍼런스 - 커넥티드 트럭시각화.PNG)
+![온라인 컨퍼런스 - 커넥티드 트럭시각화](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4%20-%20%EC%BB%A4%EB%84%A5%ED%8B%B0%EB%93%9C%20%ED%8A%B8%EB%9F%AD%EC%8B%9C%EA%B0%81%ED%99%94.PNG)
 
 
 
@@ -192,7 +192,7 @@ WHERE color = 'red'
 * 예측을 하지 않으면
   * 더 큰 손실을 입을 리스크
 
-![AWS IoT에서 메시지 기반의 예측 구현 방법](C:\dev\TIL\2020_11_22\img\AWS IoT에서 메시지 기반의 예측 구현 방법.PNG)
+![AWS IoT에서 메시지 기반의 예측 구현 방법](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/AWS%20IoT%EC%97%90%EC%84%9C%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EA%B8%B0%EB%B0%98%EC%9D%98%20%EC%98%88%EC%B8%A1%20%EA%B5%AC%ED%98%84%20%EB%B0%A9%EB%B2%95.PNG)
 
 #### 예측 모델 생성
 
@@ -203,7 +203,7 @@ WHERE color = 'red'
 
 1. IoT Rule 엔진에서 예측 함수를 제공
 
-![예측 기반의 예방 기능 구현 예](C:\dev\TIL\2020_11_22\img\예측 기반의 예방 기능 구현 예.PNG)
+![예측 기반의 예방 기능 구현 예](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%EC%98%88%EC%B8%A1%20%EA%B8%B0%EB%B0%98%EC%9D%98%20%EC%98%88%EB%B0%A9%20%EA%B8%B0%EB%8A%A5%20%EA%B5%AC%ED%98%84%20%EC%98%88.PNG)
 
 1. 아마존 머신러닝으로 예측 모델 생성
 2. Thing에서 여러 메트릭 정보들을 AWS - IoT에 올림
@@ -211,7 +211,7 @@ WHERE color = 'red'
 
 3. CloudWatch metric에 저장해서 시각화한 후, 직접 관리자에게 제공해 관리자가 판단하는 시스템
 
-![AWS IoT에서 메시지 기반의 예측 구현 방법예제](C:\dev\TIL\2020_11_22\img\AWS IoT에서 메시지 기반의 예측 구현 방법예제.PNG)
+![AWS IoT에서 메시지 기반의 예측 구현 방법예제](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/AWS%20IoT%EC%97%90%EC%84%9C%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EA%B8%B0%EB%B0%98%EC%9D%98%20%EC%98%88%EC%B8%A1%20%EA%B5%AC%ED%98%84%20%EB%B0%A9%EB%B2%95%EC%98%88%EC%A0%9C.PNG)
 
 1. 드론이 망가질걸 미리 예측해서 다시 원래 자리로 돌아오는 시스템
 2. 좋은 예측을 위해선 아마존 머신러닝 사용 - IoT와 동기화
@@ -221,7 +221,7 @@ WHERE color = 'red'
 
 #### Dynamo DB와 Elasticsearch를 이용한 시각화
 
-![다이나모DB-엘라스틱서치를 통한 시각화](C:\dev\TIL\2020_11_22\img\다이나모DB-엘라스틱서치를 통한 시각화.PNG)
+![다이나모DB-엘라스틱서치를 통한 시각화](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AA%A8DB-%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B1%EC%84%9C%EC%B9%98%EB%A5%BC%20%ED%86%B5%ED%95%9C%20%EC%8B%9C%EA%B0%81%ED%99%94.PNG)
 
 
 
@@ -235,9 +235,9 @@ WHERE color = 'red'
 * 저장을 한 다음에 빅데이터로 만들어서 분석을 해야하는 데이터
 * 가지고 있다가 문제가 있을 때 찾아봐야 하는 데이터 등등..
 
-![데이터 온도에 따라 다른 접근이 필요](C:\dev\TIL\2020_11_22\img\데이터 온도에 따라 다른 접근이 필요.PNG)
+![데이터 온도에 따라 다른 접근이 필요](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%98%A8%EB%8F%84%EC%97%90%20%EB%94%B0%EB%9D%BC%20%EB%8B%A4%EB%A5%B8%20%EC%A0%91%EA%B7%BC%EC%9D%B4%20%ED%95%84%EC%9A%94.PNG)
 
-![데이터 온도에 따라 다른 접근이 필요2](C:\dev\TIL\2020_11_22\img\데이터 온도에 따라 다른 접근이 필요2.PNG)
+![데이터 온도에 따라 다른 접근이 필요2](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%98%A8%EB%8F%84%EC%97%90%20%EB%94%B0%EB%9D%BC%20%EB%8B%A4%EB%A5%B8%20%EC%A0%91%EA%B7%BC%EC%9D%B4%20%ED%95%84%EC%9A%942.PNG)
 
 * 데이터 성격에 따라서 활용할 수 있는 AWS 서비스가 달라질 수 있음
 
@@ -259,13 +259,13 @@ WHERE color = 'red'
 
 ※ 이러한 이유들로 로컬 IoT는 여전히 필요함
 
-![왜 모든 데이터를 클라우드에 사용하지 않는가](C:\dev\TIL\2020_11_22\img\왜 모든 데이터를 클라우드에 사용하지 않는가.PNG)
+![왜 모든 데이터를 클라우드에 사용하지 않는가](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%EC%99%9C%20%EB%AA%A8%EB%93%A0%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC%20%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%97%90%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%A7%80%20%EC%95%8A%EB%8A%94%EA%B0%80.PNG)
 
 
 
 #### IoT를 구성하는 3가지 축
 
-![IoT를 구성하는 3가지 축](C:\dev\TIL\2020_11_22\img\IoT를 구성하는 3가지 축.PNG)
+![IoT를 구성하는 3가지 축](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/IoT%EB%A5%BC%20%EA%B5%AC%EC%84%B1%ED%95%98%EB%8A%94%203%EA%B0%80%EC%A7%80%20%EC%B6%95.PNG)
 
 * Things : 데이터를 가져(센싱)오고 액션을 취함
 * Cloud : 저장소 기능과 컴퓨팅 시스템을 제공함
@@ -273,28 +273,28 @@ WHERE color = 'red'
 
 #### 클라우드에서 시작한 IoT
 
-![클라우드에서 시작한 IoT](C:\dev\TIL\2020_11_22\img\클라우드에서 시작한 IoT.PNG)
+![클라우드에서 시작한 IoT](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%97%90%EC%84%9C%20%EC%8B%9C%EC%9E%91%ED%95%9C%20IoT.PNG)
 
 * 중간에 있는 AWS IoT가 스토리지와 컴퓨팅을 담당
 
 #### 엣지로 확장
 
-![엣지로 확장](C:\dev\TIL\2020_11_22\img\엣지로 확장.PNG)
+![엣지로 확장](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%EC%97%A3%EC%A7%80%EB%A1%9C%20%ED%99%95%EC%9E%A5.PNG)
 
 * **로컬 안에서** 디바이스 게이트웨이 
 * 람다로 수행할 수 있는 무엇이 있고,
 * 디바이스 스테이츠를 저장할 수 있는 어떤 스토리지가 모두 로컬에 있는 것이 **AWS Greengrass**
 
-![AWS Greengrass 장점](C:\dev\TIL\2020_11_22\img\AWS Greengrass 장점.PNG)
+![AWS Greengrass 장점](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/AWS%20Greengrass%20%EC%9E%A5%EC%A0%90.PNG)
 
 * 람다 베이스의 컴퓨팅을 제공 - 디바이스 프로그래밍 단순화 가능
 
-![AWS Greengrass 기능](C:\dev\TIL\2020_11_22\img\AWS Greengrass 기능.PNG)
+![AWS Greengrass 기능](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/AWS%20Greengrass%20%EA%B8%B0%EB%8A%A5.PNG)
 
 * 4가지 기능을 가진 소프트웨어를 제공해줌
 * 디바이스에 이 소프트웨어를 설치해서, 로컬 IoT를 꾸미고 여전히 AWS IoT와는 연동이 되도록 할 수 있음
 
-![AWS Greengrass 활용 예](C:\dev\TIL\2020_11_22\img\AWS Greengrass 활용 예.PNG)
+![AWS Greengrass 활용 예](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/AWS%20Greengrass%20%ED%99%9C%EC%9A%A9%20%EC%98%88.PNG)
 
 #### 이점들
 
@@ -302,14 +302,14 @@ WHERE color = 'red'
 2. 운용 비용을 절감할 수 있음
 3. 인터넷이 끊어져있어도 컨맨딩 컨트롤 가능
 
-![AWS Greengrass 활용 예2](C:\dev\TIL\2020_11_22\img\AWS Greengrass 활용 예2.PNG)
+![AWS Greengrass 활용 예2](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/AWS%20Greengrass%20%ED%99%9C%EC%9A%A9%20%EC%98%882.PNG)
 
 현장에 수많은 센서들이 있는데 모두 인터넷 커넥션 기능을 가지고 있지 않음
 
 * AWS Greengrass core를 이용해 수집된 데이터를 내부에서 처리 또는,
 * 다양한 AWS 서비스들을 활용해야 하는 데이터면 AWS-IoT에 데이터를 보내 활용이 가능
 
-![AWS Greengrass 활용 예3](C:\dev\TIL\2020_11_22\img\AWS Greengrass 활용 예3.PNG)
+![AWS Greengrass 활용 예3](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/AWS%20Greengrass%20%ED%99%9C%EC%9A%A9%20%EC%98%883.PNG)
 
 상태 정보 저장 및 AWS-IoT 연동 부분
 
@@ -318,11 +318,11 @@ WHERE color = 'red'
 
 
 
-![마무리 결론](C:\dev\TIL\2020_11_22\img\마무리 결론.PNG)
+![마무리 결론](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%EB%A7%88%EB%AC%B4%EB%A6%AC%20%EA%B2%B0%EB%A1%A0.PNG)
 
 #### 참고 사이트
 
-![참고 사이트](C:\dev\TIL\2020_11_22\img\참고 사이트.PNG)
+![참고 사이트](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/%EC%B0%B8%EA%B3%A0%20%EC%82%AC%EC%9D%B4%ED%8A%B8.PNG)
 
 
 
