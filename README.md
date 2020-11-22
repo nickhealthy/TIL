@@ -275,7 +275,7 @@
 |                  *PPT 피드백*                   | 2020_11_17 |                     발표 이후 PPT피드백                      | [강사님PPT전체피드백](https://github.com/nickhealthy/TIL/blob/master/2020_11_17/%EA%B0%95%EC%82%AC%EB%8B%98PPT%EC%A0%84%EC%B2%B4%ED%94%BC%EB%93%9C%EB%B0%B1.md) |
 |                   *전공소개*                    | 2020_11_18 |         IoT, AI, Big-data 타 전공 소개 및 교육 내용          | [융복합프로젝트-타전공소개](https://github.com/nickhealthy/TIL/blob/master/2020_11_18/%EC%9C%B5%EB%B3%B5%ED%95%A9%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%83%80%EC%A0%84%EA%B3%B5%EC%86%8C%EA%B0%9C.md) |
 |                  *RESTful_API*                  | 2020_11_20 |                    RESTful_API 개념 정리                     | [REST_API](https://github.com/nickhealthy/TIL/blob/master/2020_11_20/REST_API.md) |
-|                                                 |            |                                                              |                                                              |
+|            *API-Gateway*<br />*MQTT*            | 2020_11_21 | AWS API-Gateway 개념 정리<br />MQTT 개념 정리 및 실습과 구현 |                    [AWS_API-Gateway,MQTT]                    |
 
 <br />
 
