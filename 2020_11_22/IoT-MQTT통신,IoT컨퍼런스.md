@@ -143,7 +143,7 @@ WHERE color = 'red'
 
 #### 직접 연동되는 AWS Service
 
-![Rules Engine Action과 연동되는 AWS 서비스들](C:\Users\Nick_주성우\OneDrive\바탕 화면\멀티캠퍼스\프로젝트\3.융복합 프로젝트\img\Rules Engine Action과 연동되는 AWS 서비스들.PNG)
+![Rules Engine Action과 연동되는 AWS 서비스들](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/img/Rules%20Engine%20Action%EA%B3%BC%20%EC%97%B0%EB%8F%99%EB%90%98%EB%8A%94%20AWS%20%EC%84%9C%EB%B9%84%EC%8A%A4%EB%93%A4.PNG)
 
 1. Amazon S3 : S3 버킷에 객체를 저장
 2. Amazon DynamoDB : 테이블에 insert 및 update
@@ -164,7 +164,7 @@ WHERE color = 'red'
 3. Amazon EC2
 4. Amazon Redshift
 
-※ **써드파티 API를 호출할 때**는 **외부 Endpoints 이용 (Lambda 및 SNS를 통해서 연동)**0
+※ **써드파티 API를 호출할 땐 외부 Endpoints 이용 (Lambda 및 SNS를 통해서 연동)**
 
 
 
