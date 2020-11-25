@@ -277,7 +277,7 @@
 |                  *RESTful_API*                  | 2020_11_20 |                    RESTful_API 개념 정리                     | [REST_API](https://github.com/nickhealthy/TIL/blob/master/2020_11_20/REST_API.md) |
 |            *API-Gateway*<br />*MQTT*            | 2020_11_21 | AWS API-Gateway 개념 정리<br />MQTT 개념 정리 및 실습과 구현 | [AWS_API-Gateway,MQTT](https://github.com/nickhealthy/TIL/blob/master/2020_11_21/AWS_API-Gateway%2CMQTT.md) |
 |                    *AWS-IoT*                    | 2020_11_22 | AWS_IoT-Core MQTT 통신 설정<br />AWS-IoT 온라인 컨퍼런스 강의 | [IoT-MQTT통신,AWS-IoT컨퍼런스](https://github.com/nickhealthy/TIL/blob/master/2020_11_22/IoT-MQTT%ED%86%B5%EC%8B%A0%2CIoT%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4.md) |
-|         *AWS-IoT*<br />*AWS-SDK(boto3)*         | 2020_11_23 | AWS-IoT 온라인 컨퍼런스 2<br />AWS-SDK boto3 연습(S3, dynamoDB) | [AWS-IoT컨퍼런스2&AWS-SDK](https://github.com/nickhealthy/TIL/blob/master/2020_11_23/AWS-IoT%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A42.md) |
+|         *AWS-IoT*<br />*AWS-SDK(boto3)*         | 2020_11_23 | AWS-IoT 온라인 컨퍼런스 2<br />AWS-SDK boto3 연습(S3, dynamoDB) | [AWS-IoT컨퍼런스2&AWS-SDK](https://github.com/nickhealthy/TIL/blob/master/2020_11_23/AWS-IoT%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A42%26AWS-SDK.md) |
 |                    *AWS-IoT*                    | 2020_11_24 |      AWS IoT를 이용한 아두이노(ESP8266) MQTT 통신 설정       | [AWS-IoT-Core-MQTT](https://github.com/nickhealthy/TIL/blob/master/2020_11_24/AWSIoT-Core-MQTT.md) |
 
 <br />
