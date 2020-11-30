@@ -20,7 +20,7 @@
 
 * 테이블 `topic`, `author`, `profile` 생성
 
-![1. DatabaseTables](C:\dev\TIL\2020_12_01\img\1. DatabaseTables.PNG)
+![1. DatabaseTables](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/img/1.%20DatabaseTables.PNG)
 
 
 
@@ -30,7 +30,7 @@
 SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.aid
 ```
 
-![2. LEFTJOIN](C:\dev\TIL\2020_12_01\img\2. LEFTJOIN.PNG)
+![2. LEFTJOIN](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/img/2.%20LEFTJOIN.PNG)
 
 
 
@@ -40,7 +40,7 @@ SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.aid
 SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.aid LEFT JOIN profile ON profile_id = profile.pid
 ```
 
-![3. LEFTJOIN](C:\dev\TIL\2020_12_01\img\3. LEFTJOIN.PNG)
+![3. LEFTJOIN](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/img/3.%20LEFTJOIN.PNG)
 
 
 
@@ -50,7 +50,7 @@ SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.aid LEFT JOIN p
 SELECT tid, topic.title, author_id, name, profile.title AS job_title FROM topic LEFT JOIN author ON topic.author_id = author.aid LEFT JOIN profile ON author.profile_id = profile.pid;
 ```
 
-![4. LEFTJOIN](C:\dev\TIL\2020_12_01\img\4. LEFTJOIN.PNG)
+![4. LEFTJOIN](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/img/4.%20LEFTJOIN.PNG)
 
 
 
@@ -61,7 +61,7 @@ SELECT tid, topic.title, author_id, name, profile.title AS job_title FROM topic 
 SELECT tid, topic.title, author_id, name, profile.title AS job_title FROM topic LEFT JOIN author ON topic.author_id = author.aid LEFT JOIN profile ON author.profile_id = profile.pid WHERE aid = 1;
 ```
 
-![5. LEFTJOIN](C:\dev\TIL\2020_12_01\img\5. LEFTJOIN.PNG)
+![5. LEFTJOIN](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/img/5.%20LEFTJOIN.PNG)
 
 
 
@@ -74,7 +74,7 @@ SELECT tid, topic.title, author_id, name, profile.title AS job_title FROM topic 
 SELECT * FROM topic INNER JOIN author ON topic.author_id = author.aid;
 ```
 
-![6. INNER JOIN](C:\dev\TIL\2020_12_01\img\6. INNER JOIN.PNG)
+![6. INNER JOIN](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/img/6.%20INNER%20JOIN.PNG)
 
 
 
@@ -82,7 +82,7 @@ SELECT * FROM topic INNER JOIN author ON topic.author_id = author.aid;
 SELECT * FROM topic INNER JOIN author ON topic.author_id = author.aid INNER JOIN profile ON profile.pid = author.profile_id;
 ```
 
-![7. INNER JOIN](C:\dev\TIL\2020_12_01\img\7. INNER JOIN.PNG)
+![7. INNER JOIN](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/img/7.%20INNER%20JOIN.PNG)
 
 
 
@@ -103,7 +103,7 @@ SELECT * FROM topic INNER JOIN author ON topic.author_id = author.aid INNER JOIN
 (SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.aid) UNION (SELECT * FROM topic RIGHT JOIN author ON topic.author_id = author.aid);
 ```
 
-![8. FULL OUTER JOIN](C:\dev\TIL\2020_12_01\img\8. FULL OUTER JOIN.PNG)
+![8. FULL OUTER JOIN](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/img/8.%20FULL%20OUTER%20JOIN.PNG)
 
 
 
@@ -118,13 +118,13 @@ SELECT * FROM topic INNER JOIN author ON topic.author_id = author.aid INNER JOIN
 SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.aid WHERE author.aid is NULL;
 ```
 
-![9. EXCLUSIVE JOIN](C:\dev\TIL\2020_12_01\img\9. EXCLUSIVE JOIN.PNG)
+![9. EXCLUSIVE JOIN](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/img/9.%20EXCLUSIVE%20JOIN.PNG)
 
 
 
 ## 마무리 및 정리
 
-![10. 마무리](C:\dev\TIL\2020_12_01\img\10. 마무리.PNG)
+![10. 마무리](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/img/10.%20%EB%A7%88%EB%AC%B4%EB%A6%AC.PNG)
 
 
 
@@ -137,4 +137,39 @@ SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.aid WHERE autho
 #### 분해를 잘해놔야 결합하는 방법도 쉬워진다.
 
 어떻게 분해하는게 좋을지는 데이터베이스 `modeling` or ` normalization`(정규화)를 통해서 공부하자.
+
+
+
+## 연습한 DB 테이블 쿼리
+
+```mysql
+DROP TABLE IF EXISTS `author`;
+CREATE TABLE `author` (
+  `aid` int(11) NOT NULL,
+  `name` varchar(10) DEFAULT NULL,
+  `city` varchar(10) DEFAULT NULL,
+  `profile_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`aid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+INSERT INTO `author` VALUES (1,'egoing','seoul',1),(2,'leezche','jeju',2),(3,'blackdew','namhae',3);
+
+DROP TABLE IF EXISTS `profile`;
+CREATE TABLE `profile` (
+  `pid` int(11) NOT NULL,
+  `title` varchar(10) DEFAULT NULL,
+  `description` tinytext,
+  PRIMARY KEY (`pid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+INSERT INTO `profile` VALUES (1,'developer','developer is ...'),(2,'designer','designer is ..'),(3,'DBA','DBA is ...');
+
+DROP TABLE IF EXISTS `topic`;
+CREATE TABLE `topic` (
+  `tid` int(11) NOT NULL,
+  `title` varchar(45) DEFAULT NULL,
+  `description` tinytext,
+  `author_id` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`tid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+INSERT INTO `topic` VALUES (1,'HTML','HTML is ...','1'),(2,'CSS','CSS is ...','2'),(3,'JavaScript','JavaScript is ..','1'),(4,'Database','Database is ...',NULL);
+```
 

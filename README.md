@@ -280,7 +280,7 @@
 |            *AWS-IoT*<br />*AWS-SDK(boto3)*            | 2020_11_23 | AWS-IoT 온라인 컨퍼런스 2<br />AWS-SDK boto3 연습(S3, dynamoDB) | [AWS-IoT컨퍼런스2&AWS-SDK](https://github.com/nickhealthy/TIL/blob/master/2020_11_23/AWS-IoT%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A42%26AWS-SDK.md) |
 |                       *AWS-IoT*                       | 2020_11_24 |      AWS IoT를 이용한 아두이노(ESP8266) MQTT 통신 설정       | [AWS-IoT-Core-MQTT](https://github.com/nickhealthy/TIL/blob/master/2020_11_24/AWSIoT-Core-MQTT.md) |
 | *Setup Linux-AWS_CLI*<br />*Picamera - AWS_S3_Upload* | 2020_11_30 | 리눅스 AWS-CLI 설정<br />라즈베리파이 + 파이카메라 + S3 버킷에 이미지 업로드 | [리눅스AWS_CLI설치,파이카메라+AWS_S3_BucketUpload](https://github.com/nickhealthy/TIL/blob/master/2020_11_30/%EB%A6%AC%EB%88%85%EC%8A%A4AWS_CLI%EC%84%A4%EC%B9%98%2C%ED%8C%8C%EC%9D%B4%EC%B9%B4%EB%A9%94%EB%9D%BC%2BAWS_S3_BucketUpload.md) |
-|                      *SQL_JOIN*                       | 2020_12_01 | LEFT JOIN, INNER JOIN<br />FULL OUTER JOIN, EXCLUSIVE JOIN<br />마무리 및 정리(참고 사이트 포함) |                        [SQL_JOIN.md]                         |
+|                      *SQL_JOIN*                       | 2020_12_01 | LEFT JOIN, INNER JOIN<br />FULL OUTER JOIN, EXCLUSIVE JOIN<br />마무리 및 정리(참고 사이트 포함) | [SQL_JOIN.md](https://github.com/nickhealthy/TIL/blob/master/2020_12_01/SQL_JOIN.md) |
 
 <br />
 
