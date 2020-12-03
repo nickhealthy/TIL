@@ -183,9 +183,8 @@ import pymysql
 
 def lambda_handler(event, context):
     pymysql.install_as_MySQLdb()
-    mysql_conn = pymysql.connect(host="db-bigdata-bicycle.cynn0zdjjttk.us-east-1.rds.amazonaws.com",\
-    user="admin", password='chaosproject', db="chaos", charset='utf8')
-
+    mysql_conn = pymysql.connect(host="호스트주소,\
+        user="유저네임", password='패스워드', db="데이터베이스명", charset='utf8')
     mysql_cursor = mysql_conn.cursor()
 
     get_sql = "SELECT * FROM `localInformation`"
