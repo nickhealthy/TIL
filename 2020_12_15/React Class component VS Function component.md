@@ -108,9 +108,7 @@ function FuncComp(props) {
 
 [참고 사이트](https://m.blog.naver.com/aim4u/221901085338)
 
-![ReactJS-components-life-cycle](C:\dev\TIL\2020_12_13\img\ReactJS-components-life-cycle.png)
-
-##### 
+![ReactJS-components-life-cycle](https://github.com/nickhealthy/TIL/blob/master/2020_12_15/img/ReactJS-components-life-cycle.png)
 
 #### 클래스형 컴포넌트에는 다양한 생명주기 함수가 있음 (이외 더 있음)
 
