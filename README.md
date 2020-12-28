@@ -298,6 +298,7 @@
 |                                                              |  2020_12_  |                                                              |                                                              |
 |                                                              | 2020_12_13 |                                                              |                                                              |
 |                         *Algorithm*                          | 2020_12_26 | 알고리즘 최신 출제 경향 분석<br />파이썬 기본 문법 다지기&복습<br />실전에서 유용한 표준 라이브러리(내장함수, itertools, collections, math...) | [알고리즘\_자료형_공부](https://github.com/nickhealthy/TIL/blob/master/2020_12_26/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9E%90%EB%A3%8C%ED%98%95%20%EA%B3%B5%EB%B6%80.md) |
+|                         *Algorithm*                          | 2020_12_28 |  그리디 알고리즘<br />구현(시물레이션과 완전 탐색) 알고리즘  |                   [그리디, 구현 알고리즘]                    |
 
 
 
